@@ -1,6 +1,6 @@
 baseURL = 'https://robbredow.com/'
 languageCode = 'en-us'
-title = 'Rob Bredow Portfolio'
+title = 'Rob Bredow'
 theme = 'gerous'
 
 [taxonomies]
