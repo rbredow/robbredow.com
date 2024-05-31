@@ -192,28 +192,28 @@ paginate = 7
 
   [[params.testimonial_item]]
     name = "Marcin Janowski"
-    image = "/images/2024/05/Marcin-Janowski-120x120.jpg"
+    image = "/images/marcin-janowski-120x120.jpg"
     designation = "Global Marketing"
     title = "Probably the best 'Making of' book in recent memory"
     content = "This book is an embarrassment of riches as far as the amount of photos included here. The images included here are special because - which along with their fly-on-the-wall descriptions have the power to inspire people to become storytellers."
 
   [[params.testimonial_item]]
     name = "Mrs Raven"
-    image = "/images/2024/05/mrs-raven-120x120.jpg"
+    image = "/images/mrs-raven-120x120.jpg"
     designation = "Amazon Review"
     title = "One Book, Three Stories"
     content = "This is an excellent addition to my collection. Takes a step back and tells the story of how movies are made. The location scouting, how effects are slipped into real locations, casting, and other processes that are relatable to any big movie. And finally, the pictures are spectacular. It is just like National Geographic!"
 
   [[params.testimonial_item]]
     name = "Steve Galloway"
-    image = "/images/2024/05/steve-galloway-120x120.jpg"
+    image = "/images/steve-galloway-120x120.jpg"
     designation = "Jedi News Network"
     title = "It takes us on a journey..."
     content = "Rob Bredow has created a book that well and truly gives you the feeling that it was created by someone from inside the production, not by other looking in. The stills used are at times very candid, humorous and others very serious, but it captures the passion and love that the creative teams and actors poured into the movie."
 
   [[params.testimonial_item]]
     name = "Matt Rushing"
-    image = "/images/2024/05/matt-rushing-120x120.jpg"
+    image = "/images/matt-rushing-120x120.jpg"
     designation = "Trek.fm Podcast Host"
     title = "I encourage you to pick up a copy"
     content = "There have been a lot of “making of” books for Star Wars movies, but none have ever felt this intimate. Bredow’s photos are as behind the scenes as it gets, raw and completely in the moment. He captures the essence of what it is like to be on set. His daughter’s interview with DP Bradford Young for a school project illustrates how Star Wars truly is a family affair, even for those behind the camera."

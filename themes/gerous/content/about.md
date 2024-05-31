@@ -1,30 +1,12 @@
 ---
 title: About Me
-description: I am an expert user experience strategist and mobile developer, driven by a relentless pursuit of innovation and excellence. My journey in the tech world has been shaped by a commitment to creating solutions that not only meet but exceed user expectations.
-image: 'https://via.placeholder.com/1600x1200'
+description: Hi. I'm a Producer & Chief Creative Officer who loves theme-driven design and creative teamwork.
+image: "images/rob-bredow-falcon.jpg"
+tags: []
 ---
-As a user experience strategist, I specialize in understanding the intricacies of user behavior and translating them into intuitive and enjoyable digital interfaces. My approach is rooted in empathy, ensuring that every design decision considers the end-user's perspective.
 
-## Mobile development maven
+Rob Bredow is an **Academy Award-nominated** VFX Supervisor who serves as SVP, Chief Creative Officer of [Industrial Light & Magic](https://ilm.com/). Bredow has a particular focus on the creative strategy for the storied visual effects company where he is responsible for the company’s overall creative teams, innovation, and technology. Rob also serves in the role of SVP, Creative Innovation for [Lucasfilm](https://lucasfilm.com/) where he serves as a creative producer on select films and series including the highly anticipated **Star Wars: The Acolyte**. 
 
-In the realm of mobile development, I thrive on turning ideas into functional and aesthetically pleasing applications. From concept to deployment, I am dedicated to delivering mobile solutions that seamlessly integrate with users' lives.
+Some of Bredow’s previous projects include VFX Supervisor and Co-Producer on **Solo: A Star Wars Story**, writer and director of Lucasfilm’s story-based virtual reality experiment **Trials on Tatooine**, and films dating back to **Independence Day**. 
 
-> To design is to communicate clearly by whatever means you can control or master - Milton Glaser
-
-In the realm of mobile development, I thrive on turning ideas into functional and aesthetically pleasing applications. From concept to deployment, I am dedicated to delivering mobile solutions that seamlessly integrate with users' lives.
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="https://via.placeholder.com/1600x1200" loading="lazy" alt="Author">
-    <img src="https://via.placeholder.com/1600x1200" loading="lazy" alt="Author">
-  </div>
-  <em>Photo by <a href="https://via.placeholder.com/1600x1200" target="_blank">David Garrison</a> on <a href="https://via.placeholder.com/1600x1200" target="_blank">Pexels</a></em>
-</div>
-
-I believe in the power of technology to enrich lives. Whether it's through creating captivating mobile apps or designing user-centric interfaces, I aim to make a positive impact on how people engage with the digital world.
-
-## Let's Create Together
-
-Whether you're looking to enhance the user experience of your digital platform or bring a groundbreaking mobile app to life, I'm here to collaborate and innovate. Let's embark on a journey to transform ideas into exceptional digital experiences.
-
-Feel free to reach out, and let's turn your vision into a digital reality!
+From [movies](/category/film/) to [photography](/photography/), from [technical geekery](/category/tech/) to [silly asides](/category/asides/), hopefully you’ll find something worth your time. My [archived website is also still available](/index.html) in case you are looking for the [Stuart Little fur shader](/stuart_fur.html) (Siggraph 2000) or other [older technical computer graphics notes](/research.html).
