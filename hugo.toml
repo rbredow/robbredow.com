@@ -2,3 +2,325 @@ baseURL = 'https://robbredow.com/'
 languageCode = 'en-us'
 title = 'Rob Bredow Portfolio'
 theme = 'gerous'
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
+
+#-------------------------------
+# General Site Settings
+
+googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
+paginate = 7
+
+
+#-------------------------------
+# Main Menu
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Resources"
+    weight = 4
+    hasChildren = true
+
+  [[menu.main]]
+    parent = "Resources"
+    name = "News"
+    url = "/tags/news/"
+    weight = 1
+
+  [[menu.main]]
+    parent = "Resources"
+    name = "Games"
+    url = "/tags/games/"
+    weight = 2
+
+  [[menu.main]]
+    parent = "Resources"
+    name = "Mobile"
+    url = "/tags/mobile/"
+    weight = 3
+
+  [[menu.main]]
+    parent = "Resources"
+    name = "Elements"
+    url = "/elements/"
+    weight = 4
+
+  [[menu.main]]
+  name = "About Me"
+  url = "/about/"
+  weight = 5
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.footer]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.footer]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
+
+  [[menu.footer]]
+    name = "About Me"
+    url = "/about/"
+    weight = 4
+
+
+  # Call to action button
+  [params.cta_button]
+    enable = true
+    cta_button_link = "/contact/"
+    cta_button_text = "Get in touch"
+
+
+[params]
+  logo = "/images/logo.png" # You can add own logo. For example "/images/logo.png".
+  logo_dark = "/images/logo.png"
+  description = "Gerous is a modern portfolio Hugo theme"
+  color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+  #-------------------------------
+  # Author Settings
+  [params.author]
+    author_name = "Rob Bredow"
+    author_avatar = "/images/rob-bredow-headshot-100x100.jpg"
+
+
+  #-------------------------------
+  # Hero Settings
+  [params.hero]
+    enable = true
+    hero_title = "Hi. I'm a Producer & Chief Creative Officer who loves theme-driven design and creative teamwork."
+    hero_description = "I work at Lucasfilm and Industrial Light & Magic. Geek."
+
+  [params.hero_logos]
+    enable = true
+
+  [[params.hero_logo_image]]
+    image_alt = "Apple Logo"
+    image_url = "https://via.placeholder.com/80x80"
+
+  [[params.hero_logo_image]]
+    image_alt = "Adobe Logo"
+    image_url = "https://via.placeholder.com/80x80"
+
+  [[params.hero_logo_image]]
+    image_alt = "HP Logo"
+    image_url = "https://via.placeholder.com/80x80"
+
+  [[params.hero_logo_image]]
+    image_alt = "Netlify Logo"
+    image_url = "https://via.placeholder.com/80x80"
+
+  [[params.hero_logo_image]]
+    image_alt = "Dropbox Logo"
+    image_url = "https://via.placeholder.com/80x80"
+
+  [[params.hero_logo_image]]
+    image_alt = "EA Logo"
+    image_url = "https://via.placeholder.com/80x80"
+
+  [[params.hero_logo_image]]
+    image_alt = "Chrome Logo"
+    image_url = "https://via.placeholder.com/80x80"
+
+
+  #-------------------------------
+  # Slider Featured Settings
+  [params.featured]
+    enable = true
+    featured_title = "Featured Shows"
+
+
+  #-------------------------------
+  # Projects Settings
+  [params.projects]
+    enable = true
+    projects_title= "Recent Work"
+    projects_description= ""
+
+ #-------------------------------
+  # Author Section Settings
+  [params.author_section]
+    enable = true
+    author_section_title = "The Making of Solo:<br/> A Star Wars Story"
+    author_section_description = "An intimate glimpse into the journey of the making of the film with stories from the first day of prep to the final days of post. Hundreds of never before seen photos."
+    author_section_image = "/images/2022/12/71Hx3VW3TsL.jpg"
+    author_section_image_alt = "Daryl Mercer"
+    author_section_button_text = "Buy Now"
+    author_section_button_link = "https://amzn.to/3KiyJFz"
+
+  #-------------------------------
+  # Testimonials Section
+  [params.testimonials]
+    enable = true
+    testimonials_intro = "⭐⭐⭐⭐⭐ 4.7 Stars on Amazon"
+    testimonials_title = "Some excerpts from reviewers..."
+    testimonials_info = "<b><a href=https://www.starwars.com/news/rob-bredow-making-solo-book-interview>Learn more</a></b> about the book at <b><a href=https://www.starwars.com/news/rob-bredow-making-solo-book-interview>StarWars.com</a></b> or join these reviewers and <a href=https://amzn.to/3yLTtmv><b>buy your own copy now</b></a>..."
+
+  [[params.testimonial_item]]
+    name = "Marcin Janowski"
+    image = "/images/2024/05/Marcin-Janowski-120x120.jpg"
+    designation = "Global Marketing"
+    title = "Probably the best 'Making of' book in recent memory"
+    content = "This book is an embarrassment of riches as far as the amount of photos included here. The images included here are special because - which along with their fly-on-the-wall descriptions have the power to inspire people to become storytellers."
+
+  [[params.testimonial_item]]
+    name = "Mrs Raven"
+    image = "/images/2024/05/mrs-raven-120x120.jpg"
+    designation = "Amazon Review"
+    title = "One Book, Three Stories"
+    content = "This is an excellent addition to my collection. Takes a step back and tells the story of how movies are made. The location scouting, how effects are slipped into real locations, casting, and other processes that are relatable to any big movie. And finally, the pictures are spectacular. It is just like National Geographic!"
+
+  [[params.testimonial_item]]
+    name = "Steve Galloway"
+    image = "/images/2024/05/steve-galloway-120x120.jpg"
+    designation = "Jedi News Network"
+    title = "It takes us on a journey..."
+    content = "Rob Bredow has created a book that well and truly gives you the feeling that it was created by someone from inside the production, not by other looking in. The stills used are at times very candid, humorous and others very serious, but it captures the passion and love that the creative teams and actors poured into the movie."
+
+  [[params.testimonial_item]]
+    name = "Matt Rushing"
+    image = "/images/2024/05/matt-rushing-120x120.jpg"
+    designation = "Trek.fm Podcast Host"
+    title = "I encourage you to pick up a copy"
+    content = "There have been a lot of “making of” books for Star Wars movies, but none have ever felt this intimate. Bredow’s photos are as behind the scenes as it gets, raw and completely in the moment. He captures the essence of what it is like to be on set. His daughter’s interview with DP Bradford Young for a school project illustrates how Star Wars truly is a family affair, even for those behind the camera."
+
+
+  #-------------------------------
+  # Faq (Frequently asked questions) Settings
+  [params.faq]
+    enable = true
+    faq_intro = "Need some answers?"
+    faq_title = "Frequently asked questions"
+
+  [[params.faq_item]]
+    title = "This sounds fun, are you hiring?"
+    description = "Yes! We are almost always hiring at ILM. Check <b><a href=\"https://ilm.com/careers/\">ILM.com/careers</a></b> for the latest info and browse the posted positions in our studios around the world."
+
+  [[params.faq_item]]
+    title = "Can I send you a Star Wars idea or a script?"
+    description = "Unfortunately no. As an employee of Lucasfilm I cannot receive unsolicated pitches."
+
+  [[params.faq_item]]
+    title = "I'd like to study to work in the entertainment industry, what roles should I consider?"
+    description = "Check out https://gitd.lucasfilm.com/ for interviews with a number of people in a wide variety of positions at Lucasfilm and Industrial Light & Magic. I think you may find someone there who inspires you."
+
+  [[params.faq_item]]
+    title = "How can I contribute to software used by the entertainment industry?"
+    description = "The Academy Software Foundation is an open source, non-profit organization dedicated to getting people involved in a healthy software ecosytem for filmmaking, many of our projects focus on visual-effects and animation. I recommend checking out https://www.aswf.io/ to learn more and get involved as it's a great way to meet people working in the industry and find a passion project to contribute to."
+
+
+  #-------------------------------
+  # Blog Section
+  [params.blog]
+    enable = true
+    blog_intro = "What’s new?"
+    blog_title = "Latest from blog"
+
+
+
+  #-------------------------------
+  # Footer Settings
+
+  # Social Links
+
+  [[params.social]]
+    icon = "fa-brands fa-imdb"
+    name = "IMDB"
+    link = "https://www.imdb.com/name/nm0106650/"
+
+  [[params.social]]
+    icon = "fa-brands fa-linkedin"
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/robbredow/"
+
+  [[params.social]]
+    icon = "fa-brands fa-instagram"
+    name = "Instagram"
+    link = "https://instagram.com/rbredow"
+
+  [[params.social]]
+    icon = "fa-brands fa-threads"
+    name = "Threads"
+    link = "https://www.threads.net/@rbredow"
+
+  [[params.social]]
+    icon = "fa-brands fa-x-twitter"
+    name = "Twitter"
+    link = "https://twitter.com/rbredow"
+
+
+  # Other icons can be found at https://fontawesome.com/icons
+
+
+  # Newsletter
+  [params.mailchimp]
+    enable = false
+    mailchimp_title = "Stay inspired weekly 📬 Your friendly dose of tips & insights!"
+    mailchimp_description = "Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox."
+    mailchimp_identifier = "gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp" # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+    mailchimp_input_text = "Your email address"
+
+
+  #-------------------------------
+  # Contact Settings
+  [params.contact]
+    email = "your@email.com" # Add your form_id
+
+    # NOTE
+    # Gerous comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+  #-------------------------------
+  # Comment Section (Disqus)
+  [params.disqus]
+    enable = true
+    disqusShortname = "anvod-studio-test" # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+[taxonomies]
+  tag = "tags"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  noClasses = false
