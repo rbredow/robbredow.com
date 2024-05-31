@@ -310,17 +310,3 @@ paginate = 7
     disqusShortname = "anvod-studio-test" # Add your shortname for Disqus Comment. For example anvod-studio-test
 
 
-[taxonomies]
-  tag = "tags"
-
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-
-[markup.highlight]
-  codeFences = true
-  guessSyntax = true
-  noClasses = false
