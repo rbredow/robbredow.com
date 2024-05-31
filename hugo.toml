@@ -1,0 +1,4 @@
+baseURL = 'https://robbredow.com/'
+languageCode = 'en-us'
+title = 'Rob Bredow Portfolio'
+theme = 'gerous'
