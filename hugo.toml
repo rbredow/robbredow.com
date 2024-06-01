@@ -236,11 +236,11 @@ paginate = 7
 
   [[params.faq_item]]
     title = "I'd like to study to work in the entertainment industry, what roles should I consider?"
-    description = "Check out https://gitd.lucasfilm.com/ for interviews with a number of people in a wide variety of positions at Lucasfilm and Industrial Light & Magic. I think you may find someone there who inspires you."
+    description = "Check out <b><a href=\"https://gitd.lucasfilm.com/\">Get In the Door</a></b> for interviews with a number of people in a wide variety of positions at Lucasfilm and Industrial Light & Magic. I think you may find someone there who inspires you."
 
   [[params.faq_item]]
     title = "How can I contribute to software used by the entertainment industry?"
-    description = "The Academy Software Foundation is an open source, non-profit organization dedicated to getting people involved in a healthy software ecosytem for filmmaking, many of our projects focus on visual-effects and animation. I recommend checking out https://www.aswf.io/ to learn more and get involved as it's a great way to meet people working in the industry and find a passion project to contribute to."
+    description = "The Academy Software Foundation is an open source, non-profit organization dedicated to getting people involved in a healthy software ecosytem for filmmaking, many of our projects focus on visual-effects and animation. I recommend checking out <b><a href=\"https://www.aswf.io/\">ASWF.io</a></b> to learn more and get involved as it's a great way to meet people working in the industry and find a passion project to contribute to."
 
 
   #-------------------------------
