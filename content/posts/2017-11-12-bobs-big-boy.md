@@ -13,7 +13,17 @@ title: Bob's Big Boy
 url: /2017/11/bobs-big-boy/
 ---
 
-[![](/images/2017/11/bobs-big-boy-800x1200.jpg)](/images/2017/11/bobs-big-boy.jpg)
+Old method: 
+
+[![Bob's Big Boy](/images/bobs-big-boy.jpg)](/images/bobs-big-boy.jpg)
+
+Old method without link:
+
+![Bob's Big Boy](/images/bobs-big-boy.jpg)
+
+Here is the new method:
+
+{{< img src="bobs-big-boy.jpg" alt="Bob's Big Boy" >}}
 
 Nostalgia overload
 
