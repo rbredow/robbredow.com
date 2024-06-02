@@ -1,5 +1,5 @@
 {{- $respSizes := slice "960" "1920" -}}
-{{- $imgBase := "images/" -}}
+{{- $imgBase := "" -}}
 {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}
 {{- $alt := .Get "alt" -}}
 {{- $divClass := "" -}}{{/* Init'g */}}
@@ -38,4 +38,3 @@
     alt="{{ $alt }}"
   />
 </picture>
-</div>

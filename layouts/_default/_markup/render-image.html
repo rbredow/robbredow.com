@@ -42,7 +42,6 @@
       title="{{ .Title }}"
     />
   </picture>
-  </div>
 {{- else -}}
 <img extra="MISSINGIMAGE" src="{{ .Destination | safeURL }}"
   {{- with .Text }} alt="{{ . }}"{{ end -}}
