@@ -94,7 +94,6 @@ paginate = 6
   description = "Gerous is a modern portfolio Hugo theme"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
-
   #-------------------------------
   # Author Settings
   [params.author]
@@ -113,8 +112,8 @@ paginate = 6
     enable = true
 
   [[params.hero_logo_image]]
-    image_alt = "Apple Logo"
-    image_url = "https://via.placeholder.com/80x80"
+    image_alt = "Star Wars: The Acolyte"
+    image_url = "https://robbredow.com/images/2024/04/the-acolyte.jpg"
 
   [[params.hero_logo_image]]
     image_alt = "Adobe Logo"

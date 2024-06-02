@@ -2,6 +2,7 @@ baseURL = 'https://robbredow.com/'
 languageCode = 'en-us'
 title = 'Rob Bredow'
 theme = 'gerous'
+paginate = 6
 
 [taxonomies]
   tag = "tags"
@@ -20,7 +21,6 @@ theme = 'gerous'
 # General Site Settings
 
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
-paginate = 7
 
 
 #-------------------------------
