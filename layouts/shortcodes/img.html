@@ -6,35 +6,9 @@
 {{- $imgClass := "lazy" -}}
 {{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
 {{- $actualImg := $src.Resize "640x jpg" -}}
-<picture>
-  <source
-    type="image/webp"
-    data-srcset="
-      {{- with $respSizes -}}
-        {{- range $i, $e := . -}}
-        {{- if ge $src.Width . -}}
-          {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).RelPermalink }} {{ . }}w
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}"
-    data-sizes="{{ $dataSzes }}"
-  />
-  <source
-    type="image/jpeg"
-    data-srcset="
-      {{- with $respSizes -}}
-        {{- range $i, $e := . -}}
-          {{- if ge $src.Width . -}}
-            {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).RelPermalink }} {{ . }}w
-          {{- end -}}
-      {{- end -}}
-    {{- end -}}"\
-    data-sizes="{{ $dataSzes }}"
-  />
-  <img class="{{ $imgClass }}"
-    src="{{ $actualImg.RelPermalink }}"
-    width="{{ $src.Width }}"
-    height="{{ $src.Height }}"
-    alt="{{ $alt }}"
-  />
-</picture>
+
+{{ partial "responsive-img.html" (dict 
+  "img" $src
+  "alt" $alt
+) }}
+
