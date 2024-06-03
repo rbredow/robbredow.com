@@ -1,11 +1,6 @@
-{{- $respSizes := slice "960" "1920" -}}
 {{- $imgBase := "" -}}
 {{- $src := resources.Get (printf "%s%s" $imgBase (.Get "src")) -}}
 {{- $alt := .Get "alt" -}}
-{{- $divClass := "" -}}{{/* Init'g */}}
-{{- $imgClass := "lazy" -}}
-{{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
-{{- $actualImg := $src.Resize "640x jpg" -}}
 
 {{ partial "responsive-img.html" (dict 
   "img" $src
