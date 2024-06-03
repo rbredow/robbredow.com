@@ -4,7 +4,7 @@
 {{ $lazy := .lazy }}
 {{ $caption := .title }}
 
-{{- $respSizes := slice "960" "1920" -}}
+{{- $respSizes := slice "800" "1600" -}}
 
 {{- with $src := resources.Get ($img) -}}
   {{- $divClass := "" -}}{{/* Init'g */}}
