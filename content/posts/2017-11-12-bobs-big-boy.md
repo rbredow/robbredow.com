@@ -25,14 +25,6 @@ Here is the new shortcode method:
 
 {{< img src="/images/bobs-big-boy.jpg" alt="Bob's Big Boy" >}}
 
-Lazy Image (off):
-{{//< lazyimg img="/images/bobs-big-boy.jpg" >}}
-
-
-Lazy Partial (off): 
-
-{{ //partial "picture.html" (dict "img" "/images/bobs-big-boy.jpg" "alt" "Bob's Big Boy") }}
-
 Nostalgia overload
 
 Burbank, CA
