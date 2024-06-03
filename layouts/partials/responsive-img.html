@@ -1,0 +1,76 @@
+{{/* Adapted from https://gist.github.com/randallmlough/98c9c949b25f2a41259029e03dd037f3 */}}
+{{/* Looks like this requires the calling html to set the scratch pad with data? Still TBD */}}
+{{- $image := replaceRE "^https?://[^/]+/(.*)" "$1" ($.Scratch.Get "image") -}}
+{{- $media := (.Site.GetPage "page" "media").Resources -}}
+{{- $original := index ($media.Match (printf "%s" $image)) 0 -}}
+{{- $width := $original.Width -}}
+{{- $intWidth := int $width -}}
+{{- $sizes := slice "960" "1920" -}}
+{{- $options := $.Param "options" -}}
+{{- $usePicture := false -}}{{/* true: Use picture element with source definitions */}}
+{{- $multipleSizes := true -}}{{/* true: Provide multiple img sizes attribute */}}
+{{- $debug := true -}}
+{{- if $debug -}}
+  <div id="can-delete">
+    <table>
+      <thead>
+        <tr><td>Variable</td><td>Value</td></tr>
+      </thead>
+      <tbody>
+      <tr><td>Image</td><td>{{ $image }}</td></tr>
+      <tr><td>Media</td><td>{{ $media }}</td></tr>
+      <tr><td>Original Image Path</td><td>{{ $original.RelPermalink }}</td></tr>
+      <tr><td>Original Width</td><td>{{$width}}</td></tr>
+      <tr><td>Sizes array</td><td>{{$sizes}}</td></tr>
+      <tr><td>Len sizes</td><td>{{/* len $sizes */}}</td></tr>
+      <tr><td>Options</td><td>{{ $options }}</td></tr>
+      </tbody>
+    </table>
+  </div>
+{{- end -}}
+{{- if $usePicture -}}
+<picture>
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+{{- end -}}
+{{- $.Scratch.Set "srcPath" ($original.RelPermalink) }}
+{{- range $i, $sort := (seq (len $sizes)) -}}
+  {{- if ge (index $sizes $i) 10 -}}
+    {{- $.Scratch.Add "sort" (slice (index $sizes $i)) -}}
+  {{- else -}}
+    {{- $floatSize := float (index $sizes $i) -}}
+    {{- $newSize := (math.Round (mul $intWidth $floatSize)) -}}
+    {{- $int2string := string $newSize -}}
+    {{- $.Scratch.Add "sort" (slice $int2string) -}}
+  {{- end -}}
+{{- end -}}
+{{- $sort := (sort (.Scratch.Get "sort") "value" "asc" ) -}}
+{{- range $i, $num := (seq (len $sort )) -}}
+  {{- $imgSize := index $sort $i -}}
+  {{- $img := ($original.Resize (printf "%dx %s" $imgSize $options)) -}}
+  {{- $.Scratch.Add "sizes" (slice $img.Width) -}}
+  {{- $.Scratch.Set "srcPath" $img.RelPermalink }}
+  {{- $int2string := string $img.Width -}}
+  {{- $.Scratch.Add "srcsetdef" (slice (printf "%s %sw" $img.RelPermalink $int2string)) -}}
+  {{ $srcset := (printf "%s " $img.RelPermalink) -}}
+  {{- if $usePicture -}}
+  {{/* pretty sure this is wrong / incomplete - see responsive breakpoints tag generator */}}
+  <source srcset="{{ $srcset -}} 1x" media="(min-width: {{ index $sort $i }}px)">
+  {{- end -}}
+{{ end -}}
+<img
+  {{ $viewWidth := 30 -}}
+  srcset="{{delimit (.Scratch.Get "srcsetdef") ",\n          " }}"
+  {{ if $multipleSizes -}}
+      sizes="{{- $last := sub (len $sizes) 1 -}}
+      {{- range $sz := $sizes -}}
+      {{- printf "(max-width: %dpx) %dvw,\n         " $sz $viewWidth -}}
+      {{ end }}
+      {{- printf "%dpx" (index (last 2 $sizes) 0) -}} " {{/* next to last seems arbitrary */}}
+  {{ else }}
+      sizes="{{- $sz := index $sizes 0 -}}
+      {{- printf "(max-width: %dpx) %dvw" $sz $viewWidth -}}"
+  {{ end -}}
+  src="{{- $.Scratch.Get "srcPath" -}}" >
+{{- if $usePicture -}}
+</picture>
+{{- end -}}

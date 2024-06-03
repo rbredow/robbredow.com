@@ -9,6 +9,7 @@
           {{ if .Site.Params.author_section.author_section_image }}
           <div class="author__image">
             <img class="lazy" data-src="{{ .Site.Params.author_section.author_section_image }}" alt="{{ .Site.Params.author_section.author_section_image_alt }}">
+            {{ partial "responsive-img.html" . }}
           </div>
           {{ end }}
 
