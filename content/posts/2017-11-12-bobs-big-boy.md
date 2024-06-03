@@ -19,7 +19,7 @@ Old method:
 
 Old method without link:
 
-![Bob's Big Boy](/images/bobs-big-boy.jpg)
+![Bob's Big Boy](/images/bobs-big-boy.jpg "Bob's Big Boy")
 
 Here is the new shortcode method:
 
