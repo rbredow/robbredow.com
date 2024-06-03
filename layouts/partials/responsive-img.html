@@ -30,7 +30,7 @@
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
           {{- if ge $src.Width . -}}
-            {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " webp") ).RelPermalink }} {{ . }}w
+            {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " q75 CatmullRom webp") ).RelPermalink }} {{ . }}w
           {{- end -}}
         {{- end -}}
       {{- end -}}"
@@ -42,7 +42,7 @@
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
             {{- if ge $src.Width . -}}
-              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " jpg") ).RelPermalink }} {{ . }}w
+              {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " q75 CatmullRom jpg") ).RelPermalink }} {{ . }}w
             {{- end -}}
         {{- end -}}
       {{- end -}}"\
