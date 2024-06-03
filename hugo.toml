@@ -129,32 +129,41 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     enable = true
 
   [[params.hero_logo_image]]
-    image_alt = "Apple Logo"
-    image_url = "https://via.placeholder.com/80x80"
+    image_alt = "Avengers End Game"
+    image_url = "/images/hero/avengers-end-game.jpg"
 
   [[params.hero_logo_image]]
-    image_alt = "Adobe Logo"
-    image_url = "https://via.placeholder.com/80x80"
+    image_alt = "Cloudy with a Chance of Meatballs"
+    image_url = "/images/hero/cloudy-with-a-chance-of-meatballs.jpg"
 
   [[params.hero_logo_image]]
-    image_alt = "HP Logo"
-    image_url = "https://via.placeholder.com/80x80"
+    image_alt = "Godzilla"
+    image_url = "/images/hero/godzilla.jpg"
 
   [[params.hero_logo_image]]
-    image_alt = "Netlify Logo"
-    image_url = "https://via.placeholder.com/80x80"
+    image_alt = "Independence Day"
+    image_url = "/images/hero/id4.jpg"
 
   [[params.hero_logo_image]]
-    image_alt = "Dropbox Logo"
-    image_url = "https://via.placeholder.com/80x80"
+    image_alt = "Star Wars: Rise of Skywalker"
+    image_url = "/images/hero/rise-of-skywalker.jpg"
 
   [[params.hero_logo_image]]
-    image_alt = "EA Logo"
-    image_url = "https://via.placeholder.com/80x80"
+    image_alt = "Solo: A Star Wars Story"
+    image_url = "/images/hero/solo-a-star-wars-story.jpg"
 
   [[params.hero_logo_image]]
-    image_alt = "Chrome Logo"
-    image_url = "https://via.placeholder.com/80x80"
+    image_alt = "Stuart Little"
+    image_url = "/images/hero/stuart-little.jpg"
+
+  [[params.hero_logo_image]]
+    image_alt = "Surf's Up"
+    image_url = "/images/hero/surfs-up.jpg"
+
+  [[params.hero_logo_image]]
+    image_alt = "The Acolyte"
+    image_url = "/images/hero/the-acolyte.jpg"
+
 
 
   #-------------------------------

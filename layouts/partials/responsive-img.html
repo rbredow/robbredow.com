@@ -3,14 +3,26 @@
 {{ $class := .class }}
 {{ $lazy := .lazy }}
 {{ $caption := .title }}
+{{ $setwidths := .setwidths }}
 
 {{- $respSizes := slice "800" "1600" -}}
+{{- $defaultSize := "640" -}}
+{{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
+{{- $resizeCmd := "640x jpg Lanczos" -}}
+
+{{- if $setwidths  -}}
+  {{- $respSizes =  $setwidths -}}
+  {{- $defaultSize = index $respSizes 0 -}}
+{{- end -}}
+
+{{ $resizeCmd = printf "%sx jpg q75 CatmullRom" $defaultSize }}
+
+
+{{- $divClass := "" -}}{{/* Init'g */}}
+{{- $imgClass := "lazy responsive" -}}
 
 {{- with $src := resources.Get ($img) -}}
-  {{- $divClass := "" -}}{{/* Init'g */}}
-  {{- $imgClass := "lazy inResponsiveImg" -}}
-  {{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
-  {{- $actualImg := $src.Resize "640x jpg" -}}
+  {{- $actualImg := $src.Resize $resizeCmd -}}
   <picture>
     <source
       type="image/webp"
@@ -38,8 +50,8 @@
     />
     <img class="{{ $imgClass }}"
       src="{{ $actualImg.RelPermalink }}"
-      width="{{ $src.Width }}"
-      height="{{ $src.Height }}"
+      width="{{ $actualImg.Width }}"
+      height="{{ $actualImg.Height }}"
       alt="{{ $alt }}"
       title="{{ .Title }}"
     />
@@ -50,6 +62,7 @@
   {{- with .Title }} title="{{ . }}"{{ end -}}
 >
 {{- end -}}
+
 
 
 
