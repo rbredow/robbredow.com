@@ -8,9 +8,11 @@
 
           {{ if .Site.Params.author_section.author_section_image }}
           <div class="author__image">
+            {{ $mysizes := slice "634" "1268" }}
             {{ partial "responsive-img.html" (dict 
               "img" .Site.Params.author_section.author_section_image
               "alt" .Site.Params.author_section.author_section_image_alt
+              "setwidths" $mysizes
             ) }}
           </div>
           {{ end }}
