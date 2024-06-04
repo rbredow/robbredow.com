@@ -4,7 +4,7 @@ date: 2024-01-15 08:01:35 +0300
 label: Development
 image: 'https://via.placeholder.com/1600x1600'
 video_embed: https://www.youtube.com/embed/NpEaa2P7qZI
-featured:
+featured: true
 ---
 The process of creating a user interface starts with in-depth analysis of user needs and competitor research. Understanding user behavioral patterns and preferences plays a crucial role in developing design concepts.
 

@@ -23,7 +23,7 @@
 
 {{- with $src := resources.Get ($img) -}}
   {{- $actualImg := $src.Resize $resizeCmd -}}
-  <picture>
+  <picture class="lightense-wrap">
     <source
       type="image/webp"
       data-srcset="
@@ -50,14 +50,14 @@
     />
     <img class="{{ $imgClass }}"
       src="{{ $actualImg.RelPermalink }}"
-      width="{{ $actualImg.Width }}"
-      height="{{ $actualImg.Height }}"
+      width="{{ $src.Width }}"
+      height="{{ $src.Height }}"
       alt="{{ $alt }}"
       title="{{ .Title }}"
     />
   </picture>
 {{- else -}}
-<img extra="MISSINGIMAGE" src="{{ .Destination | safeURL }}"
+<img extra="MISSINGIMAGE" src="{{ $img | safeURL }}"
   {{- with .Text }} alt="{{ . }}"{{ end -}}
   {{- with .Title }} title="{{ . }}"{{ end -}}
 >
