@@ -31,7 +31,7 @@ Cortes Bank is a break 100 miles off the coast of California created by a giant 
 <!--more-->
 
 ## Earlier at Sony Pictures Animation
-In the Summer of 2003, I found myself sitting in a pitch meeting during the early days of Sony Pictures Animation. The first pitch was a detailed series of 10 or more boards full of illustrations featuring a Bear and a Mule Deer who we all know today as Boog and Elliot–the stars of Open Season. The story was well underway and the movie already had the momentum of a picture going into production. 
+In the Summer of 2003, I found myself sitting in a pitch meeting during the early days of [Sony Pictures Animation](https://www.sonypicturesanimation.com/). The first pitch was a detailed series of 10 or more boards full of illustrations featuring a Bear and a Mule Deer who we all know today as Boog and Elliot–the stars of Open Season. The story was well underway and the movie already had the momentum of a picture going into production. 
 
 Almost as an aside, the story artist wandered over to a single board which contained some of the first drawings illustrating the next movie in the production pipeline. At that point, the story team was still working out whether the story was West Side Story meets The Endless Summer or something else entirely but one thing was clear, we were making a movie with waves and surfing penguins. 
 
