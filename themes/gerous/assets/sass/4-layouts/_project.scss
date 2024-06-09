@@ -97,6 +97,7 @@
   margin: 0 auto 96px;
 
   img,
+  picture > img,
   .js-reframe {
     border-radius: 22px;
     overflow: hidden;
@@ -110,6 +111,7 @@
     margin: 0 auto 80px;
 
     img,
+    picture > img
     .js-reframe {
       border-radius: 16px;
     }

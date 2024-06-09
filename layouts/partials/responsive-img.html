@@ -6,10 +6,10 @@
 {{ $setwidths := .setwidths }}
 
 {{/* SET DEFAULTS */}}
-{{- $respSizes := slice "800" "1600" -}}
-{{- $defaultSize := "640" -}}
-{{- $dataSzes := "(max-width: 800px) 100vw, 800px" -}}
-{{- $resizeCmd := "640x jpg Lanczos" -}}
+{{- $respSizes := slice "1200" "1600" -}}
+{{- $defaultSize := "800" -}}
+{{- $dataSzes := "60vw" -}}
+{{- $resizeCmd := "800x jpg Lanczos" -}}
 {{- $pictureClass := "lightense-wrap" -}}
 {{- $imgClass := "lazy responsive" -}}
 
@@ -33,11 +33,11 @@
         {{- with $respSizes -}}
           {{- range $i, $e := . -}}
           {{- if ge $src.Width . -}}
-            {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " q75 CatmullRom webp") ).RelPermalink }} {{ . }}w
+            {{- if $i }}, {{ end -}}{{- ($src.Resize (printf "%sx%s" . " q85 CatmullRom webp") ).RelPermalink }} {{ . }}w
           {{- end -}}
         {{- end -}}
       {{- end -}}"
-      data-sizes="{{ $dataSzes }}"
+      sizes="{{ $dataSzes }}"
     />
     <source
       type="image/jpeg"
@@ -49,7 +49,7 @@
             {{- end -}}
         {{- end -}}
       {{- end -}}"\
-      data-sizes="{{ $dataSzes }}"
+      sizes="{{ $dataSzes }}"
     />
     <img class="{{ $imgClass }}"
       src="{{ $actualImg.RelPermalink }}"
