@@ -51,7 +51,7 @@
   overflow: hidden;
   background: var(--background-alt-color);
 
-  img {
+  img, picture > img{
     position: absolute;
     top: 0;
     left: 0;

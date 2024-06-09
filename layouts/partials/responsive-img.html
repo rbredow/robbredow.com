@@ -5,10 +5,13 @@
 {{ $caption := .title }}
 {{ $setwidths := .setwidths }}
 
+{{/* SET DEFAULTS */}}
 {{- $respSizes := slice "800" "1600" -}}
 {{- $defaultSize := "640" -}}
 {{- $dataSzes := "(max-width: 800px) 100vw, 800px" -}}
 {{- $resizeCmd := "640x jpg Lanczos" -}}
+{{- $pictureClass := "lightense-wrap" -}}
+{{- $imgClass := "lazy responsive" -}}
 
 {{- if $setwidths  -}}
   {{- $respSizes =  $setwidths -}}
@@ -17,13 +20,13 @@
 
 {{ $resizeCmd = printf "%sx jpg q75 CatmullRom" $defaultSize }}
 
-
-{{- $divClass := "" -}}{{/* Init'g */}}
-{{- $imgClass := "lazy responsive" -}}
+{{ if .pictureClass }}
+  {{ $pictureClass = .pictureClass }}
+{{ end }}
 
 {{- with $src := resources.Get ($img) -}}
   {{- $actualImg := $src.Resize $resizeCmd -}}
-  <picture class="lightense-wrap">
+  <picture class={{$pictureClass}}>
     <source
       type="image/webp"
       data-srcset="

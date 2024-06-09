@@ -4,18 +4,24 @@
 
   <div class="project-head">
     {{ if .Params.video_embed }}
-    <div class="project-video">
-      <div class="project-video__wrap">
-        <iframe src="{{ .Params.video_embed }}" loading="lazy" width="640" height="360" frameborder="0"
-          webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <div class="project-video">
+        <div class="project-video__wrap">
+          <iframe src="{{ .Params.video_embed }}" loading="lazy" width="640" height="360" frameborder="0"
+            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
       </div>
-    </div>
     {{ else }}
-    {{ if .Params.image }}
-    <div class="project-image">
-      <img class="lazy" data-src="{{ .Params.Image | absURL }}" alt="{{ .Title }}">
-    </div>
-    {{ end }}
+
+      {{ if .Params.image }}
+      <div class="project-image">
+        {{ partial "responsive-img.html" (dict 
+          "img" .Params.image
+          "alt" .Params.title
+          "pictureClass" " "
+          ) }}
+      </div>
+      {{ end }}
+
     {{ end }}
   </div>
 
