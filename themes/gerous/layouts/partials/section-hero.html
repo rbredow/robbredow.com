@@ -23,14 +23,10 @@
           <div class="hero__logos splide">
             <div class="splide__track">
               <div class="hero__logos__inner splide__list">
-                {{ range .Site.Params.hero_logo_image }}
-                {{ $mysizes := slice "120" "240"}}
-                <div class="hero__logo__image splide__slide">
-                  {{ partial "responsive-img.html" (dict 
-                  "img" .image_url
-                  "alt" .image_alt
-                  "setwidths" $mysizes ) }}
-                </div>
+                  {{ range .Site.Params.hero_logo_image }}
+                  <div class="hero__logo__image splide__slide">
+                    <img src="{{ .image_url }}" alt="{{ .image_alt }}" loading="eager">
+                  </div>
                 {{ end }}
               </div>
             </div>

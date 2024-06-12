@@ -130,39 +130,39 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
   [[params.hero_logo_image]]
     image_alt = "Avengers End Game"
-    image_url = "/images/hero/avengers-end-game.jpg"
+    image_url = "/images/hero/avengers-end-game.avif"
 
   [[params.hero_logo_image]]
     image_alt = "Cloudy with a Chance of Meatballs"
-    image_url = "/images/hero/cloudy-with-a-chance-of-meatballs.jpg"
+    image_url = "/images/hero/cloudy-with-a-chance-of-meatballs.avif"
 
   [[params.hero_logo_image]]
     image_alt = "Godzilla"
-    image_url = "/images/hero/godzilla.jpg"
+    image_url = "/images/hero/godzilla.avif"
 
   [[params.hero_logo_image]]
     image_alt = "Independence Day"
-    image_url = "/images/hero/id4.jpg"
+    image_url = "/images/hero/id4.avif"
 
   [[params.hero_logo_image]]
     image_alt = "Star Wars: Rise of Skywalker"
-    image_url = "/images/hero/rise-of-skywalker.jpg"
+    image_url = "/images/hero/rise-of-skywalker.avif"
 
   [[params.hero_logo_image]]
     image_alt = "Solo: A Star Wars Story"
-    image_url = "/images/hero/solo-a-star-wars-story.jpg"
+    image_url = "/images/hero/solo-a-star-wars-story.avif"
 
   [[params.hero_logo_image]]
     image_alt = "Stuart Little"
-    image_url = "/images/hero/stuart-little.jpg"
+    image_url = "/images/hero/stuart-little.avif"
 
   [[params.hero_logo_image]]
     image_alt = "Surf's Up"
-    image_url = "/images/hero/surfs-up.jpg"
+    image_url = "/images/hero/surfs-up.avif"
 
   [[params.hero_logo_image]]
     image_alt = "The Acolyte"
-    image_url = "/images/hero/the-acolyte.jpg"
+    image_url = "/images/hero/the-acolyte.avif"
 
 
 

@@ -7,7 +7,7 @@ guid: http://www.185vfx.com/2007/08/wrangling-waves/
 id: 35
 title: Wrangling Waves
 url: /2007/08/wrangling-waves/
-image: /images/2005/03/20050309-IMG_0465.jpg
+image: /images/2005/03/20050309-IMG_0465.avif
 featured: true
 ---
 
@@ -23,7 +23,7 @@ featured: true
 
 The next 48 hours were my first-hand introduction to the world of big wave surfing. I tagged along, invited by award winning cinematographer and producer [JP Beeghly](https://www.imdb.com/name/nm0066376/) as his sound guy and grip on an expedition out to Cortes Bank with several professional surfers.
 
-![Cortes Bank Wave](/images/2005/03/20050309-IMG_0432.jpg "Breaking Wave at Cortes Bank")
+![Cortes Bank Wave](/images/2005/03/20050309-IMG_0432.avif "Breaking Wave at Cortes Bank")
 *Breaking Wave at Cortes Bank*
 
 Cortes Bank is a break 100 miles off the coast of California created by a giant underwater mountain that makes the water shallow enough to create breaking waves with 30-60 foot faces in the right conditions. [Sean Collins](https://en.wikipedia.org/wiki/Sean_Collins_(surf_forecaster)), who runs [surfline.com](https://surfline.com), is the master at predicting these waves and had just moved our timetable up by another 30 hours so we didn’t miss this swell.
@@ -40,7 +40,7 @@ This was the movie that I wanted to be a part of.
 ## Meanwhile...back on the boat
 After meeting up with everyone, the night was spent trying to sleep below deck as the boat made it’s way 100 miles out to sea in large swells. There was a reporter from New York who unfortunately didn’t take any seasickness pills...he was literally green.
 
-![Cortes Bank Wave](/images/2005/03/20050309-IMG_0380.jpg "Early Morning Calm enroute to Cortes Bank")
+![Cortes Bank Wave](/images/2005/03/20050309-IMG_0380.avif "Early Morning Calm enroute to Cortes Bank")
 *Early Morning Calm enroute to Cortes Bank*
 
 I remember waking up in the early morning because the boat stopped rocking as violently. I climbed up to the deck to see the pre-dawn sky and notice that we were passing an island. The water was glassy which shielded the boat from the giant swells. A couple of minutes later, we left the shelter of the island, the boat began it’s familiar rocking and we continued towards Cortes Bank.
@@ -52,7 +52,7 @@ One film that stuck out to the directors of Surf’s Up, Ash Brannon and Chris B
 
 ## And, we're back on the boat
 
-![Cortes Bank Wave](/images/2005/03/20050309-IMG_0403.jpg "Camera Rig on Boat")
+![Cortes Bank Wave](/images/2005/03/20050309-IMG_0403.avif "Camera Rig on Boat")
 *Camera Rig Stablization System Mounted on the Boat*
 
 JP and the camera assistant spent the morning assembling the camera on a special stabilizing rig on the back of the deck and getting ready to shoot. The surfers prepped their boards and we did a pre-surf interview with them about their expectations of surfing the legendary Cortes Bank, a break only a few surfers have ever braved. They were hoping for the biggest waves of the year. I remember the moment the captain of the boat pointed out the window to whitewater breaking on the horizon–our first glimpse of the break in the middle of the ocean.
