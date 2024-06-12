@@ -164,7 +164,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
   [[params.hero_logo_image]]
     image_alt = "The Acolyte"
-    image_url = "/images/hero/the-acolyte.avif"
+    image_url = "/images/hero/star-wars-acolyte-poster.avif"
 
 
 
@@ -201,7 +201,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     author_section_description = "An intimate glimpse into the journey of the making of the film with stories from the first day of prep to the final days of post. Hundreds of never before seen photos."
     author_section_image = "/images/ILM-presents-Making-Solo-Star-Wars.avif"
     author_section_image_alt = "ILM Presents: Making Solo a Star Wars Story Book Cover"
-    author_section_button_text = "Buy Now"
+    author_section_button_text = "Buy Hardcover"
     author_section_button_link = "https://amzn.to/3KiyJFz"
 
   #-------------------------------
