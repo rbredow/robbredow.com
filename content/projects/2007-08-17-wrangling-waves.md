@@ -5,9 +5,10 @@ categories:
 date: "2007-08-17T16:51:26Z"
 guid: http://www.185vfx.com/2007/08/wrangling-waves/
 id: 35
-title: Wrangling Waves
+title: "Wrangling Waves"
 url: /2007/08/wrangling-waves/
 image: /images/2005/03/20050309-IMG_0465.avif
+label: "Surf's Up"
 featured: true
 ---
 
