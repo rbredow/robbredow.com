@@ -122,8 +122,10 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   # Hero Settings
   [params.hero]
     enable = true
-    hero_title = "Hi. I'm a Producer & Chief Creative Officer who loves theme-driven design and creative teamwork."
-    hero_description = "I work at Lucasfilm and Industrial Light & Magic. Geek."
+    #hero_title = "Hi. I'm a Producer & Chief Creative Officer who loves theme-driven design and creative teamwork."
+    #hero_description = "I work at Lucasfilm and Industrial Light & Magic. Geek."
+    hero_title = "Hi. I'm a Producer &<br/>Chief Creative Officer."
+    hero_description = "I love theme-driven design and creative teamwork. Geek."
 
   [params.hero_logos]
     enable = true
@@ -188,7 +190,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     about_section_description = 'How can <b><i>Theme</i></b> be used to <b>inspire</b>, <b>manage</b>, and <b>optimize</b> the creative process? Rob has talked about creativity at <a href="https://www.ted.com" target="_blank">TED</a>, <a href="https://www.siggraph.org" data-type="link" data-id="https://www.siggraph.org" target="_blank">SIGGRAPH</a>, <a href="https://fmx.de/en/home" data-type="link" data-id="https://fmx.de/en/home" target="_blank">FMX</a>, <a href="http://www.viewconference.it" data-type="link" data-id="http://www.viewconference.it" target="_blank">VIEW</a> and others.</p>'
     about_section_image = "/images/2018/08/robbredow_siggraph2018_keynote.avif"
     about_section_image_alt = "Rob Bredow at Siggraph Keynote"
-    about_section_button_text = "Keynote Address"
+    about_section_button_text = "Watch Keynote"
     about_section_button_link = "/posts/2018-08-13-siggraph-theme/"
 
  #-------------------------------
