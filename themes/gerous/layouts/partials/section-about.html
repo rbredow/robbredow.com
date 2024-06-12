@@ -1,0 +1,38 @@
+{{ if .Site.Params.about_section.enable }}
+<!-- begin about -->
+<section class="section about animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="about__inner">
+
+          {{ if .Site.Params.about_section.about_section_image }}
+          <div class="about__image">
+            {{ $mysizes := slice "634" "1268" }}
+            {{ partial "responsive-img.html" (dict 
+              "img" .Site.Params.about_section.about_section_image
+              "alt" .Site.Params.about_section.about_section_image_alt
+              "setwidths" $mysizes
+            ) }}
+          </div>
+          {{ end }}
+
+          <div class="about__content">
+            {{ if .Site.Params.about_section.about_section_title }}
+            <h2 class="about__title">{{ .Site.Params.about_section.about_section_title | safeHTML }}</h2>
+            {{ end }}
+            {{ if .Site.Params.about_section.about_section_description }}
+            <p class="about__description">{{ .Site.Params.about_section.about_section_description | safeHTML }}</p>
+            {{ end }}
+            {{ if .Site.Params.about_section.about_section_button_text }}
+            <a href="{{ .Site.Params.about_section.about_section_button_link | relURL }}" class="about__button button">{{ .Site.Params.about_section.about_section_button_text }}</a>
+            {{ end }}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end about -->
+{{ end }}
