@@ -83,6 +83,16 @@ We finished the day eating fresh fish that the crew had caught and reviewing the
 </div>
 
 ## Surf's Up – an animated documentary
-In the end, we made an animated documentary starring surfing penguins, and waves. The waves were keyframed and controlled just like the rest of the characters in the film, and they played a staring role. Whether it was the 50 foot breaks in the sequence were Cody gets pummeled by the giant Pengu break (modeled after the Mavericks break off the shore of California), or the overhead pipeline waves that Cody and Geek surf on the south shore, the movie has the authentic feel of a surfing documentary – Thanks to the many artists at Sony Pictures Animation & Imageworks who worked together to pull off the  illusion. 
+In the end, we made an animated documentary starring surfing penguins, and waves. The waves were keyframed and controlled just like the rest of the characters in the film, and they played a staring role. 
+
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/2007/06/surfsrb01_SurfsUp-leg20_comp_v53_4k.avif" loading="lazy" alt="On the boat">
+  </div>
+  <em>Geek surfing a wave, retro shot in Surf's Up</em>
+</div>
+
+
+Whether it was the 50 foot breaks in the sequence were Cody gets pummeled by the giant Pengu break (modeled after the Mavericks break off the shore of California), or the overhead pipeline waves that Cody and Geek surf on the south shore, the movie has the authentic feel of a surfing documentary – Thanks to the many artists at Sony Pictures Animation & Imageworks who worked together to pull off the  illusion. 
 
 And J.P. Beeghly.
