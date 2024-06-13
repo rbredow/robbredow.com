@@ -17,6 +17,7 @@ tags:
 - virtual reality
 title: Trials on Tatooine First Reviews
 url: /2016/03/trials-on-tatooine/
+featured: true
 ---
 
 This week [ILMxLAB](http://www.ILMxLAB.com/) did the first public play test of *Trials on Tatooine* at the [Game Developers Conference](http://www.gdconf.com/) in San Francisco. *Trails on Tatooine* is a first-person story-based virtual reality experiment where you don a headset and get to walk around Tatooine, stand beneath the Millennium Falcon as in comes in for a landing nearly on your head, hear from Han Solo in the cockpit and eventually even defend yourself with a virtual lightsaber.
