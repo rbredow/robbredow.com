@@ -8,13 +8,14 @@ guid: http://www.185vfx.com/?p=2696
 id: 2696
 image: /images/2016/03/star-wars-trials-of-tatooine-virtual-reality-htc-vive-vr-tie-fighters-r2d2.avif
 #video_embed: https://www.youtube.com/embed/koBt4Kfb4Zw
+label: "Star Wars: Trials on Tatooine"
 tags:
 - ILMxLAB
 - Lucasfilm
 - press
 - star wars
 - virtual reality
-title: Trials on Tatooine
+title: Trials on Tatooine First Reviews
 url: /2016/03/trials-on-tatooine/
 ---
 
