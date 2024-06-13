@@ -51,15 +51,18 @@ Sony has a a long history of working with water and I have been a part of most o
 
 One film that stuck out to the directors of Surf’s Up, Ash Brannon and Chris Buck, and me was ***Step Into Liquid***. Because of its outstanding photography and authentic view of the surfing genre, we had all fallen in love with the movie and the surf documentary genre in general. I looked up some of the people involved in the movie’s creation and JP Beeghly, the film’s producer and cinematographer, came to Imageworks to give a lecture to our crew on shooting a surfing documentary.
 
-## And, we're back on the boat
-
 ![Cortes Bank Wave](/images/2005/03/20050309-IMG_0403.avif "Camera Rig on Boat")
 *Camera Rig Stablization System Mounted on the Boat*
+
+## And, we're back on the boat
 
 JP and the camera assistant spent the morning assembling the camera on a special stabilizing rig on the back of the deck and getting ready to shoot. The surfers prepped their boards and we did a pre-surf interview with them about their expectations of surfing the legendary Cortes Bank, a break only a few surfers have ever braved. They were hoping for the biggest waves of the year. I remember the moment the captain of the boat pointed out the window to whitewater breaking on the horizon–our first glimpse of the break in the middle of the ocean.
 
 ## In the screening room at Sony
 We took away several important things from JP’s lecture and the movies we had been studying to help us with our goal of making waves that were detailed enough that the audience would leave the theater feeling as though they had actually been out there riding inside the tube themselves. We knew we needed to handle slow motion in a natural way throughout every department since most spectacular waves shots are photographed at 240 FPS. We needed the camera to be able to go above and below the surface. We needed to create a wide variety of waves and we needed to figure out how to push 20 minutes of wave shots through multiple departments. It was going to require a substantial team of wave experts.
+
+![Wave Breaking off the stern](/images/2005/03/20050309-IMG_0564.avif "Wave Breaking off the Stern")
+*Wave Breaking off the Stern of the boat*
 
 ## Whitewater
 Our boat was drifting slowly with engines running off the left shoulder of the break about 150 to 200 yards away from the whitewater. Even at that distance the waves looked huge. By 11am, the surfers were being loaded onto the jet-skies that would be pulling them into the break. With long lenses we could watch the surfers drop onto the 40 foot faces of these waves and dissapear behind the swell before we could see them again getting picked up by the jet skies. A couple times a surfer would get caught in the churn and it was difficult for the skies to get in to save them between the closely timed sets. It was pretty amazing.
@@ -70,5 +73,16 @@ Fortunately, Surf’s Up was the type of project that attracted some of the best
 ## After a long day on the sea
 We finished the day eating fresh fish that the crew had caught and reviewing the tape that we shot. The most popular tape to watch repeatedly was the helmet-cam footage of one of the wipeouts where Carlos was forced down over and over again as the sets poured in over him. He hit with such impact, it ripped apart his backpack that held the waterproof recorder but somehow he and the equipment both survived. Everyone had amazing stories to tell.
 
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/2005/03/20050309-IMG_0533.avif" loading="lazy" alt="Breaking Wave at Cortez Bank">
+    <img src="/images/2005/03/20050309-IMG_0441.avif" loading="lazy" alt="Water Safety">
+    <img src="/images/2005/03/20050309-IMG_0574.avif" loading="lazy" alt="On the boat">
+  </div>
+  <em>Rob Bredow / <b>A Day at Cortez Bank</b></em>
+</div>
+
 ## Surf's Up – an animated documentary
-In the end, we made an animated documentary starring surfing penguins, and waves. The waves were keyframed and controlled just like the rest of the characters in the film, and they played a staring role. Whether it was the 50 foot breaks in the sequence were Cody gets pummeled by the giant Pengu break (modeled after the Mavericks break off the shore of California), or the overhead pipeline waves that Cody and Geek surf on the south shore, the movie has the authentic feel of a surfing documentary.
+In the end, we made an animated documentary starring surfing penguins, and waves. The waves were keyframed and controlled just like the rest of the characters in the film, and they played a staring role. Whether it was the 50 foot breaks in the sequence were Cody gets pummeled by the giant Pengu break (modeled after the Mavericks break off the shore of California), or the overhead pipeline waves that Cody and Geek surf on the south shore, the movie has the authentic feel of a surfing documentary – Thanks to the many artists at Sony Pictures Animation & Imageworks who worked together to pull off the  illusion. 
+
+And J.P. Beeghly.
