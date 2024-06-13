@@ -2,7 +2,7 @@ baseURL = 'https://robbredow.pages.dev/'
 languageCode = 'en-us'
 title = 'Rob Bredow'
 theme = 'gerous'
-paginate = 6
+paginate = 9
 
 [taxonomies]
   tag = "tags"
