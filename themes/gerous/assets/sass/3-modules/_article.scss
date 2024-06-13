@@ -27,7 +27,7 @@
   transform: translate(0);
   display: block;
   margin-bottom: 20px;
-  aspect-ratio: 4/3;
+  aspect-ratio: 16/9;
   border-radius: 22px;
   outline: none;
   overflow: hidden;
@@ -43,8 +43,8 @@
     transition: transform .3s ease, opacity .3s ease;
   }
 
-  @supports not (aspect-ratio: 4/3) {
-    padding-bottom: 75%;
+  @supports not (aspect-ratio: 16/9) {
+    padding-bottom: 56%;
   }
 
   @media (max-width: $mobile) {
