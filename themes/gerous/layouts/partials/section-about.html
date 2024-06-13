@@ -8,12 +8,18 @@
 
           {{ if .Site.Params.about_section.about_section_image }}
           <div class="about__image">
+            {{ if .Site.Params.about_section.about_section_button_link }}
+              <a href="{{ .Site.Params.about_section.about_section_button_link | relURL }}">
+            {{ end }}
             {{ $mysizes := slice "634" "1268" }}
             {{ partial "responsive-img.html" (dict 
               "img" .Site.Params.about_section.about_section_image
               "alt" .Site.Params.about_section.about_section_image_alt
               "setwidths" $mysizes
             ) }}
+            {{ if .Site.Params.about_section.about_section_button_link }}
+              </a>
+            {{ end }}
           </div>
           {{ end }}
 
