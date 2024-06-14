@@ -42,6 +42,6 @@ Working on this experience with the team at Lucasfilm has been a true highlight 
 
 > “Lucasfilm’s next big foray into the future is here.”
 
-I also got to meet Norman Chan from Tested.com, and we had a [detailed discussion](http://www.tested.com/starwars/565851-ilmxlab-star-wars-and-cinematic-storytelling-virtual-reality/) about the making of this experience and ILMxLAB’s other efforts in the space.
+I also got to meet Norman Chan from Tested.com, and we had a [detailed discussion](https://www.youtube.com/watch?v=mri1MLhm43w) about the making of this experience and ILMxLAB’s other efforts in the space.
 
 If this kind of work sounds like fun to you, [we’re hiring](http://jobs.lucasfilm.com/)!
