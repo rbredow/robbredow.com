@@ -42,36 +42,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     weight = 3
 
   [[menu.main]]
-    name = "Resources"
-    weight = 4
-    hasChildren = true
-
-  [[menu.main]]
-    parent = "Resources"
-    name = "News"
-    url = "/tags/news/"
-    weight = 1
-
-  [[menu.main]]
-    parent = "Resources"
-    name = "Games"
-    url = "/tags/games/"
-    weight = 2
-
-  [[menu.main]]
-    parent = "Resources"
-    name = "Mobile"
-    url = "/tags/mobile/"
-    weight = 3
-
-  [[menu.main]]
-    parent = "Resources"
-    name = "Elements"
-    url = "/elements/"
-    weight = 4
-
-  [[menu.main]]
-  name = "About Me"
+  name = "About"
   url = "/about/"
   weight = 5
 
@@ -82,17 +53,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     weight = 1
 
   [[menu.footer]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 2
-
-  [[menu.footer]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 3
-
-  [[menu.footer]]
-    name = "About Me"
+    name = "About"
     url = "/about/"
     weight = 4
 
