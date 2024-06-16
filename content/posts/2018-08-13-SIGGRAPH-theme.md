@@ -4,6 +4,7 @@ label: Keynote
 image: /images/2018/08/robbredow_siggraph2018_keynote.avif
 video_embed: https://www.youtube.com/embed/kUoIbP1l9yA?si=pHXvlJGdesq1Ccjw&amp;start=335
 date: "2018-08-13 10:01:35 +0300"
+url: /2018/08/siggraph-theme-driven-design/
 featured: true
 ---
 
