@@ -11,11 +11,17 @@ paginate = 9
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
 
 [markup.highlight]
   codeFences = true
   guessSyntax = true
   noClasses = false
+
+
 
 #-------------------------------
 # General Site Settings

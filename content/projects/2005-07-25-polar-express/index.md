@@ -39,7 +39,7 @@ Based on **interviews conducted** by Debra Kaufman
 **Table of Contents**
 {{% toc %}}
 
-# 1.0 Introduction
+# Introduction
 
 ![4_Image_0.avif](4_Image_0.avif#wide)
 
@@ -67,7 +67,7 @@ These course notes cover new tools, processes and pipelines that were developed 
 *Conceptual Artwork of Tom Hanks as the Conductor.*
 
 
-# 2.0 The Polar Express Tests
+# The Polar Express Tests
 
 ![8_Image_0.avif](8_Image_0.avif)
 
@@ -105,7 +105,7 @@ Working with Vicon cameras, a 64-camera system was designed that would be able t
 ![12_image_0.avif](12_image_0.avif#center)
 *Painting "outside the lines". Later, Zemeckis decided emulating the paintings too closely actually flattened the movie too much so this concept was abandoned.*
 
-# 3.0 On Stage
+# On Stage
 
 ![14_image_0.avif](14_image_0.avif)
 
@@ -132,7 +132,8 @@ One of the challenges on the close up volume was that the cameras couldn't see a
 
 When the actors did anything low to the ground it was shot once normally, and then they were raised up on a platform, which was adjustable from 1 to 3 feet in height, and the low part was shot as a separate pass.  For example, in the scene where the kids pull the emergency brake on the train and then tumble to the ground in the ensuing sudden stop, the action of them hitting the ground was picked up separately from the rest of the action, and then blended later with the action above three feet.
 
-![16_image_0.avif](16_image_0.avif)
+![16_image_0.avif](16_image_0.avif#center)
+*3-d visualization of the camera positions as configured on the "close-up" stage.*
 
 ## 3.3 Scale And Mocap
 
@@ -155,16 +156,18 @@ In contrast, the Imageworks system had 151 markers for the face, which included 
 
 After every take, the actors might lose a marker or two.  Make-up replaced the facial markers on stage, while wardrobe readjusted the body suits and replaced body markers. This made on-stage performances even more like a live-action set.
 
-After each day of shooting, lost markers could be found throughout the parking lots surrounding the stages.
-
-![18_image_0.avif](18_image_0.avif)
-
-3.4 Mocap Markers  continued)
+![18_image_0.avif](18_image_0.avif#center)
+*After each day of shooting, lost markers could be found throughout the parking lots surrounding the stages.*
 
 ![19_image_0.avif](19_image_0.avif)
 
 
 ## 3.5 Custom-Made Mocap Suits
+
+![21_image_0.avif](21_image_0.avif#center)
+*In addition to shooting all of the motion capture scenes, each
+actor donned the actual costumes and submitted to laser
+scanning and numerous photographs for each layer.* 
 
 The mocap suits were custom-tailored for each actor.  The suits were also color-coded so the actors could easily be identified on the reference video.
 
@@ -172,7 +175,6 @@ The entire suit was made of a special Velcro imported from Japan. They were rela
 
 Because Tom Hanks, whose suits were hero blue, played five different characters, different name tags and shoes were used to tell each character apart.  As the hobo, Hanks wore an old pair of leather boots. For Santa, he wore black motorcycle boots.  Velcro was attached to whichever shoes he was wearing to secure the markers.
 
-![20_image_0.avif](20_image_0.avif)
 
 A mesh-like material that the cameras could see through was developed to simulate the costumes.
 
@@ -180,19 +182,14 @@ This material was sewn into costumes so the actors could wear them if it helped 
 
 For the digital costumes, there was a full wardrobe/costume department.  Every costume in the film was created by the wardrobe department and worn by the actor for a scanning and photographing session.
 
-The close up stage had a capture limit initially of two
-
-![21_image_0.avif](21_image_0.avif)
-
-people at a time.  For any scene with more than two people interacting, the shot had to be done in several passes, with no more than two actors in each pass.
+The close up stage had a capture limit initially of two people at a time.  For any scene with more than two people interacting, the shot had to be done in several passes, with no more than two actors in each pass.
 
 This was accomplished by shooting the scene with all four actors in the shot, but without marking the actors who were not being recorded at that time.  To hide the actors who had to be in the shot but not appear on camera, a burkha, which is a dark black robe, was designed.  This head to foot cloak covered the actor with a long draped veil in front of the face made from a material that allowed the actor to see out, but the camera couldn't see through it.  In a three-person scene, one person would wear the burkha, two people would act normally and then the scene would be reshot with a different actor wearing the burkha. Later the maximum limit was increased to up to four people at once.
 
-![21_image_1.avif](21_image_1.avif)
+![21_image_1.avif](21_image_1.avif#center)
+*Facial hair and costume reference for Tom Hanks as conductor.*
 
 In addition to shooting all of the motion capture scenes, each actor donned the actual costumes and submitted to laser scanning and numerous photographs for each layer.
-
-Facial hair and costume reference for Tom Hanks as conductor.
 
 ## 3.6 Props
 
@@ -206,9 +203,8 @@ Most of the motion capture that ended up in the film came from the close up 10-f
 
 The reason behind this is that the human face has an immense number of very nuanced dynamics that are intimately linked with the motion of the body. Anything from a head turn to footsteps, from walking to running, are all extremely difficult to line up if the face and body aren't captured together. In the longer scenes, the combination face-body capture had to be broken down into 10foot segments.  For a 60-foot scene, six 10-foot segments would be shot that had to be blended together to create the final shot.
 
-![22_image_0.avif](22_image_0.avif)
+![22_image_0.avif](22_image_0.avif#center)
 
-![22_image_1.avif](22_image_1.avif)
 
 ## 3.8 Processing The Mocap Data
 
@@ -219,11 +215,10 @@ The Motion Capture Supervisor on set would be in touch with mission control via 
 In a typical mocap situation, the files would not be distributed across multiple systems, but the amount of data collected everyday was enormous for The Polar Express.  On average, 50 GBs a day were shot.  Files could be up to 2 GBs each.  A
 system was created with four controlling computers linked together as slaves to a master. Because the memory limit on the slave PCs (2 Gigabytes) was reached, it was decided to shoot at 60 fps rather than 120 (doubling the maximum capture time before running out of RAM).  Data went to each of the four slaves and then to the master, where users could retrieve it.  There was a 2.5-minute time limit for shooting two people and 2-minute limit for four people for face and body capture simultaneously.
 
-![23_image_0.avif](23_image_0.avif)
-
 The face and body volume was quite robust.  The plan was to capture a 360-degree "cylinder" around each performer, from 4 feet to 7 feet.  In actuality, from 3 feet to 10 feet was captured, gining 4 more feet of volume.  The resistance to occlusion was also quite good. An actor could whisper in another actor's ear and not lose any face data to occlusion.
 
-Panoramic view of "Mission Control Center".
+![20_image_0.avif](20_image_0.avif#wide)
+*Panoramic View of Mission Control*
 
 ## 3.9 Video Reference
 
@@ -231,49 +226,34 @@ It was important to shoot video reference, especially close-ups of facial perfor
 
 Using video cameras was also a back-up plan in case mocap had to be abandoned and replaced with kyframe animation. The Cinematographer headed up a crew of 12 video camera operators to cover the entire volume, including three roaming cameras trained on the actors' faces at all times.  There were typically many takes of each scene, which enabled the performance animation team to request a different angle or a tighter face shot.  By the time the director was happy with the performances, the reference video had been refined.
 
-![24_image_0.avif](24_image_0.avif)
-
 Several teams of technicians gathered and logged the media, including audio files, video reference and body and face tracking data, all of which included a master timecode clock signal which ran continuously during each day of shooting. Stages 3 and 4 (the medium-sized and largest volumes) were designed to allow full freedom of movement for all the video camera operators (and, for that matter, for cast and crew).  The smallest volume was designed with "sweet spots" where the cameramen could stand and not be in the way of the facial mocap cameras.  They were triangular shaped spaces that were soon dubbed "pie" (see Mocabulary).
 
-l Course \# 28, SIGGRAPH 2005 Los Angeles, CA, USA
-THE POLAR EXPRESS
 
-# Wheels, The Virtual
+# Wheels, The Virtual Camera System
 
-![26_Image_0.avif](26_Image_0.avif) Camera System
+![26_Image_0.avif](26_Image_0.avif)
 
-## 4. I Wheels, The Virtual Camera System
+## 4.1 Wheels, The Virtual Camera System
 
-The camera plays an important role in a Zemeckis film.  The fluid, complicated camera moves are a trademark of his movies and are used as an essential storytelling tool.  For The Polar Express, Imageworks created a real-time camera system which simulated the experience of using on-set camera controls to encourage creative experimentation with the camera as well as provide natural, "live-action feeling" camera moves for the film.
+The camera plays an important role in a Zemeckis film. The fluid, complicated camera moves are a trademark of his movies and are used as an essential storytelling tool. For The Polar Express, Imageworks created a real-time camera system which simulated the experience of using on-set camera controls to encourage creative experimentation with the camera as well as provide natural, "live-action feeling" camera moves for the film. 
 
-Imageworks created an interface that allowed the director of photography to control the camera using a set of "wheels,"  This allowed for the D.P.
+Imageworks created an interface that allowed the director of photography to control the camera using a set of "wheels," This allowed for the D.P. to control the camera in real-time while watching the virtual set and the low-res version of the actors on his monitor—a very similar process to operating a camera on set. 
 
-to control the camera in real-time while watching the virtual set and the low-res version of the actors on his monitor—a very similar process to operating a camera on set.
+Imageworks staff, in conjunction with the director of photography, worked with the "wheels" system to keyframe the translational position of the camera, in effect controlling how the camera was pushed digitally through the scene. When giving demonstrations of the system, these operators actually referred to themselves as the D.P.'s digital grip.
 
-Imageworks' staff, in conjunction with the director of photography, worked with the
-"wheels" system to keyframe the translational position of the camera, in effect controlling how the camera was pushed digitally through the When giving demonstrations of the scene.
+![27_image_0.avif](27_image_0.avif#lfloat) Wheels had a direct impact on several aspects of the production. In a traditional animated film, everything is storyboarded down to the last detail, including camera angles, before production begins. With Wheels, after shooting the movie and choosing the "selected" performances, the set could be covered from as many different camera angles as made sense for each scene. All those "takes" were laid off to video, sent to production editorial, and served the same purpose as dailies in a live-action movie. Production editorial then cut the shots together to edit the film. If editorial needed another angle for a given shot or wanted to adjust the camera move to help an edit, they would simply call up the wheels department and request whatever they needed. Since the wheels system was very efficient and could "shoot" many minutes of footage per day, the process was very fluid and flexible.
 
-system, these operators actually referred to themselves as the D.P.'s digital grip.
 
-Wheels had a direct impact on several aspects of the production.  In a traditional animated film, everything is storyboarded down to the last detail, including camera angles, before production begins.  With Wheels, after shooting the movie and choosing the "selected" performances, the set could be covered from as many different camera angles as made sense for each scene.  All those "takes" were laid off to video, sent to production editorial, and served the same purpose as dailies in a live-action movie.  Production editorial then cut the shots together to edit the film.  If editorial needed another angle for a given shot or wanted to adjust the camera move to help an edit, they would simply call up the wheels department and request whatever they needed.  Since the wheels system was very efficient and could "shoot" many minutes of footage per day, the process was very fluid and flexible.
-
-![27_image_0.avif](27_image_0.avif)
 
 ![28_image_0.avif](28_image_0.avif)
+*The Director of Photography operated the wheels in real-time.*
 
-while viewing the results on the monitor.
 
-![28_image_1.avif](28_image_1.avif)
+# Performance Animation
 
-The Director of Photography operated the wheels in real-time.
-The motion of the hand-held camera was tracked by sensors mounted in l Course \# 28, SIGGRAPH 2005 Los Angeles, CA, USA
-THE POLAR EXPRESS
+![30_Image_0.avif](30_Image_0.avif#wide)
 
-# Performance
-
-![30_Image_0.avif](30_Image_0.avif) Animation
-
-## 5 Performance Animation
+## 5.1 Performance Animation
 
 The performance animation on The Polar Express can be broken down into a three-stage process.
 
@@ -392,7 +372,7 @@ characters that were entirely key-framed included all the puppets in the puppet 
 
 ![38_image_0.avif](38_image_0.avif)
 
-## 5.8.1  Smokey And Steamer
+### 5.8.1  Smokey And Steamer
 
 ![39_Image_0.avif](39_Image_0.avif)
 
@@ -422,7 +402,7 @@ S
 
 X
 
-## 5.8.2 The Ticket Ride Factoids
+### 5.8.2 The Ticket Ride Factoids
 
 A 2 mile camera path 19 humans 27 wolves 6 matte paintings 1 Eagle, 1 Eaglet Over 300 unique elements are rendered to create the wolf sequence (162 shadows, 141 beauty, 5 vfx)
 Each wolf had 1.6 million hairs
@@ -458,7 +438,7 @@ The ticket was rigged for the anthropomorphic behaviors defined in storyboards, 
 
 ![44_image_3.avif](44_image_3.avif)
 
-## 5.8.3 Caribou And Elves
+### 5.8.3 Caribou And Elves
 
 A flocking system was used for the herd of Multiple cycles were animated—fast caribou.
 
@@ -472,7 +452,7 @@ the elf behavior could not be captured, however, since Zemeckis wanted the elves
 
 Long after the stage production wrapped, Zemeckis would continue to come up with more ideas for elf business and gags.  A motion capture stage was set aside for this secondary work, but it turned out to be more efficient for the animators to keyframe these performances.
 
-## 5.8.4 Flying Reindeer
+### 5.8.4 Flying Reindeer
 
 Several weeks were invested in the task exploring how to make reindeer fly convincingly, from pulling the sleigh around the North Pole to the initial scene of being loosed from their pen on Christmas Eve.  Traditional 2D animatics were sketched by an animator to define key poses, and those poses translated to the reindeer rig once the ideas were approved.  The animation of the "freeflight" reindeer was a single 12-second cycle.  The cycle was applied to all eight reindeer in the procession, and the timing was offset between them.  Because the cycle was sufficiently long, each reindeer appears to have unique movement characteristics of its own.
 
@@ -486,14 +466,12 @@ Four little elves would never be able to hold them down.
 
 ![46_image_0.avif](46_image_0.avif)
 
-l Course \# 28, SIGGRAPH 2005 Los Angeles, CA, USA
-THE POLAR EXPRESS
 
 # Effects Animation
 
 ![48_Image_0.avif](48_Image_0.avif)
 
-## 6  Effects Animation
+## 6.0  Effects Animation
 
 The Polar Express has an enormous number of effects throughout the film.  Almost every frame has an effect element.  The challenge was not only to hit a high bar visually, but to do it as efficiently as possible given the large number of elements.  This required streamlining the effects pipeline to handle traditionally expensive effects in a cost effective manner.
 
@@ -512,7 +490,7 @@ Conceptual artwork for the Aurora Borealis "light show" that the kids experience
 
 Conceptual artwork of the boy's bedroom including the effects element of the steam from the bedroom heater.
 
-# 6.1 Let It Snow
+## 6.1 Let It Snow
 
 Creating falling snow is actually fairly simple.
 
@@ -673,8 +651,6 @@ The lower resolution models were derived from the highest one and maintained UV 
 
 In this way the flocking characters could source any animation in the library. Maya MEL scripts were written to translate the skeletons, animation curves and skin weights to Houdini where the flocking behavioral system was built.
 
-## 6.9 Flocking System (Continued)
-
 Each character had a library of short animation clips (walk cycle, walk to a stop, stop to a walk, walk to a run cycle, etc.), which were loaded into CHOPS, Houdini's channel operators.  The links between each animation clip were defined by building a lookup table that outlined all possible transitions connecting each of the animations.  If animations failed to link up perfectly, the animation channels could be post processed to ensure smooth transitions using CHOP filters. Next, a custom particle operator in Houdini was written to control all this motion data, with each elf or caribou represented by a single particle.
 
 Each particle was assigned a beginning orientation, animation clip, and end goal. Particles used the animation lookup table to achieve their goal while avoiding neighboring characters and obstacles.  Each particle marched along at the exact rate of the animation assigned. Once the animation reached a transition point, the particle would choose between the available animations, selecting the one that would take it closer to its goal while avoiding obstacles.
@@ -685,14 +661,12 @@ There were in excess of 50,000 characters in some shots, which was far too heavy
 
 ![64_image_1.avif](64_image_1.avif)
 
-l Course \# 28, SIGGRAPH 2005 Los Angeles, CA, USA
-THE POLAR EXPRESS
 
 # Lighting And Rendering
 
 ![66_Image_0.avif](66_Image_0.avif)
 
-## 7 Lighting And Rendering
+## 7.0 Lighting And Rendering
 
 After looking at the original book and conceptual
 
@@ -710,7 +684,7 @@ artwork created by production, the Imageworks look development and lighting team
 
 # 7.1  Lighting Techniques
 
-## 7.1.1 Ambient Occlusion
+### 7.1.1 Ambient Occlusion
 
 Ambient occlusion techniques for The Polar Express consisted of a screen space projection pipeline.  Each frame of the film was rendered with ambient occlusion shaders without motion blur. When the beauty pass was rendered, the ambient occlusion map was re-projected back into the shader where it was used to perform the lighting calculations. At several points during the production, tests were performed to compare the performance of the re-projection pipeline as compared to a "baked" occlusion pipeline.  For the sake of optimization, it seemed logical that baking the occlusion information into a series of texture maps once for each environment would be a large payoff.  However, on The Polar Express, the sets were very flexible and had built in "wild walls"
 (walls that could be moved for each set).  This, combined with the fact that the props were typically adjusted on a per shot basis, tended to outweigh the time saved by baking the ambient occlusion textures into the sets.  The projection method of using ambient occlusion therefore became the primary occlusion pipeline for the show.
@@ -725,7 +699,7 @@ In The Polar Express, many shots had fast moving motion blurred objects in the f
 
 ![70_image_1.avif](70_image_1.avif)
 
-## 7.1.2 Compositing
+### 7.1.2 Compositing
 
 Because of Imageworks' history as a visual effects house, the artists were used to achieving effects through a variety of techniques, including compositing.  Although some shots were created narly entirely "in-camera," most shots received some amount of composite work either for expediency or to help to achieve an effect not possible in 3D.
 
@@ -759,9 +733,9 @@ There was a lot of interaction and troubleshooting on the part of the ATD with t
 
 ![72_image_0.avif](72_image_0.avif)
 
-# 7.3 Two Lighting Examples
+# Two Lighting Examples
 
-## 7.3.I The Hobo Skiing Sequence
+### 7.3.1 The Hobo Skiing Sequence
 
 Often times, shortcuts in one department had ramifications in lighting, which required the Lighting Department to maintain a level of flexibility. For example, the 4 to 5 minute sequence where the boy meets the hobo on top of the train is quite long.  The set for the train would physically have needed to be over 10-miles in length. Modeling and texturing that environment would have taken much too long.  The solution was to build one set about 1/2 mile in length and run the train back and forth over the same 1/2 mile throughout the entire sequence.
 
@@ -786,7 +760,7 @@ To create the vast environments, the shader writers and look development TDs use
 
 ![74_image_3.avif](74_image_3.avif)
 
-## 7.3.2 Ice Lake
+### 7.3.2 Ice Lake
 
 Some interesting lighting challenges occurred when lighting and compositing could help bring out important story points.  One good example of this is the scene where the train starts sliding across the ice and becomes stuck in a giant ice lake.
 
@@ -809,9 +783,6 @@ One good example of the close interaction between lighting and effects took plac
 ![76_image_1.avif](76_image_1.avif)
 
 ![76_image_2.avif](76_image_2.avif)
-
-l Course \# 28, SIGGRAPH 2005 Los Angeles, CA, USA
-THE POLAR EXPRESS
 
 # 3D Imax
 
@@ -841,14 +812,14 @@ Because the color timing of both versions of the film needed to be done concurre
 
 ![80_Image_0.avif](80_Image_0.avif)
 
-## 8.2.1 Restoring The Data
+### 8.2.1 Restoring The Data
 
 Only after the director approved a shot for inclusion in the theatrical release would the IMAX
 3D team start work on adapting the shot for 3D. The first step in this process was to restore all the data needed to recreate the shot to the disk volumes used by the IMAX team.  The primary goal of this step was to load as little data as needed but to ensure that all data needed to exactly reproduce the 2D version of the shot was brought back online.  Normally during shot production many takes of the various animation files and other elements used in the shot are created.  The IMAX team would only load the elements that had actually been used in the final shot.  Additionally because all scene renders were generated from Imageworks' proprietary geometry format and because the IMAX team didn't need to reanimate the scenes, it was unnecessary to restore animation Imageworks' proprietary versioning and files.
 
 publishing system was used to keep track of all elements used in the theatrical release and to target the files that were needed for restoration.  In many cases this included old texture files and material properties that might have been updated since the original shot had been approved.
 
-## 8.2.2 Creating The Stereo Camera
+### 8.2.2 Creating The Stereo Camera
 
 Creating a 3D shot started with converting the 2D camera from the theatrical release into a stereo camera.
 
@@ -864,7 +835,7 @@ Camera tests were generated using default gray shading and projected within the 
 
 ![81_image_1.avif](81_image_1.avif)
 
-## 8.2.3 Finishing The Shot
+### 8.2.3 Finishing The Shot
 
 Once the cameras were approved, the effects and shots TD's took over.  It was the job of these teams to reproduce all of the elements, as neded, using the new cameras and to composite the shot.
 
@@ -880,7 +851,7 @@ Imageworks' digital 3D projection room before being sent to IMAX for the DMR pro
 
 ![82_image_0.avif](82_image_0.avif)
 
-## 8.2.4 Tricks To Avoid Re-Rendering
+### 8.2.4 Tricks To Avoid Re-Rendering
 
 In order to keep the process as efficient as possible, a variety of techniques were employed which would allow the IMAX crew to reuse elements without rendering them in stereo.
 
@@ -919,7 +890,7 @@ Highlights would also sometimes be removed or reduced if they only appeared in o
 
 ![84_image_1.avif](84_image_1.avif)
 
-# 8.4 What'S Old Is New Again
+## 8.4 What'S Old Is New Again
 
 The Polar Express: An IMAX 3D Experience opened on November 10, 2005 to sell-out shows across the country, garnered rave reviews, and quickly went on to break numerous box office records for an IMAX film. The IMAX release grossed approximately $35 million domestically on only about 60 IMAX screens, and approximately $10 million internationally on just 20 IMAX screens, bringing the per-screen gross from this one film to over $500,000.
 
@@ -927,7 +898,9 @@ The Polar Express: An IMAX 3D Experience opened on November 10, 2005 to sell-out
 
 The success of The Polar Express 3D project has been acknowledged by Hollywood and, where before people had asked why one would want to adapt a CG film for stereo, they are now asking why you wouldn't.  Helping to push the next stereoscopic revival, several top directors including Robert Zemeckis, James Cameron, George Lucas and Robert Rodriguez are working with exhibitors to upgrade theaters for digital 3D projection.  All of these directors are currently working on stereoscopic projects (both live action and CG).
 
-## Biographies Rob Bredow
+# Biographies 
+
+## Rob Bredow
 
 Rob Bredow is a Digital Effects Supervisor at Sony Pictures Imageworks who recently completed work on The Polar Express.  Rob is currently working on the upcoming animated movie Surf's Up as the Visual Effects Supervisor.  While at Sony Rob has been involved in creating many of the complex visual effects featured in Castaway and both Stuart Little films.  Rob's other credits include the feature films Megiddo, Independence Day, Godzilla and others.  Rob is experienced in the field of effects animation, shading and rendering and has presented at several conferences, including various Siggraph courses.
 
@@ -950,7 +923,9 @@ Daniel Kramer is a CG Supervisor at Sony Pictures Imageworks where he completed 
 During Rob Engle's career at Imageworks he has worked on projects as varied as The Polar Express: An IMAX 3D
 Experience as Digital Effects Supervisor, the scaly snakes of Anaconda , the big lizard Godzilla , the furry mice in Stuart Little and the feathered birds in Stuart Little 2.  When not working on creature features, Rob's credits have included Contact, Charlie's Angels 2: Full Throttle and Peter Pan.  He is currently a CG Supervisor on The Chronicles of Narnia: The Lion, the Witch and the Wardrobe , which releases in December 2005.  Prior to joining Imageworks, Rob attended the University of Colorado, Stanford University and worked for Hewlett-Packard Company.
 
-# A Note From Vfx Supervisor Ken Ralston Bi-Polar Express By Ken Ralston
+# Notes from the Sr VFX Supervisors
+
+## Bi-Polar Express By Ken Ralston
 
 As I sit here in the corner of my simple padded cell…eating the occasional fly that crawls across the wall…I
 want to think back to how I ended up here…and when the movie The Polar Express began.
@@ -967,7 +942,7 @@ After a while time just stood still…I knew all these smart people at Sony Pict
 I'm now in another small dark room and, despite the ill-fitting straight jacket, am content…especially after the lobotomy…I'm now happy…Happy…so Happy…thank you stranger for listening…bye…
 the artist formerly known as Ken Ralston.
 
-# A Note From Vfx Supervisor Jerome Chen
+## A Note From Vfx Supervisor Jerome Chen
 
 Notes on The Polar Express By Dr. Jerome Chen, attending physician to Ken Ralston My remarks are from extensive interviews with Ralston regarding events beginning in early spring of 2001 through to fall of 2004.
 
@@ -980,7 +955,8 @@ During these interviews, Mr. Ralston would swing radically from elation to despo
 When pressed for more details, the patient relayed astounding feats of technical and artistic wizardry by many hundreds of obsessively driven people working deep in the bowels of a vast compound called Imageworks in the ulikely place of Culver City, California.
 
 It was at the height of the patient's delusional ranting where his wording become mostly unintelligible, proclaiming that "…further breakthroughs in virtual camera choreography, digital cloth simulation, fx animation, and skin and hair shading helped us realize Bob Zemeckis' vision of this enchanting Christmas classic."
-[Audio recordings aided in the reconstruction of these statements since the patient's screaming sometimes made it difficult to understand what he was saying. It is unfortunate that the procedure has not eased the patient's suffering.  I recommend the rather drastic measure of a second round of treatment using the newly experimental electrical techniques.
+
+Audio recordings aided in the reconstruction of these statements since the patient's screaming sometimes made it difficult to understand what he was saying. It is unfortunate that the procedure has not eased the patient's suffering.  I recommend the rather drastic measure of a second round of treatment using the newly experimental electrical techniques.
 
 This patient should be kept isolated for the remainder of his life.  His delusions will spread unhealthy notions in the population.
 
@@ -1015,245 +991,444 @@ And we must find out more about this Zemeckis fellow.  If he does indeed exist, 
 TODO: Many more mocabulary terms!
 
 
-## Imageworks Credit Roll
-
-| Imagery and Animation by SONY PICTURES IMAGEWORKS INC.   | ImageMotion Integration (continued)   |                       |                    |    |
-|----------------------------------------------------------|---------------------------------------|-----------------------|--------------------|----|
-| MICHAEL MUMBAUER                                         |                                       |                       |                    |    |
-| KLEE MILLER                                              | JULIAN SARMIENTO                      |                       |                    |    |
-| Associate Producer                                       | DEBBIE DENISE                         | DAVID PENG            |                    |    |
-| TREY STOKES                                              | CHRISTINA SWING                       |                       |                    |    |
-| Visual Effects Supervisors                               | KN RALSTON                            | david washburn        |                    |    |
-| JEROME CHEN                                              | SANDRA WARREN                         |                       |                    |    |
-| Visual Effects Producer                                  | CRAIG SOST                            | Character Animation   |                    |    |
-| Digital Producer                                         | CHRIS JUEN                            | ALFONSO ALPUERTO      | LAURA BARBERA      |    |
-| Animation Supervisor                                     | DAVID SCHAUB                          |                       |                    |    |
-| Digital Effects Supervisors                              | ROB BREDOW                            | WOLF-RUEDIGER BLOSS   | FRANK BONNIWELL    |    |
-| MARK LAMBERT                                             | TOM BRUNO JR.                         | RANDY CARTWRIGHT      |                    |    |
-| ALBERTO MENACH                                           | STEPHANE COUTURE                      | JAMES CROSSLEY        |                    |    |
-| $EAN PHILLIPS                                            | renato dos anjos                      | CHRISTOPHER ENDICOTT  |                    |    |
-| Character Designer                                       | VLADIMIR TODOROV                      | ROBERT FOX            | KELLY GOLDSTEIN    |    |
-| Visual Effects Art Directors                             | MARTY KLINE                           | JORDAN HARRIS         | NICOLE HERR        |    |
-| GEORGE SUHAYDA                                           | SETH HIPPEN                           | T. DANIEL HOFSTEDT    |                    |    |
-| ImageMotion Supervisor                                   | demian gordon                         | JON HOOPER            | PAUL JESSEL        |    |
-| ImageMotion Integration Supervisor                       | albert hastings                       | ALICE KAISERIAN       | MICHAEL KIELY      |    |
-| MICHAEL KIMMEL                                           |                                       |                       |                    |    |
-| Look Development Supervisor                              | CLIFF BRETT                           | KELVIN LEE            |                    |    |
-| JEFF LIN                                                 |                                       |                       |                    |    |
-| Environment Modeling Supervisor                          | KVIN HUDSON                           | LES MAJOR             |                    |    |
-| marco marenghi                                           | JAMES MOORHEAD                        |                       |                    |    |
-| Character Modeling Supervisor                            | EDWARD TAYLOR                         |                       |                    |    |
-| Character Set-Up Supervisor                              | J.J. BLUMENKRANZ                      | PATRICK OSBORNE       | KEITH PACIELLO     |    |
-| DENIS SAMOILOV                                           | HENRY SATO JR.                        |                       |                    |    |
-| Animation Pipeline Supervisor                            | BERT VAN BRANDE                       | BRIAN SCHINDLER       | ALEXANDER SOKOLOFF |    |
-| Layout Supervisor                                        | JAMES WILLIAMS                        | TOM SOREM             | WILLIAM TESSIER    |    |
-| Cloth and Hair Supervisor                                | SHO IGARASHI                          |                       |                    |    |
-| DANIEL KRAMER                                            | ROGER VIZARD                          | DAN WAWRZASZEK        |                    |    |
-| Effects Animation Supervisor                             |                                       |                       |                    |    |
-| Matte Painting Supervisor                                | IVO HORVAT                            | ERIC WEISS            | CHRIS WILLIAMS     |    |
-| Imageworks DPMs                                          | KTHERINE                              |                       |                    |    |
-| CONCEPCION                                               | Character Animation Pipeline          |                       |                    |    |
-| MANDY TANKENSON                                          | CHRISTIAN AUBERT                      | CHRISTOPHER CHRISTMAN |                    |    |
-| JULIE ZACKARY                                            | MITCHELL COCKERHAM                    | DEREK CROSBY          |                    |    |
-| AY HRONEK                                                |                                       |                       |                    |    |
-| JOSEPH DILALLO                                           |                                       |                       |                    |    |
-| ALAN LEHMAN                                              | DAVID LO                              |                       |                    |    |
-| Visual Effects Editor                                    | TIM EATON                             | CAROLYN OROS          |                    |    |
-| Layout Leads                                             | CHRISTOPHER POPLIN                    | PETER MEGOW           |                    |    |
-| JIWON PAIK                                               | JOSEPH SPADARO                        |                       |                    |    |
-| LSASUZUKI                                                |                                       |                       |                    |    |
-| Layout                                                   | Cloth and Hair Leads                  |                       |                    |    |
-| FERNANDO BENITEZ                                         | JUAN GONZALES                         | SUSAN HAMMON          | ROB HOUSE          |    |
-| COREY HELS                                               |                                       |                       |                    |    |
-| MAKSYMILLIAN NAPOROWSKI                                  | RODRIGO IBANEZ                        | CHRIS YEE             |                    |    |
-| CARLOS PEDROZA                                           |                                       |                       |                    |    |
-| JOSEPH THOMAS                                            | Cloth and Hair                        |                       |                    |    |
-| ARTURO AGUILAR                                           | JY BANKS                              |                       |                    |    |
-| ImageMotion Integration Leads                            |                                       |                       |                    |    |
-| ANDREA DONNELLY                                          | RONALD FISCHER                        | AIMEE CAMPBELL        | brian Casper       |    |
-| DAVID STRIPINIS                                          | COREY TURNER                          | OSCAR CASTILLO        | mark de sousa      |    |
-| CURTIS EDWARDS                                           | JEFF EDWARDS                          |                       |                    |    |
-| ImageMotion Integration                                  | BARBARA ELLISON                       | OLIVER FINKELDE       |                    |    |
-| DAVID BENNETT                                            | THOMAS BLAND                          | ashraf ghoniem        | AVNEET KAUR        |    |
-| SCOTT BOGONIEWSKI                                        | PAUL CECH                             | david kersey          | ANDY KING          |    |
-| EUN JAE LEE                                              | MICHAEL LEVINE                        |                       |                    |    |
-| pierre Chastain                                          | KEVIN CUSHING                         | CHRISTO LIBARIDIAN    | CHRISTOPHER LOGAN  |    |
-| charles ghislandi                                        | DON JOHNSON                           | GUSTAV MELICH         | ROBERT NITSCH      |    |
-| ERIC LALUMIERE                                           | NEIL LIM SANG                         | ERIC WARREN           |                    |    |
-| DANIE LUPOVICI                                           | ROBERT MACKENZIE                      | SCOTT PARRISH         |                    |    |
-| SEAN WHITE                                               | DUSTIN WICKE                          |                       |                    |    |
-| KEVIN MAHORNEY                                           | JOHN MEEHAN                           | KLIM WINATA           | KEVIN OAKLEY       | 89 |
-| SIGGRAPH 2005                                            |                                       |                       |                    |    |
+# Imageworks Credit Roll
 
 
-| Effects Animation Leads       | Pre-Visualization Leads        |                               |                      |
-|-------------------------------|--------------------------------|-------------------------------|----------------------|
-| MATT HAUSMAN   CARL HOOPER    | ANDREW TITCOMB                 | harald kraut                  |                      |
-| Effects Animation             | Pre-Visualization              |                               |                      |
-| ANA MARIA ALVARADO            | TIMOTHY SOMAN                  |                               |                      |
-| DEBORAH CARLSON               | MATTHEW CORDNER                | PEPE VALENCIA                 |                      |
-| DAVID R. DAVIES               | MATTHEW DAVIES                 |                               |                      |
-| BRIAN DAVIS                   | ANDY GAUVREAU                  |                               |                      |
-| MARC HORSFIELD                | DAN KESSLER                    | Wheels                        |                      |
-| STEPHEN MARSHALL              | ALEX HEAD                      | BRIAN DOMAN                   |                      |
-| HAE-JEON LEE                  |                                |                               |                      |
-| ARON JAMES McCOMAS            | STEVEN ONG                     |                               |                      |
-| JOHN PATTON                   | CHERIE RYE                     | Environment and Prop Modeling |                      |
-| ALLEN RUILOVA                 | VINCENT SERRITELLA             | FRANCOIS BORDEZ               | CHRISTIAN BOUYER     |
-| PETER SHINNERS                | JOHN BUTIU                     | MARK KRENTZ                   |                      |
-| MARC STEINBERG                | DUSTIN ZACHARY                 |                               |                      |
-| Sequence Lighting Supervisors |                                |                               |                      |
-| PATRICK COHEN                 | R. STIRLING DUGUID             | Character Modeling Lead       | MARVIN KIM           |
-| JEP HILL                      | ADRIAN ILER                    |                               |                      |
-| MACDUFF KNOX                  | dvid parrish                   | Character Modeling            |                      |
-| CARLOS VIDAL                  | robert winter,                 | marcos kang                   | YUN GEUK KANG        |
-| ERIC SANFORD                  |                                |                               |                      |
-| Color and Lighting Leads      | CLARA CHAN                     | Character Set-Up Lead         | arthur gregory       |
-| THEO BIALEK                   |                                |                               |                      |
-| STEPHEN LUNN                  | baudouin struye                | Character Set-Up              |                      |
-| Color and Lighting            | james bancroft                 | YAKOV BAYTLER                 |                      |
-| JOACHIM BARNREUTHER           | ERIK BORZI                     | BRIAN BURKS                   | WON YOUNG BYUN       |
-| GORGIA CANO                   | ONNY CARR                      | STEPHEN CANDELL               | FABRICE CEUGNIET     |
-| ALAN CHEN                     | CHRISTIAN CUNNINGHAM           | KYUDON CHOI                   | EUGENE ILYOUNG JEONG |
-| GINA DI BARI                  | DALE DRUMMOND                  | MICHAEL LAUBACH               | UMBERTO LAZZARI      |
-| QUENTIN FROST                 | robb Gardner                   | ROBERTO MAIOCCHI              | SHAWN McINERNEY      |
-| rainer gombos                 | JAMES GREEN                    | BRIAN THOMPSON                |                      |
-| CHAD GREENE                   | harry Gundersen                |                               |                      |
-| glen gustafson                | MARK HAMILTON                  | Shader Leads                  | KEVIN HAHN           |
-| JUSTIN HAMMOND                | kurt judson                    | DANNY DIMIAN                  |                      |
-| DAVID KINTNER                 | ERGIN KUKE                     | Look Development Lead         | brian steiner        |
-| frances kumashiro             | LYNDON LI                      |                               |                      |
-| TIMOTHY LLEWELLYN             | KIERON LO                      | Look Development              |                      |
-| DAVID MENKES                  | MARC MILLER                    |                               |                      |
-| ENRIQUE MUNOZ                 | PATRICK NEARY                  | ALAN CHAN                     | MARK HALL            |
-| BOB PEITZMAN                  | BENJAMIN RADCLIFFE             | PETER PALOMBI                 | bret st. Clair       |
-| OLUN RILEY                    | DAVID SATCHWELL                | JOE STRASSER                  | JOHN WISSLER         |
-| MARK SHOAF                    | DOUG SMITH                     |                               |                      |
-| jeremy squires                | JEFF STERN                     | Texture Painting Leads        |                      |
-| LISA TSE                      | JON TOJEK                      | APRYL KNOBBE                  | KERRY NORDQUIST      |
-| JAMES VALLADAO                | WAYNE VINCENZI                 | DENNIS BREDOW                 |                      |
-| DANIEL JAMES WEBER            | MARK WURTS                     | Texture Painting              |                      |
-| DOUG YOSHIDA                  | TERUYUKI YOSHIDA               | susan kornfeld                |                      |
-| JOSEPH DiCESARE               | DAVID PALMER                   |                               |                      |
-| Matte Painting                | SONSERAE LEESE                 |                               |                      |
-| DAVID BLEICH                  | thomas esmeralda               |                               |                      |
-| JOSHUA GEISLER-AMHOWITZ       | Imageworks Pipeline Supervisor |                               |                      |
-| STEVE MATSON                  | ROB ENGLE                      |                               |                      |
-| ALLEN GONZALES                |                                |                               |                      |
-| ERIC McLEAN                   |                                |                               |                      |
-| 90                            | SIGGRAPH 2005                  |                               |                      |
 
+Imagery and Animation by SONY PICTURES IMAGEWORKS INC.
 
-| Shaders                                     | Production Services Technicians   |                                                    |                      |
-|---------------------------------------------|-----------------------------------|----------------------------------------------------|----------------------|
-| SERGI SAGAS                                 | JEFFREY DILLINGER                 | CHRISTOPHER CARIGNAN                               | GALE DE LOS SANTOS   |
-| DANIEL GREENSTEIN                           | MICHAEL MAY                       |                                                    |                      |
-| Texture Set-Up                              | JEFFREY POHL                      | andrew rose                                        |                      |
-| NCK GRAY                                    | LUTZ MULLER                       | JAMES SALTER                                       | JORDAN SOLES         |
-| ARON WILSON                                 | NATALIA ZOUBTSOVA                 |                                                    |                      |
-| Wheels Set-Up                               | ANDREW CHO                        | Digital Intermediate Colorist                      | PAUL McGHEE          |
-| Color and Lighting ATDs                     | C. MARIE DAVIS                    |                                                    |                      |
-| Digital Intermediate Supervisor             |                                   |                                                    |                      |
-| ALFREDO BARCIA                              | DARREN FISHER                     | Digital Intermediate Coordinator  KATHLEEN WOOLERY |                      |
-| TODD HARA                                   | ginka kostova                     |                                                    |                      |
-| ARON LAWN                                   | JAMES LEE                         | Research and Reference Photography                 |                      |
-| JAMES PARK                                  | ruben flores                      | CHRIS HEBERT                                       | leah hardstark       |
-| ImageMotion Tracking Leads                  | Pipeline Producer                 | BRIAN KEENEY                                       |                      |
-| AY TAYLOR                                   | JOSH HUTCHINS                     | Pipeline Engineers                                 |                      |
-| STEVEN ILOUS                                | ALAN DAVIDSON                     | rene limberger,                                    |                      |
-| JOHN McLAUGHLIN                             | SAM RICHARDS                      |                                                    |                      |
-| ImageMotion Tracking                        |                                   |                                                    |                      |
-| SARAH BACK                                  | DANIEL CAMP                       | Negative Coordinator                               | NKKI BELL            |
-| KEVIN CARNEY                                | kurt dufresne                     | Negative Handling                                  | BOYD STEER           |
-| nshira fitzgerald                           | DARTAYOUS HUNTER                  | Film Recording Supervisor                          |                      |
-| JOSHUA OCHOA                                | oded kassirer                     | DENNIS WEBB                                        |                      |
-| MARK LIPSMEYER,                             | robert davis oh                   |                                                    |                      |
-| matthew o'callaghan                         | DAVID LENSCH                      |                                                    |                      |
-| ANDRE PETROSSIAN                            | J.R. SALAZAR                      | derrick quarles                                    |                      |
-| ALON ZASLAVSKY                              | Systems Engineering               | ALBERTO VELEZ                                      |                      |
-| Aditional Character Design                  | DAVID COLMAN                      | gerardo de la cruz                                 | STEWART HOFFMAN      |
-| DAVID MIYA                                  | MICHAEL TRUJILLO                  |                                                    |                      |
-| APMs                                        |                                   |                                                    |                      |
-| albert mason                                | david orecklin                    | Systems Research and Development                   |                      |
-| JUDY THOMASON                               | BRUCE DOBRIN                      | DAN LAKE                                           |                      |
-| JEAN-FRANCOIS PANISSET                      |                                   |                                                    |                      |
-| Resource Manager                            | GARRICK MCLAUGHLIN                | Software Engineering                               |                      |
-| Digital Coordinators                        | AIT AGRAWAL                       | CHRIS BURDORF                                      |                      |
-| DANIEL CARBO                                | KATHRYN LIOTTA-COUTURE            | BRIAN HALL                                         | kishore mulchandani  |
-| RYAN GILLELAND                              | TIMOTHY LOUGHRAN                  | LESLIE PICARDO                                     | ROBERT RAY           |
-| MIGUEL OAXACA                               | ANDREA SOLIS                      |                                                    |                      |
-| JARROD NESBITT                              |                                   |                                                    |                      |
-| ROCCO PUCILLO                               | patrick ramos                     |                                                    |                      |
-| RYAN SAMUELS                                | ELIZABETH SCHAFER                 | Additional Tools Development                       |                      |
-| PAULA TUDOROF                               | MYLENE PEPE                       | JAMIE PILGRIM                                      |                      |
-| ImageMotion Shoot Producer                  | JODY ECHEGARAY                    | Look Development Producer                          | MICHELLE MURDOCCA    |
-| ImageMotion PM                              | NANCY ONG                         | Digital Producer                                   | DANIEL KUEHN         |
-| ImageMotion Coordinator                     | HEATHER McCANN                    | DPM                                                | BRADFORD SIMONSEN    |
-| ImageMotion Assistant Shoot Supervisor      | APM                               | PIA TURCHYN                                        |                      |
-| DENNIS (DJ) HAUCK                           |                                   |                                                    |                      |
-| ImageMotion Systems Operator    BILL BEEMER | Artist Production Supervision     |                                                    |                      |
-| VIRGINIA BOWMAN                             | DANIELLE CONROY                   |                                                    |                      |
-| Production Services Technicians Leads       | CATHY DEUTMEYER                   | JENNIFER JUEN                                      |                      |
-| MATHEW THOMAS                               | MARY BORLIK                       | ROBIN LINN                                         | LAUREN ANN LITTLETON |
-| nthan eriksen                               | rachel phillips                   | LISA SANDERS                                       | 91                   |
-| SIGGRAPH 2005                               |                                   |                                                    |                      |
-
-| Artist Production Supervision (continued)   |                 |
-|---------------------------------------------|-----------------|
-| sande scoredos                              | DIANE ST. CLAIR |
-| Senior Supervision                          | JENNY FULLE     |
-| TIM SARNOFF                                 |                 |
-
-
-| Visual Effects Supervisor           | JIM BERNEY         |
-|-------------------------------------|--------------------|
-| Visual Effects Producer             | JOHN CLINTON       |
-| Digital Effects Supervisor          | ROB ENGLE          |
-| DPM                                 | SKYE LYONS         |
-| APM                                 | FREDERICK LISSAU   |
-| Digital Leads                       | JD COWLES          |
-| KENJI SWEENEY                       | LEN WHITE          |
-| Visual Effects Digital Coordiantors |                    |
-| CHRIS MCLEOD                        | JEREMIE WINSLOW    |
-| VIJOY GADDIPATI                     |                    |
-| Digital Tool Developers             |                    |
-| Digital Artists                     |                    |
-| BRIAN ADAMS                         | JULIE ADRIANSON    |
-| LESLIE BAKER                        | JLL BERGER         |
-| TODD BOYCE                          | THELVIN CABEZAS    |
-| MICHAEL CONDRO                      |                    |
-| MARK ANDREW DE LA GARZA             |                    |
-| JAMES FLUX                          | maria Glannakouros |
-| RY HALEBLIAN                        | JOHN HALEY         |
-| FX Leads                            |                    |
-| THEO VANDERNOOT                     | DAN ZIEGL          |
-| FX Animators                        | MORRIS MAY         |
-| KEVIN GILLEN                        |                    |
-| CARLO VOLPATI                       | BJORN ZIPPRICH     |
-| Digital Artists                     |                    |
-| erica hornung                       | soren ragsdale     |
-| JENNIFER HUNT                       | GEORGE RICHMAN     |
-| MICHAEL KENNEDY                     | richard sandoval   |
-| RJI KODJA                           | JOHN SASAKI        |
-| KENNY LAM                           | B. DURANT SCHOON   |
-| CHRISTINE J. LO                     | jason schugardt    |
-| ANDREW NAWROT                       | JEFF SHANK         |
-| ALBERTO NOTI                        | ROB STAUFFER       |
-| YUKOYA OKUMURA                      | KA YAW TAN         |
-| STEPHEN PARKER                      | THERRANCE TORNBERG |
-
-Special 3d Imagery by SONY PICTURES IMAGEWORKS
-Lead Production Services Technician JEFF SAKURAI
-
-| Sr. Systems Engineer            | ROBERT BROPHY   |
-|---------------------------------|-----------------|
-| Production Services Technicians | COREY MACMILLAN |
-| ERIK OBER                       | IVO PANAYOTOV   |
-| STEVEN SHAPIRO                  | LORI SMALLWOOD  |
-| CHIKAKO TERASHITA               | JNN WIMMER      |
-| MATTHEW WONG                    |                 |
-
-
+DEBBIE DENISE
+KEN RALSTON
+JEROME CHEN
+CRAIG SOST
+CHRIS JUEN
+DAVID SCHAUB
+ROB BREDOW
+MARK LAMBERT
+ALBERTO MENACH
+SEAN PHILLIPS
+VLADIMIR TODOROV
+MARTY KLINE
+GEORGE SUHAYDA
+DEMIAN GORDON
+ALBERT HASTINGS
+CLIFF BRETT
+KEVIN HUDSON
+EDWARD TAYLOR
+J.J. BLUMENKRANZ
+BERT VAN BRANDE
+JAMES WILLIAMS
+SHO IGARASHI
+DANIEL KRAMER
+IVO HORVAT
+KATHERINE
+CONCEPCION
+MANDY TANKENSON
+JULIE ZACKARY
+TIM EATON
+CHRISTOPHER POPLIN
+LISASUZUKI
+JUAN GONZALES
+CARLOS PEDROZA
+RONALD FISCHER
+COREY TURNER
+THOMAS BLAND
+PAUL CECH
+KEVIN CUSHING
+DON JOHNSON
+NEIL LIM SANG
+ROBERT MACKENZIE
+JOHN MEEHAN
+FERNANDO BENITEZ
+COREY HELS
+MAKSYMILLIAN NAPOROWSKI
+JOSEPH THOMAS
+ANDREA DONNELLY
+DAVID STRIPINIS
+DAVID BENNETT
+SCOTT BOGONIEWSKI
+PIERRE CHASTAIN
+CHARLES GHISLANDI
+ERIC LALUMIERE
+DANIE LUPOVICI
+KEVIN MAHORNEY
+KLEE MILLER
+DAVID PENG
+TREY STOKES
+SANDRA WARREN
+MICHAEL MUMBAUER
+JULIAN SARMIENTO
+CHRISTINA SWING
+DAVID WASHBURN
+ALFONSO ALPUERTO
+WOLF-RUEDIGER BLOSS
+TOM BRUNO JR.
+STEPHANE COUTURE
+RENATO DOS ANJOS
+ROBERT FOX
+JORDAN HARRIS
+SETH HIPPEN
+JON HOOPER
+ALICE KAISERIAN
+MICHAEL KIMMEL
+JEFF LIN
+MARCO MARENGHI
+PATRICK OSBORNE
+DENIS SAMOILOV
+BRIAN SCHINDLER
+TOM SOREM
+ROGER VIZARD
+ERIC WEISS
+LAURA BARBERA
+FRANK BONNIWELL
+RANDY CARTWRIGHT
+JAMES CROSSLEY
+CHRISTOPHER ENDICOTT
+KELLY GOLDSTEIN
+NICOLE HERR
+T. DANIEL HOFSTEDT
+PAUL JESSEL
+MICHAEL KIELY
+KELVIN LEE
+LES MAJOR
+JAMES MOORHEAD
+KEITH PACIELLO
+HENRY SATO JR.
+ALEXANDER SOKOLOFF
+WILLIAM TESSIER
+DAN WAWRZASZEK
+CHRIS WILLIAMS
+CHRISTIAN AUBERT
+MITCHELL COCKERHAM
+JOSEPH DILALLO
+ALAN LEHMAN
+PETER MEGOW
+JIWON PAIK
+CHRISTOPHER CHRISTMAN
+DEREK CROSBY
+AMY HRONEK
+DAVID LO
+CAROLYN OROS
+JOSEPH SPADARO
+SUSAN HAMMON
+RODRIGO IBANEZ
+ARTURO AGUILAR
+AIMEE CAMPBELL
+OSCAR CASTILLO
+CURTIS EDWARDS
+BARBARA ELLISON
+ASHRAF GHONIEM
+DAVID KERSEY
+EUN JAE LEE
+CHRISTO LIBARIDIAN
+GUSTAV MELICH
+SCOTT PARRISH
+SEAN WHITE
+KALIM WINATA
+ROB HOUSE
+CHRIS YEE
+JAY BANKS
+BRIAN CASPER
+MARK DE SOUSA
+JEFF EDWARDS
+OLIVER FINKELDE
+AVNEET KAUR
+ANDY KING
+MICHAEL LEVINE
+CHRISTOPHER LOGAN
+ROBERT NITSCH
+ERIC WARREN
+DUSTIN WICKE
+KEVIN OAKLEY
+MATT HAUSMAN CARL HOOPER
+Effects Animation
+DEBORAH CARISON
+DAVID R. DAVIES
+BRIAN DAVIS
+MARC HORSFIELD
+HAE-JEON LEE
+AARON JAMES McCOMAS
+JOHN PATTON
+ALLEN RUILOVA
+PETER SHINNERS
+MATTHEW CORDNER
+MATTHEW DAVIES
+ANDY GAUVREAU
+DAN KESSLER
+STEPHEN MARSHALL
+STEVEN ONG
+CHERIE RYE
+VINCENT SERRITELLA
+ANDREW TITCOMB
+ANA MARIA ALVARADO
+PEPE VALENCIA
+ALEX HEAD
+FRANCOIS BORDEZ
+JOHN BUTIU
+MARC STEINBERG
+HARALD KRAUT
+TIMOTHY SOMAN
+BRIAN DOMAN
+CHRISTIAN BOUYER
+MARK KRENTZ
+DUSTIN ZACHARY
+THEO BIALEK
+STEPHEN LUNN
+CLARA CHAN
+BAUDOUIN STRUYE
+JOACHIM BARNREUTHER
+GEORGIA CANO
+ALAN CHEN
+GINA DI BARI
+QUENTIN FROST
+RAINER GOMBOS
+CHAD GREENE
+GLEN GUSTAFSON
+JUSTIN HAMMOND
+DAVID KINTNER
+FRANCES KUMASHIRO
+TIMOTHY LLEWELLYN
+DAVID MENKES
+ENRIQUE MUNOZ
+BOB PEITZMAN
+OLUN RILEY
+MARK SHOAF
+JEREMY SQUIRES
+LISA TSE
+JAMES VALLADAO
+DANIEL JAMES WEBER
+DOUG YOSHIDA
+ERIK BORZI
+ONNY CARR
+CHRISTIAN CUNNINGHAM
+DALE DRUMMOND
+ROBB GARDNER
+JAMES GREEN
+HARRY GUNDERSEN
+MARK HAMILTON
+KURT JUDSON
+ERGIN KUKE
+LYNDON LI
+KIERON LO
+MARC MILLER
+PATRICK NEARY
+BENJAMIN RADCLIFFE
+DAVID SATCHWELL
+DOUG SMITH
+JEFF STERN
+JON TOJEK
+WAYNE VINCENZI
+MARK WURTS
+TERUYUKI YOSHIDA
+DAVID BLEICH
+JOSHUA GEISLER-AMHOWITZ
+ALLEN GONZALES
+ERIC McLEAN
+THOMAS ESMERALDA
+STEVE MATSON
+JAMES BANCROFT
+BRIAN BURKS
+STEPHEN CANDELL
+KYUDON CHOI
+MICHAEL LAUBACH
+ROBERTO MAIOCCHI
+BRIAN THOMPSON
+DANNY DIMIAN
+ALAN CHAN
+PETER PALOMBI
+JOE STRASSER
+APRYL KNOBBE
+DENNIS BREDOW
+JOSEPH DiCESARE
+SONSERAE LEESE
+ROB ENGLE
+ARTHUR GREGORY
+YAKOV BAYTLER
+WON YOUNG BYUN
+FABRICE CEUGNIET
+EUGENE ILYOUNG JEONG
+UMBERTO LAZZARI
+SHAWN McINERNEY
+KEVIN HAHN
+BRIAN STEINER
+MARK HALL
+BRET ST. CLAIR
+JOHN WISSLER
+KERRY NORDQUIST
+SUSAN KORNFELD
+DAVID PALMER
+SERGI SAGAS
+NICK GRAY
+ALFREDO BARCIA
+TODD HARA
+AARON LAWN
+JAMES PARK
+AMY TAYLOR
+STEVEN ILOUS
+SARAH BACK
+KEVIN CARNEY
+NISHIRA FITZGERALD
+JOSHUA OCHOA
+MARK LIPSMEYER
+ANDRE PETROSSIAN
+ALON ZASLAVSKY
+ALBERT MASON
+JUDY THOMASON
+DANIEL CARBO
+RYAN GILLELAND
+JARROD NESBITT
+ROCCO PUCILIO
+RYAN SAMUELS
+PAULA TUDOROF
+JEFFREY DILLINGER
+LUTZ MULLER
+ANDREW CHO
+DARREN FISHER
+GINKA KOSTOVA
+JAMES LEE
+RUBEN FLORES
+JOSH HUTCHINS
+DANIEL CAMP
+KURT DUFRESNE
+DARTAYOUS HUNTER
+ODED KASSIRER
+MATTHEW O'CALLAGHAN
+J.R. SALAZAR
+DAVID COLMAN
+DAVID ORECKLIN
+GARRICK MCLAUGHLIN
+KATHRYN LIOTTA-COUTURE
+TIMOTHY LOUGHRAN
+MIGUEL OAXACA
+PATRICK RAMOS
+ELIZABETH SCHAFER
+JODY ECHEGARAY
+NANCY ONG
+HEATHER McCANN
+DENNIS (DJ) HAUCK
+BILL BEEMER
+MATHEW THOMAS
+NATHAN ERIKSEN
+MARY BORLIK
+CHRISTOPHER CARIGNAN
+DANIEL GREENSTEIN
+JEFFREY POHL
+JAMES SALTER
+AARON WILSON
+GALE DE LOS SANTOS
+MICHAEL MAY
+ANDREW ROSE
+JORDAN SOLES
+NATALIA ZOUBTSOVA
+PAUL McGHEE
+C. MARIE DAVIS
+KATHLEEN WOOLERY
+CHRIS HEBERT
+LEAH HARDSTARK
+ALAN DAVIDSON
+JOHN McLAUGHLIN
+BRIAN KEENEY
+RENE LIMBERGER
+SAM RICHARDS
+NIKKI BELL
+BOYD STEER
+DAVID LENSCH
+DERRICK QUARLES
+DENNIS WEBB
+ROBERT DAVIS OH
+GERARDO DE LA CRUZ
+DAVID MIYA
+ALBERTO VELEZ
+STEWART HOFFMAN
+MICHAEL TRUJILLO
+BRUCE DOBRIN
+DAN LAKE
+JEAN-FRANCOIS PANISSET
+AMIT AGRAWAL
+BRIAN HALL
+LESLIE PICARDO
+ANDREA SOLIS
+CHRIS BURDORF
+KISHORE MULCHANDANI
+ROBERT RAY
+MYLENE PEPE
+JAMIE PILGRIM
+MICHELLE MURDOCCA
+DANIEL KUEHN
+BRADFORD SIMONSEN
+PIA TURCHYN
+VIRGINIA BOWMAN
+CATHY DEUTMEYER
+ROBIN LINN
+RACHEL PHILLIPS
+DANIELLE CONROY
+JENNIFER JUEN
+LAUREN ANN LITTLETON
+LISA SANDERS
+SANDE SCOREDOS
+DIANE ST. CLAIR
+TIM SARNOFF
+JENNY FULLE
+JIM BERNEY
+JOHN CLINTON
+ROB ENGLE
+SKYE LYONS
+FREDERICK LISSAU
+KENJI SWEENEY
+JD COWL.ES
+LEN WHITE
+CHRIS MCLEOD
+JEREMIE WINSLOW
+VIJOY GADDIPATI
+BRIAN ADAMS
+LESLIE BAKER
+TODD BOYCE
+MICHAEL. CONDRO
+MARK ANDREW DE LA GARZA
+JAMES FLUX
+RAY HALEBLIAN
+JULIE ADRIANSON
+JILL BERGER
+THELVIN CABEZAS
+MARIA GIANNAKOUROS
+JOHN HALEY
+THEO VANDERNOOT
+DAN ZIEGL
+KEVIN GILLEN
+CARLO VOLPATI
+MORRIS MAY
+BJORN ZIPPRICH
+Digital Artists
+ERICA HORNUNG
+JENNIFER HUNT
+MICHAEL KENNEDY
+RAJI KODJA
+KENNY LAM
+CHRISTINE J. LO
+ANDREW NAWROT
+ALBERTO NOTI
+YUKOYAYA OKUMURA
+STEPHEN PARKER
+SOREN RAGSDALE
+GEORGE RICHMAN
+RICHARD SANDOVAL
+JOHN SASAKI
+B. DURANT SCHOON
+JASON SCHUGARDT
+JEFF SHANK
+ROB STAUFFER
+KA YAW TAN
+THERRANCE TORNBERG
+JEFF SAKURAI
+ERIK OBER
+STEVEN SHAPIRO
+CHIKAKO TERASHITA
+MATTHEW WONG
+ROBERT BROPHY
+COREY MACMILLAN
+IVO PANAYOTOV
+LORI SMALLWOOD
+JANN WIMMER
 
 Sony Pictures Imageworks, Culver City, CA, USA  
 Images courtesy of Warner Bros. Pictures and Sony Pictures Imageworks.

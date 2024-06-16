@@ -10,6 +10,13 @@
   margin-bottom: 32px;
 }
 
+#TableOfContents {
+  margin-left:-1.5em;
+  padding-left:0;
+  ul li { margin-left:2.0em;}
+
+}
+
 .project__image {
   position: relative;
   display: block;
