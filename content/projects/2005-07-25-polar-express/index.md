@@ -5,7 +5,7 @@ categories:
 date: "2005-07-25T16:51:26Z"
 id: 35
 title: "From Mocap To Movie"
-image: /2005/07/siggraph-the-polar-express/1_image_0.avif
+image: /2005/07/siggraph-the-polar-express/42_image_0.avif
 label: "The Polar Express"
 url: /2005/07/siggraph-the-polar-express/
 tags:
