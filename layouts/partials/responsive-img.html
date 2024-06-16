@@ -60,7 +60,7 @@
     />
   </picture>
 {{- else -}}
-<img extra="MISSINGIMAGE" src="{{ $img | safeURL }}"
+<img extra="MISSINGIMAGE" loading="lazy" src="{{ $img | safeURL }}"
   {{- with .Text }} alt="{{ . }}"{{ end -}}
   {{- with .Title }} title="{{ . }}"{{ end -}}
 >
