@@ -13,7 +13,7 @@ tags:
 - streaming
 - reviews
 title: The Acolyte Season 1, First Reviews
-url: /2024/06/the-acolute-s1-first-reviews/
+url: /2024/06/the-acolyte-s1-first-reviews/
 featured: true
 ---
 
@@ -29,8 +29,6 @@ From [GQ](https://www.gq.com/story/the-acolyte-just-one-scene "GQ Review"):
 Many others upheld a high average score approaching 90% on Rotten Tomatoes, including this one from [SlashFilm](https://www.slashfilm.com/1591594/star-wars-the-acolyte-review/):
 
 > It's an exciting breath of fresh air I didn't know I needed, and offers us something at once familiar but also genuinely unexpected.
-
-and
 
 > What's impressive about Leslye Headland juggling these different bits of influence in the "Star Wars" universe is that she's succeeding. The first two episodes hum with life and new ideas, but also challenge our understanding of good and evil, right and wrong, and the age-old conflict between Jedi and Sith.
 
