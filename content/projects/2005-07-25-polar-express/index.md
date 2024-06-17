@@ -41,7 +41,7 @@ Based on **interviews conducted** by Debra Kaufman
 
 # Introduction
 
-![4_Image_0.avif](4_Image_0.avif#wide)
+![4_image_0.avif](4_Image_0.avif#wide)
 
 
 ## 1.1 The Polar Express
