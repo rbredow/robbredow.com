@@ -15,6 +15,7 @@
   transition: $global-transition;
   will-change: transform;
   cursor: pointer;
+  margin-top:10px;
 
   &:hover {
     color: var(--button-color-hover);
