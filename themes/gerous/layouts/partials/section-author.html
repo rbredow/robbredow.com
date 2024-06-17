@@ -33,6 +33,9 @@
             {{ if .Site.Params.author_section.author_section_button_text }}
             <a href="{{ .Site.Params.author_section.author_section_button_link | relURL }}" class="author__button button">{{ .Site.Params.author_section.author_section_button_text }}</a>
             {{ end }}
+            {{ if .Site.Params.author_section.author_section_button_text2 }}
+            <a href="{{ .Site.Params.author_section.author_section_button_link2 | relURL }}" class="author__button button">{{ .Site.Params.author_section.author_section_button_text2 }}</a>
+            {{ end }}
           </div>
 
         </div>
