@@ -3,7 +3,7 @@ author: Rob
 categories:
 - film
 date: "2019-04-11"
-image: /images/2009/04/cast-in-cockpit.avif
+image: /images/2019/04/cast-in-cockpit.avif
 tags:
 - ILM
 - star wars
