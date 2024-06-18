@@ -10,7 +10,7 @@ I'm particularly proud of the teamwork that lead to my **Academy Award-Nominatio
 
 I most recently enjoyed serving as Producer on the highly rated [**Star Wars: The Acolyte**](/2024/06/the-acolyte-s1-first-reviews/) with **Leslye Headland** and another steller team. I served as Producer on the Disney+ series Willow, and I wrote and directed Lucasfilm’s first story-based virtual reality experiment [Trials on Tatooine](/2016/03/trials-on-tatooine/). I've worked on films dating back to **Independence Day**.
 
-I currently serve as Chief Creative Officer of [Industrial Light & Magic](https://ilm.com/) and as SVP, Creative Innovation for [Lucasfilm](https://lucsfilm.com/).
+I currently serve as Chief Creative Officer of [Industrial Light & Magic](https://ilm.com/) and as SVP, Creative Innovation for [Lucasfilm](https://lucasfilm.com/).
 
 You can [read more on this site](/) or find me on social media below...
 
