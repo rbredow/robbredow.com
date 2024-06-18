@@ -13,7 +13,7 @@ url: /2019/04/making-solo-a-star-wars-story/
 featured: true
 ---
 
-My book, [*ILM Presents: **Making Solo** A Star Wars Story*](https://amzn.to/3RuXRgi) is out and I got to sit down with the team at [StarWars.com](https://www.starwars.com/news/rob-bredow-making-solo-book-interview) to chat a bit about the story behind the book.
+My book, [*ILM Presents: **Making Solo** A Star Wars Story*](https://amzn.to/3RuXRgi) is out and I got to sit down with the team at [StarWars.com](https://www.starwars.com/news/rob-bredow-making-solo-book-interview) to chat a bit about the book.
 
 Excerpts from the interview below...
 
