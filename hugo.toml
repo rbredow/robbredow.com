@@ -47,6 +47,23 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     url = "/posts/"
     weight = 3
 
+ #[[menu.main]]
+ #   name = "Publications"
+ #   weight = 4
+ #   hasChildren = true
+
+ # [[menu.main]]
+ #   parent = "Publications"
+ #   name = "Solo"
+ #   url = "/2019/04/making-solo-a-star-wars-story/"
+ #   weight = 1
+
+ # [[menu.main]]
+ #   parent = "Publications"
+ #   name = "Games"
+ #   url = "/tags/games/"
+ #   weight = 2
+
   [[menu.main]]
   name = "About"
   url = "/about/"
