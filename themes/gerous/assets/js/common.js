@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
       clones: 9,
       gap: 16,
       autoWidth: true,
-      drag: false,
+      drag: true,
       arrows: false,
       pagination: false,
       type: 'loop',
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
       perMove: 1,
       gap: 32,
       arrows: false,
-      drag: false,
+      drag: true,
       pagination: false,
       type: 'loop',
       autoScroll: {
