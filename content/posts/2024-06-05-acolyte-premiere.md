@@ -1,8 +1,7 @@
 ---
 author: Rob
 categories:
-- film
-- star wars
+- Shows
 date: "2024-06-05"
 image: /images/2024/06/paradox-opening-scene.avif
 label: "Star Wars: The Acolyte"

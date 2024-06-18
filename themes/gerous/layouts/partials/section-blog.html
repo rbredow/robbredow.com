@@ -15,7 +15,7 @@
     </div>
 
     <div class="row">
-      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts" | first 3 ) }}
+      {{ $paginator := .Paginate ((where (where .Site.RegularPages "Section" "posts") ".Params.featured" "!=" true) | first 3 ) }}
       {{ range $paginator.Pages }}
         {{ partial "article.html" . }}
       {{ end }}

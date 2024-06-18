@@ -1,7 +1,8 @@
 ---
 author: Rob
 categories:
-- projects
+tags:
+- Siggraph
 date: "2008-08-06T17:07:55Z"
 guid: http://www.185vfx.com/?p=156
 id: 156

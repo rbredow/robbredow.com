@@ -1,11 +1,8 @@
 ---
 author: Rob
 categories:
-- film
-- tech
+- Creative Management
 date: "2014-04-25T23:12:12Z"
-guid: http://www.185vfx.com/?p=2448
-id: 2448
 image: /images/2014/04/ed-catmull.jpg
 title: Creativity Inc.
 url: /2014/04/creativity-inc/

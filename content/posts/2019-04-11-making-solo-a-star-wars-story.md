@@ -1,7 +1,7 @@
 ---
 author: Rob
 categories:
-- film
+- Shows
 date: "2019-04-11"
 image: /images/2019/04/cast-in-cockpit.avif
 tags:

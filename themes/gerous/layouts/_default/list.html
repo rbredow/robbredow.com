@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ if (eq .Section "tags") }}
+{{ if or (eq .Section "tags") (eq .Section "categories" ) }}
 
 <!-- begin tags -->
 <section class="section tags">

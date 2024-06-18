@@ -1,7 +1,9 @@
 ---
 author: Rob
 categories:
-- surfs up
+- Shows
+tags:
+- Siggraph
 date: "2007-08-17T16:51:26Z"
 guid: http://www.185vfx.com/2007/08/wrangling-waves/
 id: 35
@@ -10,6 +12,7 @@ url: /2007/06/awn-chronicals-the-visual-effects-in-surfs-up/
 image: /images/2005/03/20050309-IMG_0465.avif
 label: "Surf's Up"
 featured: true
+description: "Cortes Bank is a break 100 miles off the coast of California created by a giant underwater mountain that makes the water shallow enough to create breaking waves with 30-60 foot faces in the right conditions. Sean Collins, who runs surfline.com, is the master at predicting these waves and had just moved our timetable up by another 30 hours so we didn’t miss this swell."
 ---
 
 ```

@@ -1,8 +1,7 @@
 ---
 author: Rob
 categories:
-- film
-- virtual reality
+- Shows
 date: "2016-03-19T08:40:31Z"
 guid: http://www.185vfx.com/?p=2696
 id: 2696

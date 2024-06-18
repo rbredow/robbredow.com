@@ -1,7 +1,7 @@
 ---
 author: Rob
 categories:
-- surfs up
+- Shows
 date: "2007-08-03T13:05:30Z"
 guid: /2007/08/surfs-up-course-at-siggraph/
 id: 49

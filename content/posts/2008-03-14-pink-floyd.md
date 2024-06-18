@@ -3,7 +3,7 @@ aktt_notify_twitter:
 - "no"
 author: Rob
 categories:
-- pink floyd
+- Shows
 date: "2008-03-14T21:55:59Z"
 guid: http://www.185vfx.com/2008/03/pink-floyd-video/
 id: 113

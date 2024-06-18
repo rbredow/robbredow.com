@@ -1,11 +1,11 @@
 ---
 author: Rob
 categories:
-- film
 - tech
 date: "2000-07-30"
 tags:
 - renderman
+- stuart little
 - fur
 - shaders
 - Siggraph
