@@ -180,6 +180,15 @@
     text-underline-offset: 2px;
   }
 
+  /* Social In Post */
+
+  .footer__social__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
   img,
   .lightense-wrap,
   .gallery {
