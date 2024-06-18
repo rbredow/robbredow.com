@@ -4,10 +4,12 @@ categories:
 - film
 - tech
 date: "2000-07-30"
-tag:
+tags:
 - renderman
 - fur
 - shaders
+- Siggraph
+- Course Notes
 image: /2000/07/fur-in-stuart-little/sl1-stuart-boating.avif
 title: "Renderman Course: Fur in Stuart Little"
 url: /2000/07/fur-in-stuart-little/

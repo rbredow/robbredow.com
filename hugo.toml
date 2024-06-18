@@ -6,6 +6,7 @@ paginate = 9
 
 [taxonomies]
   tag = "tags"
+  category = "categories"
 
 [markup]
   [markup.goldmark]

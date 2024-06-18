@@ -7,7 +7,7 @@ guid: /2007/08/surfs-up-course-at-siggraph/
 id: 49
 image: /2007/08/surfs-up-course-at-siggraph/surfs-up-tube.avif
 title: "Surf's Up Course at Siggraph"
-tag:
+tags:
 - Siggraph
 - Course Notes
 url: /2007/08/surfs-up-course-at-siggraph/

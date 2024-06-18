@@ -7,6 +7,7 @@ image: /images/2019/04/cast-in-cockpit.avif
 tags:
 - ILM
 - star wars
+- Publications
 title: 'Making Solo: A Star Wars Story'
 label: "Star Wars: Solo"
 url: /2019/04/making-solo-a-star-wars-story/
