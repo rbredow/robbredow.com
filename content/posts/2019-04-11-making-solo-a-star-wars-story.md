@@ -18,10 +18,16 @@ My book, [*ILM Presents: **Making Solo** A Star Wars Story*](https://amzn.to/3Ru
 
 Excerpts from the interview below...
 
+“The first time we put the cast into hyperspace was really fun,” says Rob Bredow, the VFX supervisor and coproducer on the film who documented his experience on set in the new book, Industrial Light & Magic Presents: Making Solo: A Star Wars Story. “We made this big wraparound screen and we had pre-made the entire Kessel Run in visual effects, but when we were bringing the cast in it just had stars on it. The special effects team was standing by to shake the Falcon, and I had talked to the visual effects team and we were ready to cue hyperspace. We didn’t tell the actors..."
+
 ![Falcon Exoskeleton](/images/2019/04/falcon-exoskeleton.avif "Photograph of the SFX rig surrounding the Falcon Cockpit")
 *Photograph of the SFX rig surrounding the Falcon Cockpit*
 
-“If you look at any of the other Star Wars movies that have been done, when you push those levers into hyperspace, as soon as the stars streak and it goes bright, we cut. In this movie, as soon as we go to hyperspace, it got really interesting and the camera operator, who in this case was Sylvaine Dufaux, she panned over and found Han’s face."  She could see the reflection of hyperspace caught in his eye, "like the perfect poetic way to illustrate the hopeful story point," Bredow says. "And we never would have thought of that shot had we not had that rear-projection screen wrapped around the cockpit.”
+They ran the scene like any other, a dry run-through played more for the choreography. But as Donald Glover and Phoebe Waller-Bridge leaned over to push the hyperspace levers, the cockpit began to shake, and the stars began rapidly streaking by. The reaction was priceless. “They were transported,” Bredow says. “After everybody quieted down, Donald Glover, who is probably the coolest guy on set, he says to himself:"
+
+> "This is...The coolest thing...I have ever done."
+
+Impressing Lando himself remains one of Bredow’s favorite memories from making the film. 
 
 ![Production](/images/2019/04/production-the-shoot.avif "Background between camera setups on Corelia")
 *Background between camera setups on Corelia*
