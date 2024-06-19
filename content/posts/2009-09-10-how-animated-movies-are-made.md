@@ -10,7 +10,6 @@ id: 884
 image: /images/2009/09/how-movies-are-made.avif
 video_embed: https://www.youtube.com/embed/x4jHGVfjgWQ?si=IxLuzIOy68N3rJQO
 tags:
-- awesome
 - funny
 title: How animated movies are made
 url: /2009/09/how-animated-movies-are-made/

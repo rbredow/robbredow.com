@@ -6,11 +6,9 @@ date: "2024-06-05"
 image: /images/2024/06/paradox-opening-scene.avif
 label: "Star Wars: The Acolyte"
 tags:
-- Lucasfilm
 - press
 - star wars
-- streaming
-- reviews
+
 title: The Acolyte Season 1, First Reviews
 url: /2024/06/the-acolyte-s1-first-reviews/
 featured: true

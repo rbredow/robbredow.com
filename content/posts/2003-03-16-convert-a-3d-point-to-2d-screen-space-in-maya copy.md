@@ -7,8 +7,9 @@ guid: /2006/02/convert-a-3d-point-to-2d-screen-space-in-maya/
 id: 13
 image: /images/2003/03/mel-screen-space.avif
 tags:
-- maya
-- mel
+- tech
+- VFX
+- Open Source
 title: Convert a 3d point to 2d Screen Space in Maya
 url: /2003/03/convert-a-3d-point-to-2d-screen-space-in-maya/
 ---

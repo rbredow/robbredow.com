@@ -4,12 +4,13 @@ aktt_notify_twitter:
 author: Rob
 categories:
 - Shows
+- VFX
 date: "2008-03-14T21:55:59Z"
 guid: http://www.185vfx.com/2008/03/conspiracy/
 id: 113
 image: /images/2008/03/floyd-take-it-back-4.avif
 tags:
-- hidden symbols
+- music video
 title: Conspiracy?
 url: /2008/03/conspiracy/
 label: 'Pink Floyd: Take it Back'

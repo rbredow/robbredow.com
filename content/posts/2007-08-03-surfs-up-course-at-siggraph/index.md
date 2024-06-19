@@ -9,7 +9,8 @@ image: /2007/08/surfs-up-course-at-siggraph/surfs-up-tube.avif
 title: "Surf's Up Course at Siggraph"
 tags:
 - Siggraph
-- Course Notes
+- Publications
+- VFX
 url: /2007/08/surfs-up-course-at-siggraph/
 label: "Surf's Up"
 featured: true

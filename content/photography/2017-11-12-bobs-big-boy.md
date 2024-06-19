@@ -7,8 +7,6 @@ guid: http://www.185vfx.com/?p=2853
 id: 2853
 image: /images/2017/11/bobs-big-boy.avif
 tags:
-- neon
-- photography
 title: Bob's Big Boy
 url: /2017/11/bobs-big-boy/
 ---

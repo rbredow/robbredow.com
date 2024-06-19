@@ -3,6 +3,10 @@ author: Rob
 categories:
 - film
 - tech
+tags:
+- Oscars
+- Tech
+- Open Source
 date: "2014-02-16T20:54:13Z"
 guid: http://www.185vfx.com/?p=2415
 id: 2415

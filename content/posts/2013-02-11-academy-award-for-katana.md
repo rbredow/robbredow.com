@@ -8,8 +8,8 @@ guid: http://www.185vfx.com/?p=2297
 id: 2297
 image: /images/2013/02/katana-academy-award-steve-jeremy-brian.avif
 tags:
-- academy
-- katana
+- Oscars
+- Tech
 title: Academy Award for Katana
 url: /2013/02/academy-award-for-katana/
 ---

@@ -4,6 +4,8 @@ categories:
 - Shows
 tags:
 - Siggraph
+- VFX
+- Publications
 date: "2007-08-17T16:51:26Z"
 guid: http://www.185vfx.com/2007/08/wrangling-waves/
 id: 35

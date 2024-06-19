@@ -10,7 +10,7 @@ id: 113
 image: /images/2008/03/floyd-take-it-back-2.avif
 video_embed: https://www.youtube.com/embed/Y5rde4bRIZA?si=cePYIDCwIgB5yq4t
 tags:
-- conspiracy
+- music video
 title: Flowers and Mushroom Clouds
 url: 
 - /floyd.html

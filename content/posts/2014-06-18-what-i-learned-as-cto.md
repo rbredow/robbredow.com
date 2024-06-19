@@ -2,6 +2,7 @@
 author: Rob
 categories:
 - Creative Management
+- Tech
 date: "2014-06-18T19:46:04Z"
 guid: http://www.185vfx.com/?p=2487
 id: 2487

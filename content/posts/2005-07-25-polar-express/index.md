@@ -10,9 +10,8 @@ label: "The Polar Express"
 url: /2005/07/siggraph-the-polar-express/
 tags:
 - Siggraph
-- Course Notes
-- Motion Capture
-- Writing
+- Publications
+- VFX
 featured: true
 ---
 Course \# 28, SIGGRAPH 2005 Los Angeles, CA, USA

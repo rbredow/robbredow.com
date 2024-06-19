@@ -10,6 +10,7 @@ video_embed: https://www.youtube.com/embed/sGbxmsDFVnE?si=rEtbV-_YSdyQeB8g
 tags:
 - ILM
 - star wars
+- VFX
 title: 'Lucasfilm Releases Trailer for Episode VII'
 label: "Star Wars: The Force Awakens"
 url: /2014/11/star-wars-the-force-awakens/

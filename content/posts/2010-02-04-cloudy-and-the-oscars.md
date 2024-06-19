@@ -8,7 +8,7 @@ guid: http://www.185vfx.com/?p=1346
 id: 1346
 image: /images/2010/02/cloudy-pier-burgers.avif
 tags:
-- oscars
+- Oscars
 title: Cloudy and The Oscars
 url: /2010/02/cloudy-and-the-oscars/
 label: Cloudy with a Chance of Meatballs

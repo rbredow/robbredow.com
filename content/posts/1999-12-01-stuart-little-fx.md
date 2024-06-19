@@ -1,7 +1,8 @@
 ---
 author: Rob
 tags:
-- stuart little
+- VFX
+- Open Source
 date: "1999-12-01T08:52:04Z"
 guid: http://www.185vfx.com/1999/12/stuart-little-fx/
 image: /images/1999/12/stu-washer.avif

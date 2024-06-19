@@ -3,6 +3,7 @@
 author: Rob
 categories:
 - tech
+- VFX
 date: "2009-07-30T21:24:39Z"
 excerpt: 'Sony Pictures Imageworks announced our first 5 open source projects today.  '
 guid: http://www.185vfx.com/?p=740

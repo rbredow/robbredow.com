@@ -9,10 +9,8 @@ image: /images/2016/03/star-wars-trials-of-tatooine-virtual-reality-htc-vive-vr-
 #video_embed: https://www.youtube.com/embed/koBt4Kfb4Zw
 label: "Star Wars: Trials on Tatooine"
 tags:
-- ILMxLAB
-- Lucasfilm
-- press
-- star wars
+- Press
+- Star Wars
 - virtual reality
 title: Trials on Tatooine First Reviews
 url: /2016/03/trials-on-tatooine/
