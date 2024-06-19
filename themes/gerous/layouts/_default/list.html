@@ -34,18 +34,7 @@
     {{ end }}
   </div>
 
-  <div class="explore-tags">
-    <h2>Explore:</h2>
-    <div class="tag-cloud">
-    {{ $tags := .Site.Taxonomies.tags }}
-    {{ range $name, $taxonomy := $tags }}
-    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
-      <a href="{{ .RelPermalink }}">{{ .Title }} <span>({{ $taxonomy.Count }})</span></a>
-    {{ end }}
-    {{ end }}
-    </div>
-  </div>
-</div>
+
 <!-- end page-section-head -->
 
 <section class="section">
@@ -59,6 +48,19 @@
   </div>
   {{ partial "pagination.html" . }}
 </section>
+
+<div class="explore-tags">
+  <h2>Explore:</h2>
+  <div class="tag-cloud">
+  {{ $tags := .Site.Taxonomies.tags }}
+  {{ range $name, $taxonomy := $tags }}
+  {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+    <a href="{{ .RelPermalink }}">{{ .Title }} <span>({{ $taxonomy.Count }})</span></a>
+  {{ end }}
+  {{ end }}
+  </div>
+</div>
+
 
 {{ partial "section-faq.html" . }}
 

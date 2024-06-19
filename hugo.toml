@@ -107,9 +107,9 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   # Hero Settings
   [params.hero]
     enable = true
-    #hero_title = "Hi. I'm a Producer & Chief Creative Officer who loves theme-driven design and creative teamwork."
+    #hero_title = "Hi! I'm a Producer & Chief Creative Officer who loves theme-driven design and creative teamwork."
     #hero_description = "I work at Lucasfilm and Industrial Light & Magic. Geek."
-    hero_title = "Hi. I'm a Producer &<br/>Chief Creative Officer."
+    hero_title = "Hi! I'm a Producer &<br/>Chief Creative Officer."
     hero_description = "I love theme-driven design and creative teamwork. Geek."
 
   [params.hero_logos]
