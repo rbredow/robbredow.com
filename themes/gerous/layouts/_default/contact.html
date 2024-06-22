@@ -27,7 +27,7 @@
       {{ end }}
       {{ end }}
     </div>
-
+    
     <div class="page__content">
       <div class="form-box">
         <div class="contact-head">
@@ -37,6 +37,7 @@
           <div class="contact-description">{{ .Content }}</div>
         {{ end }}
         </div>
+
         <form class="form"
           action="{{ if .Site.Params.contact.email }}https://formspree.io/f/{{.Site.Params.contact.email}}{{ else }}#{{ end }}" method="POST">
           <div class="form__top">
@@ -58,6 +59,8 @@
           </div>
         </form>
       </div>
+      <br/><br/>
+      {{ partial "section-faq.html" . }}
     </div>
   </article>
 
