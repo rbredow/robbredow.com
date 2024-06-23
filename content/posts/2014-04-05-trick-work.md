@@ -18,7 +18,7 @@ title: Trick Work
 url: /2014/04/trick-work/
 ---
 
-###### *(Originally published in the March 2014 VFX issue of* [ICG Magazine](http://www.icgmagazine.com/wordpress/)*)*
+*(Originally published in the March 2014 VFX issue of* [ICG Magazine](http://www.icgmagazine.com/)*)*
 
 > *“What a vista opens before us at the very mention of trick-work! There is hardly a single fantastic idea which cannot be given existence upon the screen. The masterpieces of the magicians and wizards form the simplest problems for the cameraman. Trickery in one form or another is possibly the greatest single factor in the success of the modern film.”*
 > 
