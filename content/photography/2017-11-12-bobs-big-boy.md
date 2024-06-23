@@ -9,6 +9,8 @@ image: /images/2017/11/bobs-big-boy.avif
 tags:
 title: Bob's Big Boy
 url: /2017/11/bobs-big-boy/
+draft: true
+unlisted: true
 ---
 
 Old method: 
