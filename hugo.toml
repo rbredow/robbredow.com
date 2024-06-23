@@ -93,7 +93,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 [params]
   logo = "/images/robbredow-logo.png" # You can add own logo. For example "/images/logo.png".
   logo_dark = "/images/robbredow-logo-dark.png"
-  description = "Gerous is a modern portfolio Hugo theme"
+  description = "Rob Bredow's Portfolio and Blog"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
