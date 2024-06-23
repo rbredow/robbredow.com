@@ -1,6 +1,6 @@
 ---
 title: About Me
-image: "images/rob-bredow-falcon.avif"
+image: "/images/rob-bredow-falcon.avif"
 tags: []
 ---
 

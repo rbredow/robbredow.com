@@ -36,6 +36,26 @@
    }
 
   .search__image {
-    margin-right: 32px;
+
+  }
+
+  #search-query {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -.18px;
+    border-radius: 4px;
+    padding: 3px;
+    border: none;
+    margin-left: 32px;
+    resize: vertical;
+    color: var(--heading-font-color);
+    color:#000;
+    text-color: #000;
+    background: var(--background-alt-color);
+    width: 10em;
+  }
+
+  #search-query textarea:focus, #search-query input:focus {
+    color: #000;
 
   }

@@ -71,11 +71,6 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   url = "/about/"
   weight = 5
 
-  [[menu.main]]
-  name = "Search"
-  url = "/search/"
-  weight = 6
-
   # Footer Menu
   [[menu.footer]]
     name = "Home"
