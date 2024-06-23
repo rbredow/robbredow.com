@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<!-- begin tags -->
+<section class="section tags">
+    <div class="tags__inner">
+      <div class="container">
+        <div class="tag__info">
+          <h1 class="tag__title">{{ humanize .Title }}</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+
+            <div id="search-results"></div>
+            <div class="search-loading">Loading...</div>
+        
+            <script id="search-result-template" type="text/x-js-template">
+
+            <div id="summary-${key}">
+                <div class="article article__grid animate col col-12">
+                    <div class="article__inner">
+                        <div class="article__head">
+                            <a class="article__image" href="${link}"> <img class="lazy" data-src="${image}" src="${image}" alt="${title}"></a>
+                        <div class="article__content">
+                            <h2 class="article__title">
+                                <a href="${link}" title="${title}">${title}</a>
+                            </h2>   
+                            <div class="article__meta">
+                                <div class="article__tags">
+                                    ${ isset tags }<span class="tag-name">${tags}</span>${ end }
+                                </div>
+                            </div>
+                            <span class="article__date"></span>   
+ 
+                            <p class="article__excerpt">${snippet}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            </script>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end tags -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.6.2/fuse.min.js" integrity="sha512-Nqw1tH3mpavka9cQCc5zWWEZNfIPdOYyQFjlV1NvflEtQ0/XI6ZQ+H/D3YgJdqSUJlMLAPRj/oXlaHCFbFCjoQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+{{ partial "section-subscribe.html" . }}
+
+{{ end }}
+

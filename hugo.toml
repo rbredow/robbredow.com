@@ -22,7 +22,8 @@ paginate = 9
   guessSyntax = true
   noClasses = false
 
-
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 #-------------------------------
 # General Site Settings
