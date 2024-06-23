@@ -319,4 +319,4 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   # Comment Section (Disqus)
   [params.disqus]
     enable = true
-    disqusShortname = "anvod-studio-test" # Add your shortname for Disqus Comment. For example anvod-studio-test
+    disqusShortname = "robbredow-com" # Add your shortname for Disqus Comment. 
