@@ -12,10 +12,34 @@
             <a class="button" href="/">Back to homepage</a>
           </div>
         </div>
+
+        <div class="explore-tags" style="margin-top:5em">
+          <h2>Explore:</h2>
+          <div class="tag-cloud">
+          {{ $tags := .Site.Taxonomies.tags }}
+          {{ range $name, $taxonomy := $tags }}
+          {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+            <a href="{{ .RelPermalink }}">{{ .Title }} <span>({{ $taxonomy.Count }})</span></a>
+          {{ end }}
+          {{ end }}
+          </div>
+        </div>
+
+
       </div>
     </article>
   </div>
+
+
+
 </section>
+
+
+
+
+{{ partial "section-faq.html" . }}
+
+{{ partial "section-subscribe.html" . }}
 <!-- end page -->
 
 {{ partial "section-subscribe.html" . }}
