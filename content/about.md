@@ -4,7 +4,7 @@ image: "/images/rob-bredow-falcon.avif"
 tags: []
 ---
 
-Hi. I'm a **Producer**, **Chief Creative Officer**, and **Academy Award Nominated VFX Supervisor** who loves [**theme-driven design**](/2018/08/on-creativity-theme-driven-design/) and **creative teamwork**. I love working with teams of talented people to tell visual stories.
+Hi. I'm a **Producer**, **Chief Creative Officer**, and **Academy Award Nominated VFX Supervisor** who loves [**theme-driven design**](/2018/08/on-creativity-theme-driven-design/) and **creative teamwork**. I love working with teams of talented people to tell stories.
 
 I'm particularly proud of the teamwork that lead to the **Academy Award-Nominated** VFX for **Solo: A Star Wars Story**. [I wrote a book](/2019/04/making-solo-a-star-wars-story/) about the production of that film and had a great experience working with Ron Howard and the entire team on that show. I was the overall VFX Supervisor and Co-Producer. 
 
