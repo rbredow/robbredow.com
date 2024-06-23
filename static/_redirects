@@ -1,6 +1,7 @@
 /index.html / 301
 /projects.html /categories/shows/ 301
 /research.html /tags/publications/ 301
+/inProduction.html /categories/shows/ 301
 
 /stuart.html /1999/12/stuart-little-fx/ 301
 /stuart_fur.html /2000/07/fur-in-stuart-little 301
@@ -11,5 +12,3 @@
 /resources/srf_fur.sl /2000/07/fur-in-stuart-little/srf_fur.sl 301
 /resources/srfconta.sl /2000/07/fur-in-stuart-little/srfconta.sl 301
 /resources/srfdefor.sl /2000/07/fur-in-stuart-little/srfdefor.sl 301
-
-
