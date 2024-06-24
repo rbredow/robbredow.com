@@ -9,7 +9,7 @@ excerpt: What a vista opens before us at the very mention of trick-work! There i
   cameraman. Trickery in one form or another is possibly the greatest single factor
   in the success of the modern film.
 id: 3151
-image: /images/2014/04/The-Handboot-of-Motion-Picture-Photography-header.avif
+image: /images/2014/04/handboot-of-motion-picture-photography-header.avif
 tags:
 - Publications
 - VFX
@@ -26,7 +26,7 @@ url: /2014/04/trick-work/
 
 You would be excused for thinking this was written in response to this years amazing visual effects bake-offs hosted by the Academy in which the 10 selected films wowed the audience with the most spectacular effects exhibited to date — all of which demonstrated near technical perfection. Rather, this quote is from 1927.
 
-![Handbook of Motion Picture Photography](/images/2014/04/The-Handboot-of-Motion-Picture-Photography.avif "Handbook of Motion Picture Photography")
+![Handbook of Motion Picture Photography](/images/2014/04/handboot-of-motion-picture-photography.avif "Handbook of Motion Picture Photography")
 *THE HANDBOOK OF MOTION PICTURE PHOTOGRAPHY BY HERBERT C. MCKAY A.R.P.S.*
 
 
