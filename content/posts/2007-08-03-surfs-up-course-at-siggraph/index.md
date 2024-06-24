@@ -16,6 +16,6 @@ label: "Surf's Up"
 featured: true
 ---
 
-On Monday, August 6th 2007, the **Surf’s Up** team will present a half day course detailing **The Making of the Animated Documentary**.
+On Monday, August 6th 2007, the **Surf’s Up** team presented a half day course detailing **The Making of the Animated Documentary**.
 
 If you couldn't make the course, you can [download the course notes](/2007/08/surfs-up-course-at-siggraph/Surfs-Up-the-making-of-an-animated-documentary.pdf) \[6 Mb PDF file\].
