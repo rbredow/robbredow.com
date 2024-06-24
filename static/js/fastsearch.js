@@ -77,7 +77,7 @@ function populateResults(results) {
         var tags = ""
         if (value.item.tags) {
             value.item.tags.forEach(function (element) {
-                tags = tags + "<a class=\"article__tag\" href='/tags/" + element + "'>" + "" + element + "</a> "
+                tags = tags + "<a class=\"article__tag\" href='/tags/" + element.toLowerCase() + "'>" + "" + element + "</a> "
             });
         }
 
