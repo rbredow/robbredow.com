@@ -28,7 +28,7 @@ Combining CG & Live Action using Renderman with examples from *Stuart Little 2* 
 
 We present a complete (albeit brief) summary of the digital production process used for creating computer generated images in the context of a live action motion picture citing examples from the films *Stuart Little* and *Stuart Little 2*. Special attention is paid to issues relating specifically to Renderman including considerations for shading, *lighting* and *rendering* for use in feature film effects. We also touch on several compositing techniques required to complete the production process.
 
-![figure1.avif](figure1.avif)
+![figure1.avif](figure1.avif#med)
 *Figure 1 - Summary of the digital production pipeline*
 
 ## 1.1 Pre-Renderman
@@ -51,7 +51,7 @@ Many visual effects films today will choose to work at a resolution of 2k and 10
 
 Once the film has been scanned, it invariable has imperfections that need to be removed. These issues can manifest themselves as scratches on the negative which show up as white lines or dots, lens imperfections that need to be removed, or dark specs and lines that correspond to dust and hair. All of these are removed in the *dustbusting* process that consists of a series of both automated tools and careful frame -by-frame paintwork to prepare the plates for the downstream process.
 
-![figure2.avif](figure2.avif)
+![figure2.avif](figure2.avif#med)
 *Figure 2 – Three samples of dust and scratches from negative damage*
 
 
@@ -66,26 +66,26 @@ In some more complicated cases, there are bumps in the camera move or a shake in
 
 Scanning negative and viewing the resulting image directly does not generally result in aesthetically pleasing image. The director of photography (D.P.) shoots a movie with the process of printing in mind and being able to control the exposure level and color balance during that process. In order to be able to, later in the pipeline, match colors and exposures of computer-generated objects to the plate photography, the plate must be "timed" or color corrected to match the DP's requirements. This is accomplished with a careful process of adjusting the exposure level and color balance with digital tools that emulate their real-world counterparts in the "print timing" process. These color corrections are then filmed out and approved by the director of photography before any lighting work can begin.
 
-![figure3.avif](figure3.avif)
+![figure3.avif](figure3.avif#med)
 *Figure 3 - Original scan (left) and color corrected plate (right)*
 
 ## 1.1.5 Matchmove
 
 The matchmove process is a fundamental step when working on a live action effects film. It involves duplicating, in the digital environment, the complete shooting environment that was used on the set including, most importantly, the camera.
 
-![figure4.avif](figure4.avif#center)
+![figure4.avif](figure4.avif#med)
 *Figure 4 - 3d model of the live action set*
 
 First, a relatively simple model of the set is generated in the computer whose proportions match as closely as possible to the live action stage. This model will be used later in the process to help the animators know where to place the characters and, in the rendering process, it will catch shadows and reflections as needed.
 
 The second major part is the tracking of the camera in relation to this model. This is a very precise and challenging task which consists of matching the lens and camera properties to the camera on set as well as the camera's position and orientation over time for each frame of the plate. 
 
-![figure5.avif](figure5.avif#center)
+![figure5.avif](figure5.avif#med)
 *Figure 5 - Camera placed in the virtual set*
 
 There are many tools (some semi-automated) that help in both the reconstruction of the digital set and the tracking of the digital camera to this set. The specifics of which are too lengthy to detail here. 
 
-![figure6.avif](figure6.avif#center)
+![figure6.avif](figure6.avif#med)
 *Figure 6 - Single finished matchmove frame*
 
 ## 1.1.6 Animation
@@ -104,14 +104,14 @@ There is one key concept to keep in mind when writing shaders for visual effects
 
 Diffuse shading calculations are the most common and simple way to shade an object. Creating a flexible diffuse shading model greatly increases controllability. The figure below illustrates a standard Lambertian diffuse shading model. 
 
-![figure7.avif](figure7.avif#center)
+![figure7.avif](figure7.avif#med)
 *Figure 7 - Standard diffuse lighting model*
 
 ## 1.2.1.1.1**Falloff End (Wrap)**
 
 The first step in generating soft and nicely wrapped lighting is to give the light the ability to reach beyond the 90 degree point on the objects. This has the effect of softening the effect of the light on the surface simulating an area light. This can be done with controls added to the lights which specify the end-wrapping-point in terms of degrees where a wrap of 90 degrees corresponded to the standard Lambertian shading model and higher values indicated more wrap. This control is natural for the lighting TD's to work with and yields predictable results.
 
-![figure8.avif](figure8.avif#center)
+![figure8.avif](figure8.avif#med)
 *Figure 8 - "Wrapped" diffuse lighting*
 
 For wrapped lights to calculate correctly, the third argument to the illuminance() statement must be set to at least the same degree as the wrap value for the highest light. Otherwise lights will be culled out from the lighting calculations on the back of the surface and the light will not correctly wrap. In our implementation, the wrap parameter was set in each light and then passed into the shader (using message passing) where we used the customized diffuse calculation to take into account the light wrapping.
@@ -136,12 +136,12 @@ The apparent softness or sharpness of a light can be dialed in as needed using t
 
 The first problem we encountered when putting these controllable lights to practical use was shadows. When you have shadow maps for an object, naturally the backside of the object will be made dark because of the shadow call. This makes it impossible to wrap light onto the backside of the object. 
 
-![figure9.avif](figure9.avif#center)
+![figure9.avif](figure9.avif#med)
 *Figure 9 - The shadow problem with wrapped lights*
 
 Fortunately Renderman affords a few nice abilities to get around this problem. One way to solve this problem is by reducing the size of your geometry for the shadow map calculations. This way, the object will continue to cast a shadow (albeit a slightly smaller shadow) and the areas that need to catch the wrapped lighting are not occluded by the shadow map. 
 
-![figure10.avif](figure10.avif#center)
+![figure10.avif](figure10.avif#med)
 *Figure 10 - The solution to the shadow problem*
 
 As a practical matter, shrinking an arbitrary object is not always an easy task. It can be done by displacing the object inwards during the shadow map calculations but this can be very expensive. In the case of our hair, we wrote opacity controls into the hair shader that were used to drop the opacity of the hair to 0.0 a certain percentage of the way down their length. It is important to note that the surface shader for an object is respected during shadow map calculation and if you set the opacity of a shading point to 0.0, it will not register in the shadow map. The value that is considered  "transparent" can be set with the following rib command:
@@ -161,12 +161,12 @@ When using a more conventional lighting model for the fur (essentially a Lambert
 
 The other major reason that we chose to develop a new diffuse lighting model for our fur was that it was not intuitive for a TD to light. Most lighting TD's have become very good at lighting surfaces and the rules by which those surfaces behave. So, our lighting model was designed to be lit in a similar way that you would light a surface while retaining variation over the length of the fur which is essential to get a realistic look. 
 
-![figure11.avif](figure11.avif#center)
+![figure11.avif](figure11.avif#med)
 *Figure 11 - Obtaining a shading normal*
 
 In order to obtain a shading normal at the current point on the hair, we mix the surface normal vector at the base of the hair with the normal vector at the current point on the hair. The amount with which each of these vectors contributes to the mix is based on the angle between the tangent vector at the current point on the hair, and the surface normal vector at the base of the hair. The smaller this angle, the more the surface normal contributes to the shading normal. We then use a Lambertian model to calculate the intensity of the hair at that point using this shading normal. This has the benefit of allowing the user to light the underlying skin surface and then get very predictable results when fur is turned on. It also accounts for shading differences between individual hairs and along the length of each hair.
 
-![figure12.avif](figure12.avif#center)
+![figure12.avif](figure12.avif#med)
 *Figure 12 - Finished Stuart Little 2 rendering with fur shading*
 
 ## 1.2.1.3. "Ambient Occlusion" Technique
@@ -179,7 +179,7 @@ One workaround that has been used for years in this area is to leave the "Ka" va
 
 But in the case of rendering large flat objects with some small details (like a building), none of the previously mentioned techniques give desirable results. The subtleties that we are used to seeing in real life which include the darkening of surfaces when they are near convex corners and the soft blocking of light from nearby objects are missing and the visual miscues are obvious.
 
-![figure13.avif](figure13.avif#center)
+![figure13.avif](figure13.avif#med)
 *Figure 13 - Building with texture, key light, and constant ambient*
 
 The "Ambient Occlusion" technique that we used for *Stuart Little 2* gave us an accurate and controllable simulation of the ambient contributions from the sky and the ground on our computer generated objects. The technique, in concept, consists of placing two large area lights, one representing the ground and the other for the sky, into the set and accurately modeling the contribution of these lights on the object of interest. These calculations are most convenient to implement with ray-traced shadows and area lights so we chose Exluna's Entropy renderer to generate our "Ambient Occlusion" information. The setup simply consists of two area lights (implemented as solar light shaders) and a very simple surface shader that samples those lights appropriately, taking into account the objects self-shadowing with ray-tracing.
@@ -211,7 +211,7 @@ Ci += diffuse(NF);
 
 Given enough samples into the area lights, this process generates very smooth soft shadows and a natural falloff of light into the corners of the object.
 
-![figure14.avif](figure14.avif#center)
+![figure14.avif](figure14.avif#med)
 *Figure 14 - Test rendering of Pishkin with "Ambient Occlusion" lighting only*
 
 In the case of the Pishkin Building for *Stuart Little 2* these lighting calculations can be made once and then stored for all future uses of the building since the building would not be moving or deforming over time. This was accomplished by pre-calculating the "Ambient Occlusion" pass and storing it as a series of textures - one texture for each patch or group of polygons on the building. The Renderman implementation of this pipeline consisted of creating a rib for each patch on the building. This rib consisted one patch and a shadow object. In the rib generation, the patch's "P" 
@@ -219,12 +219,12 @@ coordinates were moved to be located directly in front of the camera with it's c
 
 The shader than ran the shading calculations on the "Pref" geometry which took into account the shadow object of the building and returned the results to "Ci" which effectively generated a texture map for that patch.
 
-![figure15.avif](figure15.avif#center)
+![figure15.avif](figure15.avif#med)
 *Figure 15 - "Ambient Occlusion" texture maps for 2 sections of the Pishkin*
 
 In our implementation we generated a separate set of texture maps for the sky dome contribution and the ground bounce contribution and then dialed the two new ambient levels in the shading for the building at the final rendering stage. If the sky was more blue or more overcast for a shot, the sky dome contribution color could be changed on the fly at the final rendering stage without performing any expensive calculations. 
 
-![figure16.avif](figure16.avif#center)
+![figure16.avif](figure16.avif#med)
 *Figure 16 - Final version of the Pishkin as seen in Stuart Little 2*
 
 ## 1.2.2 Lighting
@@ -237,7 +237,7 @@ In addition there are the technical aspects that are worth mentioning here inclu
 
 One of the first things we inspect when starting a new visual effects shot are the reference balls that are shot on set. For each setup, the on set visual effects team clicks off a few frames of a 90% white sphere, a 50% gray sphere and a chrome sphere. These spheres can be visually inspected to tell you a few things about the photography and the lighting setup on stage.
 
-![figure17.avif](figure17.avif#center)
+![figure17.avif](figure17.avif#med)
 *Figure 17 - Reference orbs photographed on set*
 
 The 90% white sphere and 50% gray sphere are very useful to see the general lighting directions of the keys and fills and the relative color temperatures. Very soft lights and bounce cards will occlude more softly and point lights will have sharper falloffs. The relative warms and cools of the various lights can also be seen on these objects. The chrome sphere is perhaps the most interesting of the three because it actually contains in it's reflections a map of the entire shooting environment (missing only what is directly behind the sphere). 
@@ -248,7 +248,7 @@ From this reference you can pinpoint with some degree of accuracy the direction 
 
 The next items to get serious attention when the lighting begins on a shot are the cues from the plates themselves. Generally, the plates are carefully inspected by the lighting artist for any cues that help to determining how the characters or objects should be lit to fit into the plate. Shadow density and color, location and orientation are all things that are checked for. Highlight and specular features are also used to provide both spacial and color reference for the lighter. The plates are also examined for any shiny objects that should catch a reflection of our character or bright objects that should bounce some light onto the subjects.
 
-![figure18.avif](figure18.avif#center)
+![figure18.avif](figure18.avif#med)
 *Figure 18 - Reference material shot on set with Stuart "stand-in" model*
 
 Basically, common sense combined with careful observation are used to dissect the photography and setup a computer lighting environment that matches the set as closely as possible.
@@ -257,17 +257,17 @@ Basically, common sense combined with careful observation are used to dissect th
 
 Once the character and objects are basically integrated into the live action photography, the creative process can really begin. This is probably most important aspect of the lighting process and it can be provided by a number of people on a film including the director, visual effects supervisor, or computer graphics supervisor and the lighting artist themselves. The goal is to enhance the mood and the realism of the film by either reinforcing the set lighting or breaking the "rules" a little and adding a light that wouldn't have been possible on the set.
 
-![figure19.avif](figure19.avif#center)
+![figure19.avif](figure19.avif#med)
 *Figure 19 - Margalo in a can illustrating the use of “creatively” driven lighting*
 
 For Stuart, the creative decision was made that he should have characteristic rim light with him at all times. In some scenes, the lighter needed to be resourceful to find an excuse in the plate to rim light the mouse to fit his heroic character. Since we had plenty of control over the computer generated lighting, we could also do tricks like rim light only Stuart's head and top half of his clothes and let his legs and feet more closely match the photograph of the plate to accomplish both the creative tasks and the technical requirements at hand.
 
-![figure20.avif](figure20.avif#center)
+![figure20.avif](figure20.avif#med)
 *Figure 20 - Rim lighting in all environments for Stuart*
 
 Backlighting on the falcon was another opportunity to use lighting to an artistic advantage. Because the feathers on the falcon had separate backlighting controls in his wings and various areas of his body, the lighting could be used to accentuate a performance.
 
-![figure21.avif](figure21.avif#center)
+![figure21.avif](figure21.avif#med)
 *Figure 21 - Backlighting on the Falcon's wings*
 
 
@@ -305,19 +305,19 @@ How does this work out in production? In our production environment we scan and 
 
 Now that we have introduced the issues of color space and color space conversion, we can do something truly useful with it. A problem that is often encountered in computer graphics rendering is making colorful objects bright without letting them clip. Particularly when you are lighting in a linear color space, in order to double the brightness intensity of an object, you have to multiply it's color by a factor of 2. If your object already has a red value of 0.8 and the green and blue channel are each 0.4, the red channel is going to clip when the brightness is doubled to a value of 1.6. When you have deeply saturated objects like a bright yellow bird, these issues show up with great frequency.
 
-![figure22.avif](figure22.avif#center)
+![figure22.avif](figure22.avif#med)
 *Figure 22 - Margalo's bright yellow color would tend to clip under high intensity lights.*
 
 The solution is to use a logarithmic space to handle the brightening of the objects that are likely to clip. Our implementation was written into the Renderman shaders. Since shaders store colors as floats they can exist outside of the 0.0 - 1.0 range. Our de-clip shade op was fed floating point color and returned a "de-clipped" version of that color by darkening the color by an automatically determined multiplier, converting that color to logarithmic space, and then adding the appropriate number of Cineon code points back to the color to preserve the original intensity. This results in a color that smoothly desaturates as it gets over-exposed and has a very filmic look.
 
-![figure23.avif](figure23.avif#center)
+![figure23.avif](figure23.avif#med)
 *Figure 23 - "Declip" test which shows colors naturally desaturating with intensity*
 
 ## 1.2.2.6. Multiple Passes
 
 In order to have more control over both the rendering and the compositing process, it is common to render out many passes for a single character and each of the props in the scene.
 
-![figure24.avif](figure24.avif#center)
+![figure24.avif](figure24.avif#med)
 *Figure 24 - From left to right, hands, jacket, head, eyes, pants, whiskers and tail*
 
 ## 1.2.2.6.1 Separate Shadow Maps For Each "Type" Of Object
@@ -369,13 +369,13 @@ Almost nothing in real life is as crisp as what can be generated in the computer
 
 In order to match the CG to the plate we treat the edges of the geometry carefully. Before composting we extract a matte of all of the edges of all of the CG elements. 
 
-![figure25.avif](figure25.avif#center)
+![figure25.avif](figure25.avif#med)
 *Figure 25 - Stuart's "Edge Treatment" area as generated in the composite*
 
 
 Then, once the CG elements are composited over the live action background, then we use that "edge matte" to soften the image inside that matte only to blend the artificial elements into the photography.
 
-![figure26.avif](figure26.avif#center) 
+![figure26.avif](figure26.avif#med) 
 *Figure 26 - Stuart as seen in the final composite with edge softening*
 
 ## 1.3.1.3. Film Grain
@@ -400,7 +400,7 @@ All of these separate elements give lots of control at the compositing stage but
 
 These gaps come from the fact that what we're doing is a cheat. To be correct, each of the elements should be rendered with all of the overlapping elements as a matte object and then the various passes should be added together to form a solid matte and perfectly colored RGB channels.
 
-![figure27.avif](figure27.avif#center) 
+![figure27.avif](figure27.avif#med) 
 *Figure 27 - Before (left) and after (right) the "gaps" have been filled between the shirt and head*
 
 This is possible but not very cost-effective when you are talking about increasing the processing resources by a factor or 4 to accomplish such a workaround. In most cases it was adequate to find the gap areas by pulling a matte of the gray areas of the matte and finding where that overlaps the background objects. Then the fringing (whether it's showing up as light or dark fringing in a particular shot) can be color corrected to not be noticeable.

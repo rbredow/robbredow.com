@@ -239,7 +239,13 @@
     margin-top: 1.5;
   }
 
-  
+  img[src$='#med'] {
+    display:block;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5;
+  }
 
 
   .button {
