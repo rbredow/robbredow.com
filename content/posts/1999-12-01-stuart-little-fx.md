@@ -17,22 +17,22 @@ This was my first project at Sony Imageworks and was a great experience for me. 
 A few selections from my shots are detailed below.
 
 ![Stuart Bed](/images/1999/12/stu-bed.avif#center "Stuart in his Bed") 
-*Stuart Little in his bed. Bedsheet wrinkles and depressions for CG mouse (animation & shading)*
+*Stuart Little in his bed. Bed sheet wrinkles and depressions for CG mouse (animation & shading)*
 
 ![Stuart Brushing](/images/1999/12/stu-brush.avif#center "Stuart Brushing his teeth") 
 *Stuart Little brushing his teeth. Droplets of water and toothpaste (animation & shading)*  
 
 ![Stuart Washing Machine](/images/1999/12/stu-tub1.avif#center "Stuart in the washing machine") 
-*Stuart Little in the washing machine. Enhanced practicle water with cg ripples, drips, bubbles and other interaction. Animation, shading & lighting*
+*Stuart Little in the washing machine. Enhanced practical water with cg ripples, drips, bubbles and other interaction. Animation, shading & lighting*
 
 ![Stuart Washing Machine](/images/1999/12/stu-tub2.avif#center "Stuart in the washing machine") 
-*Stuart Little in the washing machine. Created cg waterline, water dripping down glass and handprints (animation, shading & lighting)*
+*Stuart Little in the washing machine. Created cg waterline, water dripping down glass and hand prints (animation, shading & lighting)*
  
 ![Stuart a Washing Machine](/images/1999/12/stu-tub-face.avif#center "Stuart in the washing machine") 
-*Stuart Little in the washing machine. Created cg waterline, water dripping down glass and handprints (animation, shading &amp; lighting)*
+*Stuart Little in the washing machine. Created cg waterline, water dripping down glass and hand prints (animation, shading &amp; lighting)*
 
 ![Stuart burping](/images/1999/12/stu-soap.avif#center "Stuart burping up a soap bubble") 
-*Stuart Little burping up a soapbubble. CG soapbubble. (animation & shading)*
+*Stuart Little burping up a soap bubble. CG soap bubble. (animation & shading)*
 
 ![Stuart in the Sewer](/images/1999/12/stu-sewer1.avif#center "Stuart in the Sewer") 
 *Stuart in the sewer. CG water enhancements including interactive ripples (animation &amp; shading)*
@@ -46,7 +46,7 @@ A few selections from my shots are detailed below.
     <img src="/images/1999/12/stu-sail1.avif" loading="lazy" alt="Stuart Little Jumps down the sail">
     <img src="/images/1999/12/stu-sail2.avif" loading="lazy" alt="He continues sliding down">
   </div>
-  <em>Stuart sheds a CG tear that clumps his fur, sails on a CG water extension and slides down a synthentic sail / Animation & Lighting and some shading</b></em>
+  <em>Stuart sheds a CG tear that clumps his fur, sails on a CG water extension and slides down a synthetic sail / Animation & Lighting and some shading</b></em>
 </div>
 
 I did a bunch more work on the show as well, but those are a few samples. Hope you enjoyed the film.

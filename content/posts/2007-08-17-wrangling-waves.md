@@ -14,7 +14,7 @@ url: /2007/06/awn-chronicals-the-visual-effects-in-surfs-up/
 image: /images/2005/03/20050309-IMG_0465.avif
 label: "Surf's Up"
 featured: true
-description: "Cortes Bank is a break 100 miles off the coast of California created by a giant underwater mountain that makes the water shallow enough to create breaking waves with 30-60 foot faces in the right conditions. Sean Collins, who runs surfline.com, is the master at predicting these waves and had just moved our timetable up by another 30 hours so we didn’t miss this swell."
+description: "Cortes Bank is a break 100 miles off the coast of California created by a giant underwater mountain that makes the water shallow enough to create breaking waves with 30-60 foot faces in the right conditions. Sean Collins, who runs surfline.com, is the master at predicting these waves and had just moved our timetable up..."
 ---
 
 ```
@@ -57,7 +57,7 @@ Sony has a a long history of working with water and I have been a part of most o
 One film that stuck out to the directors of Surf’s Up, Ash Brannon and Chris Buck, and me was ***Step Into Liquid***. Because of its outstanding photography and authentic view of the surfing genre, we had all fallen in love with the movie and the surf documentary genre in general. I looked up some of the people involved in the movie’s creation and JP Beeghly, the film’s producer and cinematographer, came to Imageworks to give a lecture to our crew on shooting a surfing documentary.
 
 ![Cortes Bank Wave](/images/2005/03/20050309-IMG_0403.avif "Camera Rig on Boat")
-*Camera Rig Stablization System Mounted on the Boat*
+*Camera Rig Stabilization System Mounted on the Boat*
 
 ## And, we're back on the boat
 
@@ -70,7 +70,7 @@ We took away several important things from JP’s lecture and the movies we had 
 *Wave Breaking off the Stern of the boat*
 
 ## Whitewater
-Our boat was drifting slowly with engines running off the left shoulder of the break about 150 to 200 yards away from the whitewater. Even at that distance the waves looked huge. By 11am, the surfers were being loaded onto the jet-skies that would be pulling them into the break. With long lenses we could watch the surfers drop onto the 40 foot faces of these waves and dissapear behind the swell before we could see them again getting picked up by the jet skies. A couple times a surfer would get caught in the churn and it was difficult for the skies to get in to save them between the closely timed sets. It was pretty amazing.
+Our boat was drifting slowly with engines running off the left shoulder of the break about 150 to 200 yards away from the whitewater. Even at that distance the waves looked huge. By 11am, the surfers were being loaded onto the jet-skies that would be pulling them into the break. With long lenses we could watch the surfers drop onto the 40 foot faces of these waves and disappear behind the swell before we could see them again getting picked up by the jet skies. A couple times a surfer would get caught in the churn and it was difficult for the skies to get in to save them between the closely timed sets. It was pretty amazing.
 
 ## Back to the studio
 Fortunately, Surf’s Up was the type of project that attracted some of the best talent in the industry. Our CG Supervisor in charge of all the effects animation in the film was Daniel Kramer who came from a strong effects background and lead throughout the movie both writing tools and driving the look of the water. Matt Hausman handled many of the hardest water elements in the movie Castaway first-hand and returned as one of the FX Animation Supervisors on this film. Debbie Carlson joined the team -- having just completed some of the most challenging sequences in The Polar Express -- and implemented much of the water surface and wave shading issues for the film. We also found our wave animation lead early in the project’s life, John Clark, who brought years of actual surfing experience to the crew and, in the end, animated many of the waves for the film himself.
@@ -88,7 +88,7 @@ We finished the day eating fresh fish that the crew had caught and reviewing the
 </div>
 
 ## Surf's Up – an animated documentary
-In the end, we made an animated documentary starring surfing penguins, and waves. The waves were keyframed and controlled just like the rest of the characters in the film, and they played a staring role. 
+In the end, we made an animated documentary starring surfing penguins, and waves. The waves were key-framed and controlled just like the rest of the characters in the film, and they played a staring role. 
 
 <div class="gallery-box">
   <div class="gallery">

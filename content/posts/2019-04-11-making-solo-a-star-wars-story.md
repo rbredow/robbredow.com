@@ -19,7 +19,7 @@ My book, [*ILM Presents: **Making Solo** A Star Wars Story*](https://amzn.to/3Ru
 
 Excerpts from the interview below...
 
-“The first time we put the cast into hyperspace was really fun,” says Rob Bredow, the VFX supervisor and coproducer on the film who documented his experience on set in the new book, Industrial Light & Magic Presents: Making Solo: A Star Wars Story. “We made this big wraparound screen and we had pre-made the entire Kessel Run in visual effects, but when we were bringing the cast in it just had stars on it. The special effects team was standing by to shake the Falcon, and I had talked to the visual effects team and we were ready to cue hyperspace. We didn’t tell the actors..."
+“The first time we put the cast into hyperspace was really fun,” says Rob Bredow, the VFX supervisor and co-producer on the film who documented his experience on set in the new book, Industrial Light & Magic Presents: Making Solo: A Star Wars Story. “We made this big wraparound screen and we had pre-made the entire Kessel Run in visual effects, but when we were bringing the cast in it just had stars on it. The special effects team was standing by to shake the Falcon, and I had talked to the visual effects team and we were ready to cue hyperspace. We didn’t tell the actors..."
 
 ![Falcon Exoskeleton](/images/2019/04/falcon-exoskeleton.avif "Photograph of the SFX rig surrounding the Falcon Cockpit")
 *Photograph of the SFX rig surrounding the Falcon Cockpit*

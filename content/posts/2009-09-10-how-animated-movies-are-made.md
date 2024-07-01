@@ -1,6 +1,4 @@
 ---
-aktt_notify_twitter:
-- "no"
 author: Rob
 categories:
 - Shows

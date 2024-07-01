@@ -9,7 +9,7 @@ excerpt: What a vista opens before us at the very mention of trick-work! There i
   cameraman. Trickery in one form or another is possibly the greatest single factor
   in the success of the modern film.
 id: 3151
-image: /images/2014/04/handboot-of-motion-picture-photography-header.avif
+image: /images/2014/04/handbook-of-motion-picture-photography-header.avif
 tags:
 - Publications
 - VFX
