@@ -5,4 +5,4 @@ image: '/images/2024/06/20140517-DSC01246.avif'
 unlisted:
 ---
 
-Reach out to me using the form below. I've also posted a FAQ below in case it's helpful.
+Check out the FAQ above or reach out to me directly using the form below. 

@@ -12,6 +12,6 @@ I most recently served as Producer on the highly rated [**Star Wars: The Acolyte
 
 I currently serve as Chief Creative Officer of [Industrial Light & Magic](https://ilm.com/) and as SVP, Creative Innovation for [Lucasfilm](https://lucasfilm.com/).
 
-You can [read more on this site](/) or find me on social media below...
+You can [read more on this site](/) or follow me on social media below...
 
 {{% social %}}

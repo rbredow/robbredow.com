@@ -27,9 +27,12 @@
       {{ end }}
       {{ end }}
     </div>
-    
     <div class="page__content">
-      <div class="form-box">
+      <br/><br/>
+      {{ partial "social.html" . }}
+      <br/><br/>
+      {{ partial "section-faq.html" . }}
+      <div class="form-box animate">
         <div class="contact-head">
         {{ if .Description }}
           <div class="contact-description">{{ .Description }}</div>
@@ -37,7 +40,6 @@
           <div class="contact-description">{{ .Content }}</div>
         {{ end }}
         </div>
-
         <form class="form"
           action="{{ if .Site.Params.contact.email }}https://formspree.io/f/{{.Site.Params.contact.email}}{{ else }}#{{ end }}" method="POST">
           <div class="form__top">
@@ -59,8 +61,6 @@
           </div>
         </form>
       </div>
-      <br/><br/>
-      {{ partial "section-faq.html" . }}
     </div>
   </article>
 
