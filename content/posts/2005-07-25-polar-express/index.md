@@ -40,7 +40,7 @@ Based on **interviews conducted** by Debra Kaufman
 
 # Introduction
 
-![4_image_0.avif](4_Image_0.avif#wide)
+![4_image_0.avif](4_image_0.avif#wide)
 
 
 ## 1.1 The Polar Express
@@ -68,7 +68,7 @@ These course notes cover new tools, processes and pipelines that were developed 
 
 # The Polar Express Tests
 
-![8_Image_0.avif](8_Image_0.avif)
+![8_image_0.avif](8_image_0.avif)
 
 ## 2.1 Three Options
 
@@ -230,7 +230,7 @@ Several teams of technicians gathered and logged the media, including audio file
 
 # Wheels, The Virtual Camera System
 
-![26_Image_0.avif](26_Image_0.avif)
+![26_image_0.avif](26_image_0.avif)
 
 ## 4.1 Wheels, The Virtual Camera System
 
@@ -250,7 +250,7 @@ Imageworks staff, in conjunction with the director of photography, worked with t
 
 # Performance Animation
 
-![30_Image_0.avif](30_Image_0.avif#wide)
+![30_image_0.avif](30_image_0.avif#wide)
 
 ## 5.1 Performance Animation
 
@@ -373,7 +373,7 @@ characters that were entirely key-framed included all the puppets in the puppet 
 
 ### 5.8.1  Smokey And Steamer
 
-![39_Image_0.avif](39_Image_0.avif)
+![39_image_0.avif](39_image_0.avif)
 
 An attempt was made to capture Michael Jeter performances on set and retarget that data to the 8-foot tall Smokey and 4-foot tall Steamer. Retargeting was generally unsuccessful due to the huge size discrepancy between the actor and these characters.
 
@@ -468,7 +468,7 @@ Four little elves would never be able to hold them down.
 
 # Effects Animation
 
-![48_Image_0.avif](48_Image_0.avif)
+![48_image_0.avif](48_image_0.avif)
 
 ## 6.0  Effects Animation
 
@@ -663,7 +663,7 @@ There were in excess of 50,000 characters in some shots, which was far too heavy
 
 # Lighting And Rendering
 
-![66_Image_0.avif](66_Image_0.avif)
+![66_image_0.avif](66_image_0.avif)
 
 ## 7.0 Lighting And Rendering
 
@@ -809,7 +809,7 @@ Because the color timing of both versions of the film needed to be done concurre
 
 # 8.2 Adapting A Shot For Stereoscopic 3D
 
-![80_Image_0.avif](80_Image_0.avif)
+![80_image_0.avif](80_image_0.avif)
 
 ### 8.2.1 Restoring The Data
 
