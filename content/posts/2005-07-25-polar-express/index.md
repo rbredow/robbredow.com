@@ -16,7 +16,7 @@ featured: true
 ---
 Course \# 28, SIGGRAPH 2005 Los Angeles, CA, USA
 
-![0_Image_0.avif](0_Image_0.avif#wide)
+![0_image_0.avif](0_image_0.avif#wide)
 
 **Important Note:** I am part way through reformatting these course notes from the original and the below is a work-in-progress with errors. In the meantime, please feel free to download the [full course notes in PDF format](/2005/07/siggraph-the-polar-express/from-Mocap-to-Movie-The-Polar-Express.pdf) (5mb PDF) for the original layout and design.
 
