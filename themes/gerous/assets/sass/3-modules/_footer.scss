@@ -126,12 +126,12 @@
   }
 
   .footer__social__link {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 30px;
     border-radius: 50%;
     color: var(--heading-font-color);
     background-color: var(--background-alt-color);
@@ -154,6 +154,20 @@
       justify-content: center;
     }
   }
+}
+
+/* Footer Social when inside the body */
+
+.page__content {
+  
+  .footer__social__link {
+    font-size:60px;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+
+  }
+
 }
 
 /* Copyright */
