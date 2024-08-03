@@ -244,7 +244,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
   [[params.faq_item]]
     title = "Can I send you a Star Wars idea or a script?"
-    description = "Unfortunately no. As an employee of Lucasfilm I cannot receive unsolicated pitches."
+    description = "No. As an employee of Lucasfilm I cannot receive unsolicited pitches. Sorry."
 
   [[params.faq_item]]
     title = "I'd like to study to work in the entertainment industry, what roles should I consider?"

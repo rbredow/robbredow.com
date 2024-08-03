@@ -17,4 +17,4 @@ url: /2014/11/star-wars-the-force-awakens/
 featured: false
 ---
 
-Lucasfilm has released the [teaser trailer](https://www.youtube.com/watch?v=sGbxmsDFVnE) for Episode 7 today. I’m loving the new job at Industrial Light and Magic and happy to see this trailer being enjoyed in the wild.
+Lucasfilm released the [teaser trailer](https://www.youtube.com/watch?v=sGbxmsDFVnE) for Episode 7 today. I am loving the new job at Industrial Light and Magic and am happy to see this trailer being enjoyed in the wild.
