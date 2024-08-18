@@ -25,5 +25,5 @@ I loved the interactions with the fans and seeing all the great cosplay. One of 
 ![Jedi Sully](/images/2024/08/20240809-DSCF3368.avif "Jedi Sully")
 *Two Jedi, including Jedi Sully from Monsters, inc*
 
-For more details and stories from the show I recommend this coverage from [Coffee With Kenobi](https://www.jedinews.com/podcasts/articles/coffee-with-kenobi-782-3-d23-day-two-and-day-three/) where Dan chats with me and provides audio coverage of the StageCraft presentation from the show floor.
+For more details and stories from the show I recommend this coverage from [Coffee With Kenobi](https://www.jedinews.com/podcasts/articles/coffee-with-kenobi-782-3-d23-day-two-and-day-three/) where Dan chats with the team and provides audio coverage of the StageCraft presentation from the show floor.
 
