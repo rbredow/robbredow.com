@@ -20,10 +20,10 @@ Disney holds an event every other year for fans called D23 and this year's was h
 ![StageCraft at D23](/images/2024/08/20240809-DSCF3372.avif "Guests in Star Wars at D23")
 *Guests on the StageCraft LED Volume at D23*
 
-I loved the interactions with the fans and seeing all the great cosplay. One of my favorites is pictured here on the right, Jedi Sully.
+I loved the interactions with the fans and seeing all the great cosplay. One of my favorites is pictured here: Jedi Boo and Sully.
 
 ![Jedi Sully](/images/2024/08/20240809-DSCF3368.avif "Jedi Sully")
-*Two Jedi, including Jedi Sully from Monsters, inc*
+*Jedi Boo and Jedi Sully from Monsters, inc & Star Wars*
 
 For more details and stories from the show I recommend this coverage from [Coffee With Kenobi](https://www.jedinews.com/podcasts/articles/coffee-with-kenobi-782-3-d23-day-two-and-day-three/) where Dan chats with the team and provides audio coverage of the StageCraft presentation from the show floor.
 
