@@ -287,9 +287,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   [[params.social]]
     icon = "fa-solid fa-podcast"
     name = "Lighter Darker: The ILM Podcast"
-    link = "https://www.ilm.com/lighter-darker-the-ilm-podcast-launching-september-3-2024/"
-
-
+    link = "https://www.ilm.com/lighterdarker/"
 
   [[params.social]]
     icon = "fa-brands fa-threads"
