@@ -254,6 +254,10 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     title = "How can I contribute to software used by the entertainment industry?"
     description = "The Academy Software Foundation is an open source, non-profit organization dedicated to getting people involved in a healthy software ecosytem for filmmaking, many of our projects focus on visual-effects and animation. I recommend checking out <b><a href=\"https://www.aswf.io/\">ASWF.io</a></b> to learn more and get involved as it's a great way to meet people working in the industry and find a passion project to contribute to."
 
+  [[params.faq_item]]
+    title = "Can we collaborate on a speaking engagement or photography project together?"
+    description = "Please reach out, I'd love to talk with you. My job at Lucasfilm means I'm not always available, but I always love to hear about opportunities to work on something creative together."
+    
 
   #-------------------------------
   # Blog Section
