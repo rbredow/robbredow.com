@@ -9,7 +9,6 @@ tags:
 - press
 - star wars
 - Lucasfilm
-
 title: Lucasfilm at D23
 url: /2024/08/lucasfilm-at-d23/
 featured: false
