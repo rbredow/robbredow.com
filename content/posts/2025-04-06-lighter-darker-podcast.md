@@ -19,6 +19,6 @@ I've been enjoying producing and co-hosting [Lighter Darker: The ILM Podcast](ht
 
 If you're looking for a good episode to start with, I recommend our chat with acclaimed filmmaker [Lee Issac Chung and Producer Ashley Jay Sandberg where we dive into Twisters](https://www.ilm.com/lighterdarker/s1e4-twisters-with-lee-isaac-chung-and-ashley-jay-sandberg/), or the [Ultraman Episode with Shannon Tindle](https://www.ilm.com/lighterdarker/ep-006-ultraman-rising-with-shannon-tindle-and-hayden-jones/). 
 
-You can subscribe on [Apple Podcasts](https://podcasts.apple.com/us/podcast/lighter-darker-the-ilm-podcast/id1764351015), [Spotify](https://open.spotify.com/show/0ovwtj5CICCmEdNUGa1dLO), or [our YouTube Channel](https://www.youtube.com/playlist?list=PLSdYxd2_srPWP3g1xKTp5ltICRr88dfut).
+You can subscribe on [Apple Podcasts](https://podcasts.apple.com/us/podcast/lighter-darker-the-ilm-podcast/id1764351015), [Spotify](https://open.spotify.com/show/0ovwtj5CICCmEdNUGa1dLO), or our [YouTube Channel](https://www.youtube.com/playlist?list=PLSdYxd2_srPWP3g1xKTp5ltICRr88dfut).
 
-Enjoy!
+I hope you enjoy...
