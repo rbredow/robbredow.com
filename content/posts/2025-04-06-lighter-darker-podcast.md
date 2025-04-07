@@ -21,4 +21,4 @@ If you're looking for a good episode to start with, I recommend our chat with ac
 
 You can subscribe on [Apple Podcasts](https://podcasts.apple.com/us/podcast/lighter-darker-the-ilm-podcast/id1764351015), [Spotify](https://open.spotify.com/show/0ovwtj5CICCmEdNUGa1dLO), or our [YouTube Channel](https://www.youtube.com/playlist?list=PLSdYxd2_srPWP3g1xKTp5ltICRr88dfut).
 
-I hope you enjoy...
+I hope you enjoy listening as much as we've enjoyed making it.
