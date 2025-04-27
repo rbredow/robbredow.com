@@ -2,7 +2,8 @@ baseURL = 'https://robbredow.com/'
 languageCode = 'en-us'
 title = 'Rob Bredow'
 theme = 'gerous'
-paginate = 9
+#paginate = 9
+pagination.pagerSize = 9
 
 [taxonomies]
   tag = "tags"
@@ -108,9 +109,9 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   # Hero Settings
   [params.hero]
     enable = true
-    #hero_title = "Hi! I'm a Producer & Chief Creative Officer who loves theme-driven design and creative teamwork."
+    #hero_title = "Hi! I'm a Producer & Creative Technology Executive who loves theme-driven design and creative teamwork."
     #hero_description = "I work at Lucasfilm and Industrial Light & Magic. Geek."
-    hero_title = "Hi! I'm a Producer &<br/>Chief Creative Officer."
+    hero_title = "Hi! I'm a Producer &<br/>Creative Tech Exec"
     hero_description = "I love theme-driven design and creative teamwork. Geek."
 
   [params.hero_logos]

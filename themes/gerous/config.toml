@@ -4,8 +4,8 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Gerous"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
-paginate = 6
-
+#paginate = 6
+pagination.pagerSize = 6
 
 #-------------------------------
 # Main Menu
