@@ -19,16 +19,14 @@ I’m grateful to have been invited to speak at TED 2025 about the latest develo
 
 ## The Opening Shot That Changed Everything
 
-I opened with a story familiar to many film fans: the iconic opening shot of *Star Wars: Episode IV*. That shot didn’t just wow audiences--it redefined what was possible in visual storytelling of that era. Behind the scenes, it was the Dykstraflex motion control camera rig, a marvel of engineering, that made those dynamic moves possible. This was artist-driven innovation at its best: artists and engineers working side by side to create something entirely new.
+The iconic opening shot of *Star Wars: Episode IV* didn’t just wow audiences--it redefined what was possible in visual storytelling of that era. Behind the scenes, it was the Dykstraflex motion control camera rig, a marvel of engineering, that made those dynamic moves possible. This was artist-driven innovation at its best: artists and engineers working side by side to create something entirely new.
 
 ![Star Destroyer on screen at TED]( /images/2025/05/TED2025_20250408_1GT2795-medium.jpg "Opening with the Star Destroyer at TED")
 *Opening with the Star Destroyer: the shot that redefined cinematic possibility. Photo: Gilberto Tadday / TED*
 
-
-
 ## A New Era: AI and the Creative Collision
 
-Today, we’re at another turning point with AI. And instead of being introduced to these new technologies with a spectacular opening shot of a movie, we're reading about it in the press. And the headlines aren't very encouraging about the future of creative jobs. The technology is impressive, but it’s also a little intimidating, especially for those of us who’ve spent our careers crafting images frame by frame.
+Today, we’re at another turning point with AI. And instead of being introduced to these new technologies with a spectacular opening shot of a movie, we're reading about it in the press. And the headlines aren't very encouraging about the future of creative jobs. The technology is impressive, but it’s also intimidating, especially for those of us who’ve spent our entire careers crafting images frame by frame.
 
 ![Jurassic Park and the evolution of effects]( /images/2025/05/TED2025_20250408_1GT2816-medium.jpg "Jurassic Park and the evolution of effects")
 *Discussing the leap from stop-motion to CG in Jurassic Park. Photos: Gilberto Tadday / TED*
@@ -46,11 +44,13 @@ This approach continues today. For *Indiana Jones and the Dial of Destiny*, our 
 
 ## Premiering "Field Guide": Exploring the Future of Creative Tools
 
-To introduce the "Field Guide" premiere, I shared my excitement about exploring what happens when the latest generative AI tools are placed directly in the hands of an artist both to see learn about these new tools, and to see where our artists imaginations will take them with these new workflows in-hand. Landis Fields, a talented artist at ILM, created this experimental short in just two weeks as a way to imagine what a probe droid might encounter on a brand-new Star Wars planet. I emphasized to the audience that this was not a finished product, but rather an early work-in-progress: think of it as a moving mood board that demonstrates the potential of a show like this. By showing this piece for the first time, I wanted to spark a conversation about how artist-driven innovation can shape the future of storytelling, and how, even as technology evolves, it’s the creativity and vision of artists that truly bring these new worlds to life.
+What happens when the latest generative AI tools are placed directly in the hands of artists both to learn about these new tools, and to see where our artists imaginations will take. Landis Fields, a talented artist at ILM, created this experimental short, "Field Guide", in just two weeks as a way to imagine what a probe droid might encounter on a brand-new Star Wars planet. This is not a finished product, but rather an early work-in-progress: think of it as a moving mood board that demonstrates what a show like this could feel like. By premiering this test at TED, it hopefully demonstrated how artist-driven innovation can shape the future of storytelling, and how, even as technology evolves, it’s the creativity and vision of artists that truly bring these new worlds to life.
 
 ## The Power of Artist-Driven Innovation
 
-As I wrapped up my talk, I reflected on that unforgettable opening shot from 1977-how it set a new standard for what cinema could be and inspired generations of artists and audiences alike. But what excites me most is the idea that the next breakthrough is still ahead of us. With new tools and the same spirit of collaboration between artists and technologists, we have the chance to create moments even more imaginative, more moving, and more inspiring than that original Star Destroyer sweeping across the screen. I can’t wait to see what the next generation of storytellers will dream up-and to help build the creative tools that will make those dreams a reality.
+As I wrapped up my talk, I reflected on that unforgettable opening shot from 1977-how it set a new standard for what cinema could be and inspired generations of artists and audiences alike. Artists need better tools – the current text prompts aren't articulate enough for talented artists. With a positive spirit of collaboration between artists and technologists, we have the chance to create moments even more imaginative, and more inspiring than that original Star Destroyer sweeping across the screen. 
+
+I can’t wait to see what the next generation of storytellers will dream up-and to help build the creative tools that will make those dreams a reality.
 
 ![TED stage and audience]( /images/2025/05/TED2025_20250408_2GT3204-medium.jpg "TED stage and audience")
 *On the TED stage, reflecting on artist-driven innovation. Photo: Gilberto Tadday / TED*
