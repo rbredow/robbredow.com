@@ -7,7 +7,7 @@ Categories:
 - Tech
 image: /images/2025/05/TED2025_20250408_2GT3204-medium.jpg
 video_embed: https://www.youtube.com/embed/BHY0FxzoKZE?si=rayVCAaKw42TV1er
-date: "2025-04-01 9:00:00 +0300"
+date: "2025-05-01 9:00:00 +0300"
 url: /2025/05/ted-artist-driven-innovation/
 featured: false
 ---
