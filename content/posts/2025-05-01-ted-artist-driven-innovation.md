@@ -5,9 +5,14 @@ label: "Keynote, TED"
 Categories:
 - Creative Management
 - Tech
+tags:
+- star wars
+- Lucasfilm
+- ILM
+- AI
 image: /images/2025/05/TED2025_20250408_2GT3204-medium.jpg
 video_embed: https://www.youtube.com/embed/BHY0FxzoKZE?si=rayVCAaKw42TV1er
-date: "2025-05-01 9:00:00 +0300"
+date: "2025-04-26 9:00:00 +0300"
 url: /2025/05/ted-artist-driven-innovation/
 featured: false
 ---
@@ -48,9 +53,7 @@ What happens when the latest generative AI tools are placed directly in the hand
 
 ## The Power of Artist-Driven Innovation
 
-As I wrapped up my talk, I reflected on that unforgettable opening shot from 1977-how it set a new standard for what cinema could be and inspired generations of artists and audiences alike. Artists need better tools – the current text prompts aren't articulate enough for talented artists. With a positive spirit of collaboration between artists and technologists, we have the chance to create moments even more imaginative, and more inspiring than that original Star Destroyer sweeping across the screen. 
-
-I can’t wait to see what the next generation of storytellers will dream up-and to help build the creative tools that will make those dreams a reality.
+As I wrapped up my talk, I reflected on that unforgettable opening shot from 1977-how it set a new standard for what cinema could be and inspired generations of artists and audiences alike. Artists need better tools – the current text prompts aren't a good way for talented artists to make movies. With a positive spirit of collaboration between artists and technologists, we have the chance to create moments that are even more imaginative, and more inspiring than that original Star Destroyer that inspired us all in 1977. 
 
 ![TED stage and audience]( /images/2025/05/TED2025_20250408_2GT3204-medium.jpg "TED stage and audience")
 *On the TED stage, reflecting on artist-driven innovation. Photo: Gilberto Tadday / TED*
