@@ -11,7 +11,7 @@ tags:
 - ILM
 - AI
 image: /images/2025/05/TED2025_20250408_2GT3204-medium.jpg
-video_embed: https://www.youtube.com/embed/BHY0FxzoKZE?si=rayVCAaKw42TV1er
+video_embed: https://embed.ted.com/talks/rob_bredow_star_wars_changed_visual_effects_ai_is_doing_it_again
 date: "2025-04-26 9:00:00 +0300"
 url: /2025/05/ted-artist-driven-innovation/
 featured: false
