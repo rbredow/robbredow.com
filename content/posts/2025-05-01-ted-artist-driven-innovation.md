@@ -49,7 +49,7 @@ This approach continues today. For *Indiana Jones and the Dial of Destiny*, our 
 
 ## Premiering "Field Guide": Exploring the Future of Creative Tools
 
-What happens when the latest generative AI tools are placed directly in the hands of artists? Landis Fields, a talented artist at ILM, created this experimental short, *Field Guide*, in just two weeks as a way to imagine what a probe droid might encounter on a brand-new Star Wars planet. This is not a finished product but rather an early work-in-progress: think of it as a moving mood board that demonstrates what a show like this could feel like. By premiering this test at TED, I hoped to demonstrate how artist-driven innovation can shape the future of storytelling and how, even as technology evolves, it’s the creativity and vision of artists that truly bring these new worlds to life.
+What happens when the latest generative AI tools are placed directly in the hands of artists? Landis Fields, a talented artist at ILM, created this experimental short, *Field Guide*, in just two weeks as a way to imagine what a probe droid might encounter on a brand-new Star Wars planet. This is not a finished product or finished Star Wars designs, but rather an early work-in-progress: think of it as a moving mood board that demonstrates what a show like this could feel like if we developed it. By premiering this test at TED, I hoped to demonstrate how artist-driven innovation can shape the future of storytelling and how, even as technology evolves, it’s the creativity and vision of artists that truly bring these new worlds to life.
 
 ## The Power of Artist-Driven Innovation
 
