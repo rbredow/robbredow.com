@@ -47,13 +47,13 @@ This approach continues today. For *Indiana Jones and the Dial of Destiny*, our 
 ![Premiere of 'Field Guide']( /images/2025/05/TED2025_20250408_1GT2926-medium.jpg "Premiere of 'Field Guide'")
 *Premiere of Landis Fields’ 'Field Guide'-a glimpse at what’s possible with generative AI. Photo: Gilberto Tadday / TED*
 
-## Premiering "Field Guide": Exploring the Future of Creative Tools
+## Exploring the Future of Creative Tools
 
-What happens when the latest generative AI tools are placed directly in the hands of artists? Landis Fields, a talented artist at ILM, created this experimental short, *Field Guide*, in just two weeks as a way to imagine what a probe droid might encounter on a brand-new Star Wars planet. This is not a finished product but rather an early work-in-progress: think of it as a moving mood board that demonstrates what a show like this could feel like. By premiering this test at TED, I hoped to demonstrate how artist-driven innovation can shape the future of storytelling and how, even as technology evolves, it’s the creativity and vision of artists that truly bring these new worlds to life.
+What happens when the latest generative AI tools are placed directly in the hands of artists, both to test the tools and see where it takes the artists imagination? Landis Fields, a talented artist at ILM, created this experimental test, *Field Guide*, as a way to imagine what a probe droid might encounter on a brand-new Star Wars planet. This is not a finished product nor are these final Star Wars creature designs, but rather an early work-in-progress: think of it as a moving mood board that demonstrates what a show like this could feel like. In fact, this test even shows the limitations of the current prompt-based workflows and by sharing this test at TED, I hoped to encourage the technologu providers to create better, artist-driven tools that can help shape the future of visual storytelling.
 
 ## The Power of Artist-Driven Innovation
 
-As I wrapped up my talk, I reflected on that unforgettable opening shot from 1977-how it set a new standard for what cinema could be and inspired generations of artists and audiences alike. Artists need better tools – the current text prompts aren't a good way for talented artists to make movies. With a positive spirit of collaboration between artists and technologists, we have the chance to create moments that are even more imaginative, and more inspiring than that original Star Destroyer that inspired us all in 1977. 
+As I wrapped up my talk, I reflected on that unforgettable opening shot from 1977-how it set a new standard for what cinema could be and inspired generations of artists and audiences alike. Artists need better tools – the current text prompts aren't a good way for talented artists to make movies. With continued collaboration between artists and technologists, and clear permission of the talent involved, we have the chance to create moments that are even more imaginative, and more inspiring than that original Star Destroyer that inspired us all in 1977. 
 
 ![TED stage and audience]( /images/2025/05/TED2025_20250408_2GT3204-medium.jpg "TED stage and audience")
 *On the TED stage, reflecting on artist-driven innovation. Photo: Gilberto Tadday / TED*
